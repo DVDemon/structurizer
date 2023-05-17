@@ -1,0 +1,38 @@
+version: '3.3'
+services:
+  structurizr:
+    image: structurizr/lite
+    container_name: structurizr_lite
+    ports:
+      - 8080:8080
+    volumes:
+        - .:/usr/local/structurizr
+
+  structurizr_onpremises:
+    image: structurizr/onpremises
+    container_name: structurizr_onpremises
+    ports:
+      - 8081:8080
+    volumes:
+        - ./onpremises:/usr/local/structurizr
+
+  # structurizr_cli:
+  #   image: structurizr/cli
+  #   container_name: structurizr_cli
+  #   volumes:
+  #     - ./cli_data:/usr/local/structurizr
+
+
+  # freeipa:
+  #   image: freeipa-server 
+  #   container_name: freeipa
+  #   hostname: ipa.example.com
+  #   read_only: true
+  #   privileged: true
+  #   sysctls:
+  #     - net.ipv6.conf.all.disable_ipv6=1
+  #   volumes:
+  #     # - ./freeipa_data/sys/fs/cgroup:/sys/fs/cgroup:ro 
+  #     - ./freeipa_data/var/lib/ipa-data:/data:Z
+  #     - ./freeipa_data/etc/sysconfig/selinux:/etc/sysconfig/selinux:Z
+  #     # - ./freeipa_data/usr:/usr:Z
