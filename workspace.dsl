@@ -1,16 +1,15 @@
-workspace  {
+workspace {
     name "Мобильный телохранитель"
     description "демонстрационный пример для показа техник ведения проектной документацииы"
     !adrs decisions
     !docs documentation
+    #!identifiers hierarchical
+    
     
     model {
+        !include model.dsl
         user = person "Пользователь" "Заказчик услуги, осуществляющий наблюдение за ребенком" "Customer"
         
-        payment_system = softwareSystem "Внешняя платежная система" "Регистрация платежей за сервис" "ExternalSystem"
-        drone = softwareSystem "Дрон" "Автономный дрон" "ExternalSystem"
-        security = softwareSystem "ЧОП" "Внешнее партнерское охранное агенство" "ExternalSystem"
-
         guard_system = softwareSystem "Мобильный телохранитель" {
 
             #clien app
@@ -34,15 +33,15 @@ workspace  {
             
             # containers
             sso = container "Single Sign On" "Аутентификация и авторизация пользователей" "KeyCloak"
-            client_mobile_app       -> sso "Получение данных/нотификаций" "HTTP"
-            client_web_app          -> sso "Получение данных/нотификаций" "HTTP"
+            client_mobile_app       -> sso "Получение данных/нотификаций" "REST/HTTP :80"
+            client_web_app          -> sso "Получение данных/нотификаций" "REST/HTTP :80"
 
             bpm = container "BPM" "Реализация сценариев трэкинга" "Camunda" {
 
             }
 
-            client_mobile_app_backend -> bpm "Получение данных/ нотификаций/ выполнение запросов" "REST"
-            client_web_app_backend ->  bpm "Получение данных/ нотификаций/ выполнение запросов" "REST"
+            client_mobile_app_backend -> bpm "Получение данных/ нотификаций/ выполнение запросов" "REST/HTTP :80"
+            client_web_app_backend ->  bpm "Получение данных/ нотификаций/ выполнение запросов" "REST/HTTP :80"
 
             group  "Доменные сервисы" {
                 billing   = container "Billing" "Прием оплат и контроль расходов" "go" "Container" {
@@ -51,65 +50,64 @@ workspace  {
                     billing_controller = component "Controler" "Сервис учета использования дронов" "go"
                     billing_queue  = component "Брокер" "Брокер для учета использования дронов" "RabbitMQ/MQTT" "AMQP"
                     biiling_ussd_gateway = component "Шлюз"
-                    billing_queue -> biiling_ussd_gateway "связь" "HTTP/REST"
-                    billing_queue -> billing_controller "учет использования дрона"
+                    billing_queue -> biiling_ussd_gateway "связь" "REST/HTTP :80"
+                    billing_queue -> billing_controller "учет использования дрона" "REST/HTTP :80"
 
-                    billing_facade -> billing_database "запрос остатка баланса"
-                    billing_facade -> billing_database "списание баланса"
-                    billing_facade -> billing_database "пополнение баланса"
+                    billing_facade -> billing_database "запрос остатка баланса" "REST/HTTP :80"
+                    billing_facade -> billing_database "списание баланса" "REST/HTTP :80"
+                    billing_facade -> billing_database "пополнение баланса" "REST/HTTP :80"
                     
-                    payment_system -> billing_facade "пополнение баланса"
-                    billing_controller -> billing_database "списание баланса"
-                    bpm -> billing_facade "Запрос баланса/осуществление платежа" "REST"
+                    payment_system -> billing_facade "пополнение баланса" "REST/HTTP :80"
+                    billing_controller -> billing_database "списание баланса" "REST/HTTP :80"
+                    bpm -> billing_facade "Запрос баланса/осуществление платежа" "REST/HTTP :80"
 
                 }
 
                 inventory = container "Inventory" "Учет дронов" "go" "Container"{
-                    inventory_facade = component "API" "API учета информации о дронах" "REST"
+                    inventory_facade = component "API" "API учета информации о дронах" "Golang"
                     inventory_database = component "Реестр дронов" "Учет информации о дронах" "PosthreSQL" "Database"
-                    inventory_facade -> inventory_database "Запрос и обновление информации о дронах"
+                    inventory_facade -> inventory_database "Запрос и обновление информации о дронах" "TCP :5453"
 
-                    bpm -> inventory_facade "Запрос данных о свободных дронах/Резервация" "REST"
+                    bpm -> inventory_facade "Запрос данных о свободных дронах/Резервация" "REST/HTTP :80"
                 }
 
                 crm       = container "Clients" "Учет пользователей" "go" "Container"{
-                    crm_facade = component "API" "Интерфейс для работы с клиентом" "REST"
+                    crm_facade = component "API" "Интерфейс для работы с клиентом" "Golang"
                     crm_database = component "Client Database" "Информация о клиентах" "PostgreSQL" "Database"
-                    crm_facade -> crm_database "запрос/изменение данных о пользователях"
-                    sso -> crm_facade "получение профиля клиента по id" "REST"
-                    sso -> crm_facade "ауктентификация клиента" "REST"
-                    bpm -> crm_facade "Запрос данных о клиенте и его детях" "REST"
+                    crm_facade -> crm_database "запрос/изменение данных о пользователях" "TCP :5432"
+                    sso -> crm_facade "получение профиля клиента по id" "REST/HTTP :80"
+                    sso -> crm_facade "ауктентификация клиента" "REST/HTTP :80"
+                    bpm -> crm_facade "Запрос данных о клиенте и его детях" "REST/HTTP :80"
                 }
                 
 
                 tracker   = container "Tracker" "Подсистема трэкинга дронов в реальном времени" "go" "Container"{
-                    tracker_facade = component "API" "Интерфейс для работы с дронами" "REST"
+                    tracker_facade = component "API" "Интерфейс для работы с дронами" "Golang"
                     tracker_status = component "Данные дронов" "Информация о позиции и данных дронов" "Redis" "Database"
                     tracker_queue  = component "Брокер" "Брокер для взаимодействия с дронами" "RabbitMQ/MQTT" "Queue"
-                    tracker_controler = component "Controler" "Сервис управления дронами" "go"
+                    tracker_controler = component "Controler" "Сервис управления дронами" "Golanf"
                     
 
-                    tracker_facade -> tracker_status "Запрос данных о статусе дрона"
-                    tracker_facade -> tracker_controler "Управление дроном" "REST"
+                    tracker_facade -> tracker_status "Запрос данных о статусе дрона" "REST/HTTP :80"
+                    tracker_facade -> tracker_controler "Управление дроном" "REST/HTTP :80"
 
-                    tracker_controler -> tracker_queue "Команды управления" "MQTT"                   
-                    tracker_controler -> tracker_status "Обновление актуального статуса дронов"
-                    tracker_controler -> billing_queue "Данные об использовании дрона"
-                    tracker_controler -> billing_facade "запрос остатка баланса"
-                    tracker_controler -> inventory_facade "Обновдение информации о дронах" "REST"
-                    tracker_controler -> security "Вызов службы охраны на проишествие" "REST"
+                    tracker_controler -> tracker_queue "Команды управления" "MQTT :1883"                   
+                    tracker_controler -> tracker_status "Обновление актуального статуса дронов" "REST/HTTP :80"
+                    tracker_controler -> billing_queue "Данные об использовании дрона" "MQTT :1883"
+                    tracker_controler -> billing_facade "запрос остатка баланса" "REST/HTTP :80"
+                    tracker_controler -> inventory_facade "Обновдение информации о дронах" "REST/HTTP :80"
+                    tracker_controler -> security "Вызов службы охраны на проишествие" "REST/HTTP :80"
 
                     billing_controller -> tracker_facade "Информирование об исчерпании средств на подписке"
 
-                    tracker_queue -> drone "Команды управления" "MQTT"
-                    tracker_queue -> tracker_controler "Телеметрия" "MQTT"
-                    tracker_queue -> tracker_controler "События безопасности" "MQTT"
-                    drone -> tracker_queue "Телеметрия" "MQTT"
-                    drone -> tracker_queue "События безопасности" "MQTT"
-                    drone -> client_mobile_app "Видео" "WebRTC"
-                    drone -> client_web_app "Видео" "WebRTC"
-
-                    bpm -> tracker_facade "Управление дроном" "REST"
+                    tracker_queue -> drone "Команды управления" "MQTT :1883"
+                    tracker_queue -> tracker_controler "Телеметрия" "MQTT :1883"
+                    tracker_queue -> tracker_controler "События безопасности" "MQTT :1883"
+                    drone -> tracker_queue "Телеметрия" "MQTT :1883"
+                    drone -> tracker_queue "События безопасности" "MQTT :1883"
+                    drone -> client_mobile_app "Видео" "WebRTC :443"
+                    drone -> client_web_app "Видео" "WebRTC :443"
+                    bpm -> tracker_facade "Управление дроном" "REST/HTTP :80"
 
                 }      
             }
@@ -119,43 +117,46 @@ workspace  {
             user -> client_web_app "Управление услугой"
         }
 
-        user  -> guard_system "Управление услугой"
-
-        deploymentEnvironment "TechnicalContext" {
-            deploymentNode "MainSystem" {
-                system_node =  softwareSystemInstance guard_system
-            }
-            deploymentNode "DroneNode1" {
-                drone_node_1 =  softwareSystemInstance drone
-            }
-            deploymentNode "DroneNodeN" {
-                drone_node_n =  softwareSystemInstance drone
-            }
-            deploymentNode "SecurityNode1" {
-                security_node =  softwareSystemInstance security
-            }
-
-            deploymentNode "PaymentNode1" {
-                payment_node =  softwareSystemInstance payment_system
-            }
-        }
-
         deploymentEnvironment "ProductionDeployment" {
-
             deploymentNode "Client Device 1" {
+                    description "Мобильные телефоны и планшеты клиентов во внешней сети"
+                    tags "Android" "iOS"
                     client_mobile_app_instance  = containerInstance client_mobile_app
             }
 
             deploymentNode "Client Device 2" {
+                    description "Стационарные компьютеры пользователей во внешней сети или мобильные устройства с установленным браузером"
+                    tags "Windows" "MacOS" "Linux Ubuntu"
                     client_web_app_instance = containerInstance client_web_app
             }
             
-            
-            deploymentNode "BFF Server Mobile" {
-                    client_mobile_app_backend_instance = containerInstance client_mobile_app_backend
-            }
-            deploymentNode "BFF Server Web" {
-                    client_web_app_backend_instance = containerInstance client_web_app_backend
+            group "Backend Cluster" {
+                deploymentNode "BFF Server Mobile 1" {
+                        tags "Oracle Enteprise Linux" "ip 10.1.12.34"
+                        client_mobile_app_backend_instance1 = containerInstance client_mobile_app_backend
+                }
+                deploymentNode "BFF Server Mobile 2" {
+                        tags "Oracle Enteprise Linux" "ip 10.1.12.35"
+                        client_mobile_app_backend_instance2 = containerInstance client_mobile_app_backend
+                }
+
+                deploymentNode "BFF Server Mobile 3" {
+                        tags "Oracle Enteprise Linux" "ip 10.1.12.36"
+                        client_mobile_app_backend_instance3 = containerInstance client_mobile_app_backend
+                }   
+
+                deploymentNode "BFF Server Web 1" {
+                        tags "Oracle Enteprise Linux" "ip 10.1.12.37"
+                        client_web_app_backend_instance1 = containerInstance client_web_app_backend
+                }
+                deploymentNode "BFF Server Web 2"  {
+                        tags "Oracle Enteprise Linux" "ip 10.1.12.38"
+                        client_web_app_backend_instance2 = containerInstance client_web_app_backend
+                }
+                deploymentNode "BFF Server Web 3" {
+                        tags "Oracle Enteprise Linux" "ip 10.1.12.39"
+                        client_web_app_backend_instance3 = containerInstance client_web_app_backend
+                }
             }
 
             deploymentNode "BPM First" {
@@ -178,7 +179,7 @@ workspace  {
             }
 
             deploymentNode "Billing" {
-                    billing_instance = containerInstance billing
+                billing_instance = containerInstance billing
             }
 
         }
@@ -193,10 +194,10 @@ workspace  {
             "structurizr.sort" "type"
         }
 
-        systemLandscape "SystemLandscape" {
-            include *
-            autoLayout lr
-        }
+        # systemLandscape "SystemLandscape" {
+        #     include *
+        #     autoLayout lr
+        # }
         systemContext guard_system "Context" {
             include *
             autoLayout
@@ -206,11 +207,10 @@ workspace  {
             include *
             autoLayout
         }
-
         
         component billing "Billing"{
             include *
-            #autoLayout
+            autoLayout
             animation {
                 bpm
                 tracker
@@ -240,20 +240,15 @@ workspace  {
         deployment guard_system "ProductionDeployment" "vs"{
             include *
             description "Типовое размещение оборудования"
-        }
-
-        deployment * "TechnicalContext" "tc"{
-            include *
-            description "Контекст системы"
             autoLayout
         }
 
-        dynamic billing "Payment" "Payment processing diagramm"{
-            autoLayout
-            properties {
-                plantuml.sequenceDiagram true
-            }
-        }
+        # dynamic billing "Payment" "Payment processing diagramm"{
+        #     autoLayout
+        #     properties {
+        #         plantuml.sequenceDiagram true
+        #     }
+        # }
         
         styles {
             element "Person" {
