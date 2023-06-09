@@ -3,14 +3,16 @@ services:
   structurizr:
     image: structurizr/lite
     container_name: structurizr_lite
+    depends_on:
+      - structurizr-onpremises
     ports:
       - 8080:8080
     volumes:
         - .:/usr/local/structurizr
 
-  structurizr_onpremises:
+  structurizr-onpremises:
     image: structurizr/onpremises
-    container_name: structurizr_onpremises
+    container_name: structurizr-onpremises
     ports:
       - 8081:8080
     volumes:

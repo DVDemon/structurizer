@@ -1,2 +1,2 @@
 #widdershins ./api/myapi.yml -o ./documentation/myapi.md
-docker run -it --rm -v /Users/dvdemon/src/structurizer:/usr/local/structurizr structurizr/cli push -url http://10.192.117.226:8081/api -id 1 -key f4efddc4-ef85-4efd-aa8b-3020ce351413 -secret 470bb115-9aa6-43ec-b827-bf0058150d8c -workspace workspace.json -merge false
+docker run -it --rm -v /Users/dvdemon/src/structurizer:/usr/local/structurizr structurizr/cli push -url http://10.18.4.39:8081/api -id 1 -key f4efddc4-ef85-4efd-aa8b-3020ce351413 -secret 470bb115-9aa6-43ec-b827-bf0058150d8c -workspace workspace.json -merge false

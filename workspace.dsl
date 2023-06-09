@@ -1,4 +1,4 @@
-workspace {
+workspace  {
     name "Мобильный телохранитель"
     description "демонстрационный пример для показа техник ведения проектной документацииы"
     !adrs decisions
@@ -7,8 +7,6 @@ workspace {
     model {
         user = person "Пользователь" "Заказчик услуги, осуществляющий наблюдение за ребенком" "Customer"
         
-        # child = person "Ребенок" "Объект, за которым осуществляется слежение" "Customer"
-
         payment_system = softwareSystem "Внешняя платежная система" "Регистрация платежей за сервис" "ExternalSystem"
         drone = softwareSystem "Дрон" "Автономный дрон" "ExternalSystem"
         security = softwareSystem "ЧОП" "Внешнее партнерское охранное агенство" "ExternalSystem"
@@ -19,7 +17,6 @@ workspace {
             group "Клиентские приложения" {
                 client_mobile_app   =  container "Мобильное приложение клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "Android/iOS app" "MobileApp"
                 client_web_app      =  container "Веб приложение клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "Web Browser" "WebBrowser"
-              #  child_mobile_app   =  container "Мобильное приложение ребенка" "Приложение для предоставления геолокации и вызова помощи"  "Android/iOS app" "MobileApp"
             }
 
             client_mobile_app -> payment_system "Оплата"
@@ -29,11 +26,9 @@ workspace {
             group "API клиента" {
                 client_mobile_app_backend  =  container "Backend мобильного приложения клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "go" "Container"
                 client_web_app_backend     =  container "Backend веб приложения клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "go" "Container"
-               # child_mobile_app_backend   =  container "Backend мобильного приложение ребенка" "Приложение для предоставления геолокации и вызова помощи"  "go" "Container"
     
                 client_mobile_app       -> client_mobile_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket"
                 client_web_app          -> client_web_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket"
-                #child_mobile_app        -> child_mobile_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket"
             }
 
             
@@ -41,7 +36,6 @@ workspace {
             sso = container "Single Sign On" "Аутентификация и авторизация пользователей" "KeyCloak"
             client_mobile_app       -> sso "Получение данных/нотификаций" "HTTP"
             client_web_app          -> sso "Получение данных/нотификаций" "HTTP"
-            #child_mobile_app        -> sso "Получение данных/нотификаций" "HTTP"
 
             bpm = container "BPM" "Реализация сценариев трэкинга" "Camunda" {
 
@@ -49,7 +43,6 @@ workspace {
 
             client_mobile_app_backend -> bpm "Получение данных/ нотификаций/ выполнение запросов" "REST"
             client_web_app_backend ->  bpm "Получение данных/ нотификаций/ выполнение запросов" "REST"
-            #child_mobile_app_backend -> bpm "Получение данных/ нотификаций/ выполнение запросов" "REST"
 
             group  "Доменные сервисы" {
                 billing   = container "Billing" "Прием оплат и контроль расходов" "go" "Container" {
@@ -57,8 +50,9 @@ workspace {
                     billing_database = component "Subscription Database" "Информация о балансах" "PostgreSQL" "Database"
                     billing_controller = component "Controler" "Сервис учета использования дронов" "go"
                     billing_queue  = component "Брокер" "Брокер для учета использования дронов" "RabbitMQ/MQTT" "AMQP"
-
-                    billing_queue -> billing_controller ->  "учет использования дрона"
+                    biiling_ussd_gateway = component "Шлюз"
+                    billing_queue -> biiling_ussd_gateway "связь" "HTTP/REST"
+                    billing_queue -> billing_controller "учет использования дрона"
 
                     billing_facade -> billing_database "запрос остатка баланса"
                     billing_facade -> billing_database "списание баланса"
@@ -70,9 +64,6 @@ workspace {
 
                 }
 
-                
-
-
                 inventory = container "Inventory" "Учет дронов" "go" "Container"{
                     inventory_facade = component "API" "API учета информации о дронах" "REST"
                     inventory_database = component "Реестр дронов" "Учет информации о дронах" "PosthreSQL" "Database"
@@ -80,9 +71,6 @@ workspace {
 
                     bpm -> inventory_facade "Запрос данных о свободных дронах/Резервация" "REST"
                 }
-
-                
-
 
                 crm       = container "Clients" "Учет пользователей" "go" "Container"{
                     crm_facade = component "API" "Интерфейс для работы с клиентом" "REST"
@@ -129,46 +117,68 @@ workspace {
             # Relations with customer
             user -> client_mobile_app "Управление услугой"
             user -> client_web_app "Управление услугой"
-            #child -> child_mobile_app "Предоставление данных"
         }
 
         user  -> guard_system "Управление услугой"
-        #child -> guard_system "Предоставление геолокации"
 
-        deploymentEnvironment "Value Stream" {
-            deploymentNode "1 Partner Engagement" {         
+        deploymentEnvironment "TechnicalContext" {
+            deploymentNode "MainSystem" {
+                system_node =  softwareSystemInstance guard_system
             }
-            deploymentNode "2 Product Creation" {
+            deploymentNode "DroneNode1" {
+                drone_node_1 =  softwareSystemInstance drone
             }
-            deploymentNode "3 Customer Engagement" {
-                deploymentNode "Управление привлечением клиента" {
-                    client_web_app_instance1 = containerInstance client_web_app
-                }
+            deploymentNode "DroneNodeN" {
+                drone_node_n =  softwareSystemInstance drone
             }
-            deploymentNode "4 Product Offering" {
-                deploymentNode "Управление привлечением клиента" {
+            deploymentNode "SecurityNode1" {
+                security_node =  softwareSystemInstance security
+            }
+
+            deploymentNode "PaymentNode1" {
+                payment_node =  softwareSystemInstance payment_system
+            }
+        }
+
+        deploymentEnvironment "ProductionDeployment" {
+
+            deploymentNode "Client Device 1" {
                     client_mobile_app_instance  = containerInstance client_mobile_app
-                    client_web_app_instance2 = containerInstance client_web_app
+            }
+
+            deploymentNode "Client Device 2" {
+                    client_web_app_instance = containerInstance client_web_app
+            }
+            
+            
+            deploymentNode "BFF Server Mobile" {
                     client_mobile_app_backend_instance = containerInstance client_mobile_app_backend
+            }
+            deploymentNode "BFF Server Web" {
                     client_web_app_backend_instance = containerInstance client_web_app_backend
-
-                }
             }
-            deploymentNode "5 Product Ordering" {
-                deploymentNode "Управление обеспечением безопасности" {
-                    inventory_instance = containerInstance inventory
-                    bpm_instance = containerInstance bpm
-                    tracker_instance1 = containerInstance tracker
 
-                }
-                deploymentNode "Управление видеотрансляциями" {
-                    tracker_instance2 = containerInstance tracker
-                }
+            deploymentNode "BPM First" {
+                bpm_instance1 = containerInstance bpm
             }
-            deploymentNode "6 Support" {
-                deploymentNode "Управление оплатой" {
+            deploymentNode "BPM Second" {
+                bpm_instance2 = containerInstance bpm
+            }
+
+            deploymentNode "Inventory server" {
+                    inventory_instance = containerInstance inventory          
+            }
+
+            deploymentNode "Tracker First" {
+                tracker_instance1 = containerInstance tracker
+            }
+
+            deploymentNode "Tracker Second" {
+                tracker_instance2 = containerInstance tracker
+            }
+
+            deploymentNode "Billing" {
                     billing_instance = containerInstance billing
-                }
             }
 
         }
@@ -176,9 +186,16 @@ workspace {
 
     }
 
+    #!plugin FindRelationshipsPlugin
+
     views {
         properties {
             "structurizr.sort" "type"
+        }
+
+        systemLandscape "SystemLandscape" {
+            include *
+            autoLayout lr
         }
         systemContext guard_system "Context" {
             include *
@@ -190,9 +207,19 @@ workspace {
             autoLayout
         }
 
+        
         component billing "Billing"{
             include *
-            autoLayout
+            #autoLayout
+            animation {
+                bpm
+                tracker
+                billing_queue
+                billing_controller
+                billing_database  
+                payment_system
+                billing_facade
+            }
         }
 
         component inventory "Inventory"{
@@ -210,17 +237,24 @@ workspace {
             autoLayout
         }
 
-        deployment guard_system "Value Stream" {
+        deployment guard_system "ProductionDeployment" "vs"{
             include *
-            # animation {
-            #     developerSinglePageApplicationInstance
-            #     developerWebApplicationInstance developerApiApplicationInstance
-            #     developerDatabaseInstance
-            # }
-            # autoLayout
-            description "Пример потока ценности."
+            description "Типовое размещение оборудования"
         }
 
+        deployment * "TechnicalContext" "tc"{
+            include *
+            description "Контекст системы"
+            autoLayout
+        }
+
+        dynamic billing "Payment" "Payment processing diagramm"{
+            autoLayout
+            properties {
+                plantuml.sequenceDiagram true
+            }
+        }
+        
         styles {
             element "Person" {
                 color #ffffff

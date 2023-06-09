@@ -1,0 +1,1 @@
+ docker run -it --rm -v /Users/dvdemon/src/structurizer:/usr/local/structurizr structurizr/cli export -workspace workspace.dsl -format ilograph
