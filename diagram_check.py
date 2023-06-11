@@ -1,14 +1,7 @@
-import gzip
 import hashlib
 import hmac
-import logging
-import warnings
 from base64 import b64encode
-from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
-from pathlib import Path
-from typing import Dict, Tuple
-from urllib.parse import unquote_plus
 import requests
 
 
@@ -69,5 +62,20 @@ headers = {
         }
 
 resp = requests.get(url=apiUrl, headers=headers)
-data = resp.json() 
-print(data)
+
+if(resp.status_code==200):
+    model = resp.json()['model']
+
+    peoples = model['people']
+    software_systems = model['softwareSystems']
+    deployment_nodes = model['deploymentNodes']
+
+    for s in software_systems:
+        print(f"system: {s['name']}")
+        if 'containers' in s:
+            for c2 in s['containers']:
+                print(f" - container: {c2['name']} : {c2['technology']}")
+                if 'components' in c2:
+                    for c3 in c2['components']:
+                        print(f"   - component: {c3['name']}")
+                
