@@ -28,3 +28,6 @@ docker run -it --rm -v /Users/dvdemon/src/structurizer:/usr/local/structurizr st
 * https://mermade.github.io/widdershins/ConvertingFilesBasicCLI.html
 * sudo npm install -g widdershins
 * widdershins --environment env.json swagger.json -o myOutput.md
+
+### Python Client
+pip install structurizr-python
