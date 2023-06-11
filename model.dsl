@@ -13,8 +13,8 @@ user = person "Пользователь" "Заказчик услуги, осу�
 
             #bff
             group "API клиента" {
-                client_mobile_app_backend  =  container "Backend мобильного приложения клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "go" "Container"
-                client_web_app_backend     =  container "Backend веб приложения клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "go" "Container"
+                client_mobile_app_backend  =  container "Backend мобильного приложения клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "GoLang" "Container"
+                client_web_app_backend     =  container "Backend веб приложения клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "GoLang" "Container"
     
                 client_mobile_app       -> client_mobile_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket"
                 client_web_app          -> client_web_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket"
@@ -34,10 +34,10 @@ user = person "Пользователь" "Заказчик услуги, осу�
             bpm -> mlc "Запрос данных по геопозиции детей" "REST/HTTP :80"
             
             group  "Доменные сервисы" {
-                billing   = container "Billing" "Прием оплат и контроль расходов" "go" "Container" {
-                    billing_facade = component "API" "Интерфейс для работы с подписками" "go"
+                billing   = container "Billing" "Прием оплат и контроль расходов" "GoLang" "Container" {
+                    billing_facade = component "API" "Интерфейс для работы с подписками" "GoLang"
                     billing_database = component "Subscription Database" "Информация о балансах" "PostgreSQL" "Database"
-                    billing_controller = component "Controler" "Сервис учета использования дронов" "go"
+                    billing_controller = component "Controler" "Сервис учета использования дронов" "GoLang"
                     billing_queue  = component "Брокер" "Брокер для учета использования дронов" "RabbitMQ/MQTT" "AMQP"
                     biiling_ussd_gateway = component "Шлюз"
                     billing_queue -> biiling_ussd_gateway "связь" "REST/HTTP :80"
@@ -53,7 +53,7 @@ user = person "Пользователь" "Заказчик услуги, осу�
 
                 }
 
-                inventory = container "Inventory" "Учет дронов" "go" "Container"{
+                inventory = container "Inventory" "Учет дронов" "GoLang" "Container"{
                     inventory_facade = component "API" "API учета информации о дронах" "Golang"
                     inventory_database = component "Реестр дронов" "Учет информации о дронах" "PosthreSQL" "Database"
                     inventory_facade -> inventory_database "Запрос и обновление информации о дронах" "TCP :5453"
@@ -61,7 +61,7 @@ user = person "Пользователь" "Заказчик услуги, осу�
                     bpm -> inventory_facade "Запрос данных о свободных дронах/Резервация" "REST/HTTP :80"
                 }
 
-                crm       = container "Clients" "Учет пользователей" "go" "Container"{
+                crm       = container "Clients" "Учет пользователей" "GoLang" "Container"{
                     crm_facade = component "API" "Интерфейс для работы с клиентом" "Golang"
                     crm_database = component "Client Database" "Информация о клиентах" "PostgreSQL" "Database"
                     crm_facade -> crm_database "запрос/изменение данных о пользователях" "TCP :5432"
@@ -71,11 +71,11 @@ user = person "Пользователь" "Заказчик услуги, осу�
                 }
                 
 
-                tracker   = container "Tracker" "Подсистема трэкинга дронов в реальном времени" "go" "Container"{
-                    tracker_facade = component "API" "Интерфейс для работы с дронами" "Golang"
+                tracker   = container "Tracker" "Подсистема трэкинга дронов в реальном времени" "GoLang" "Container"{
+                    tracker_facade = component "API" "Интерфейс для работы с дронами" "GoLang"
                     tracker_status = component "Данные дронов" "Информация о позиции и данных дронов" "Redis" "Database"
                     tracker_queue  = component "Брокер" "Брокер для взаимодействия с дронами" "RabbitMQ/MQTT" "Queue"
-                    tracker_controler = component "Controler" "Сервис управления дронами" "Golanf"
+                    tracker_controler = component "Controler" "Сервис управления дронами" "GoLang"
                     
 
                     tracker_facade -> tracker_status "Запрос данных о статусе дрона" "REST/HTTP :80"

@@ -65,17 +65,26 @@ resp = requests.get(url=apiUrl, headers=headers)
 
 if(resp.status_code==200):
     model = resp.json()['model']
+    tech = set()
 
     peoples = model['people']
     software_systems = model['softwareSystems']
     deployment_nodes = model['deploymentNodes']
 
+    print('Системы использованные в решении:')
     for s in software_systems:
         print(f"system: {s['name']}")
         if 'containers' in s:
             for c2 in s['containers']:
-                print(f" - container: {c2['name']} : {c2['technology']}")
+                print(f" - container: {c2['name']}")
+                if 'technology' in c2:
+                    tech.add(c2['technology'])
                 if 'components' in c2:
                     for c3 in c2['components']:
                         print(f"   - component: {c3['name']}")
-                
+                        if 'technology' in c3:
+                            tech.add(c3['technology'])
+    print()
+    print('Использованны технологии:')
+    for t in tech:
+        print(f' - {t}')         
