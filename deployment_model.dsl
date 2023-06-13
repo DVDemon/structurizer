@@ -13,53 +13,95 @@
             
             group "Backend Cluster" {
                 deploymentNode "BFF Server Mobile 1" {
-                        tags "Oracle Enteprise Linux" "ip 10.1.12.34"
+                        description "Backend для мобильного приложения"
+                        tags "Oracle Enteprise Linux"
                         client_mobile_app_backend_instance1 = containerInstance client_mobile_app_backend
                 }
                 deploymentNode "BFF Server Mobile 2" {
-                        tags "Oracle Enteprise Linux" "ip 10.1.12.35"
+                        description "Backend для мобильного приложения"
+                        tags "Oracle Enteprise Linux"
                         client_mobile_app_backend_instance2 = containerInstance client_mobile_app_backend
                 }
 
                 deploymentNode "BFF Server Mobile 3" {
-                        tags "Oracle Enteprise Linux" "ip 10.1.12.36"
+                        description "Backend для мобильного приложения"
+                        tags "Oracle Enteprise Linux"
                         client_mobile_app_backend_instance3 = containerInstance client_mobile_app_backend
                 }   
 
                 deploymentNode "BFF Server Web 1" {
-                        tags "Oracle Enteprise Linux" "ip 10.1.12.37"
+                        description "Backend для веба"
+                        tags "Oracle Enteprise Linux"
                         client_web_app_backend_instance1 = containerInstance client_web_app_backend
                 }
                 deploymentNode "BFF Server Web 2"  {
-                        tags "Oracle Enteprise Linux" "ip 10.1.12.38"
+                        description "Backend для веба"
+                        tags "Oracle Enteprise Linux"
                         client_web_app_backend_instance2 = containerInstance client_web_app_backend
                 }
                 deploymentNode "BFF Server Web 3" {
-                        tags "Oracle Enteprise Linux" "ip 10.1.12.39"
+                        description "Backend для веба"
+                        tags "Oracle Enteprise Linux"
                         client_web_app_backend_instance3 = containerInstance client_web_app_backend
                 }
             }
 
             deploymentNode "BPM First" {
+                !script groovy {             
+                        element.description = workspace.model.softwareSystems.find{
+                                 element -> element.name=='Мобильный телохранитель'}.containers.find { 
+                                        element -> element.name=='BPM'}.description
+                }
+                tags "Oracle Enteprise Linux" "Camunda 7"
                 bpm_instance1 = containerInstance bpm
             }
             deploymentNode "BPM Second" {
+                !script groovy {             
+                        element.description = workspace.model.softwareSystems.find{
+                                 element -> element.name=='Мобильный телохранитель'}.containers.find { 
+                                        element -> element.name=='BPM'}.description
+                }
+                tags "Oracle Enteprise Linux" "Camunda 7"
                 bpm_instance2 = containerInstance bpm
             }
 
             deploymentNode "Inventory server" {
-                    inventory_instance = containerInstance inventory          
+                !script groovy {             
+                        element.description = workspace.model.softwareSystems.find{
+                                 element -> element.name=='Мобильный телохранитель'}.containers.find { 
+                                        element -> element.name=='Inventory'}.description
+                }
+                tags "Oracle Enteprise Linux"
+                inventory_instance = containerInstance inventory          
             }
 
             deploymentNode "Tracker First" {
+                !script groovy {             
+                        element.description = workspace.model.softwareSystems.find{
+                                 element -> element.name=='Мобильный телохранитель'}.containers.find { 
+                                        element -> element.name=='Tracker'}.description
+                }
+                tags "Oracle Enteprise Linux"
                 tracker_instance1 = containerInstance tracker
             }
 
             deploymentNode "Tracker Second" {
+                !script groovy {             
+                        element.description = workspace.model.softwareSystems.find{
+                                 element -> element.name=='Мобильный телохранитель'}.containers.find { 
+                                        element -> element.name=='Tracker'}.description
+                }
+                tags "Oracle Enteprise Linux"
                 tracker_instance2 = containerInstance tracker
             }
 
             deploymentNode "Billing" {
+                !script groovy {             
+                        element.description = workspace.model.softwareSystems.find{
+                                 element -> element.name=='Мобильный телохранитель'}.containers.find { 
+                                        element -> element.name=='Billing'}.description
+                }
+                tags "Oracle Enteprise Linux"
                 billing_instance = containerInstance billing
             }
 

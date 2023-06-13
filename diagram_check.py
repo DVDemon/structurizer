@@ -5,6 +5,8 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 
+# Вспомогательные функции для прохождения актентификации в Structurizr
+
 def _number_once() -> str:
     """Return the number of milliseconds since the epoch."""
     return str(
@@ -37,14 +39,16 @@ def _message_digest(
     """Assemble the complete message digest."""
     return f"{http_verb}\n{uri_path}\n{definition_md5}\n{content_type}\n{nonce}\n"
 
+# Настройки доступа к репозиторию (лучше хранить не в коде, а в переменных окружения)
 apiKey='f4efddc4-ef85-4efd-aa8b-3020ce351413'
 apiSecret='470bb115-9aa6-43ec-b827-bf0058150d8c'
-apiUrl='http://localhost:8081/api/workspace/1'
+apiUrl='http://localhost:8081/api/workspace/1' # предположим что нам нужен именно workspace 1
 
+# Формируем контент запроса
 method ='GET'
 content=''
 content_type=''
-url_path = '/api/workspace/1'
+url_path = '/api/workspace/1' # предположим что нам нужен именно workspace 1
 definition_md5 = _md5(content)
 nonce = _number_once()
 message_digest = _message_digest(
@@ -56,6 +60,7 @@ message_digest = _message_digest(
         )
 message_hash = _base64_str(_hmac_hex(apiSecret, message_digest))
 
+# Заголовки для авторизации
 headers = {
             "X-Authorization": f"{apiKey}:{message_hash}",
             "Nonce": nonce,
@@ -64,19 +69,31 @@ headers = {
 resp = requests.get(url=apiUrl, headers=headers)
 
 if(resp.status_code==200):
-    model = resp.json()['model']
+    data  = resp.json()
+    product_name = data['name']
+    model = data['model']
+    
+
+    peoples             = model['people'] # Акторы
+    software_systems    = model['softwareSystems'] # Системы
+    deployment_nodes    = model['deploymentNodes'] # Стенды
+    documentation       = data['documentation']['sections'] # Документация 
+    adrs                = data['documentation']['decisions'] # Перечень архитектурных решений
+    imsgaes             = data['documentation']['images'] # Картинки (если есть)
+    views               = data['views'] # диаграммы
+
+    # ----------------------------------------------------------------------------------
+    # распечатаем все компоненты (микросервисы) и соберем реестр используемых технологий 
     tech = set()
-
-    peoples = model['people']
-    software_systems = model['softwareSystems']
-    deployment_nodes = model['deploymentNodes']
-
+    containers = dict()
+    
     print('Системы использованные в решении:')
     for s in software_systems:
         print(f"system: {s['name']}")
         if 'containers' in s:
             for c2 in s['containers']:
                 print(f" - container: {c2['name']}")
+                containers[c2["id"]]=c2
                 if 'technology' in c2:
                     tech.add(c2['technology'])
                 if 'components' in c2:
@@ -87,4 +104,51 @@ if(resp.status_code==200):
     print()
     print('Использованны технологии:')
     for t in tech:
-        print(f' - {t}')         
+        print(f' - {t}')      
+
+    # Создадим XLS с паспортом стенда   
+    # нам потребуется библиотечка: pip3 install xlsxwriter
+    import xlsxwriter
+
+    workbook = xlsxwriter.Workbook("паспорт.xlsx")
+    worksheet_components = workbook.add_worksheet("Боевой стенд")
+
+    worksheet_components.write(0,0,'#')
+    worksheet_components.write(0,1,'ИС (продукт)')
+    worksheet_components.write(0,2,'Назначение сервера')
+    worksheet_components.write(0,3,'Имя сервера')
+    worksheet_components.write(0,4,'IP-address')
+    worksheet_components.write(0,5,'Тип сервера (VM/k8s)')
+    worksheet_components.write(0,6,'OC')
+    worksheet_components.write(0,7,'Pods')
+    worksheet_components.write(0,8,'CPU')
+    worksheet_components.write(0,9,'RAM,Gb')
+    worksheet_components.write(0,10,'HDD,Gb')
+    worksheet_components.write(0,11,'Системное ПО')
+    worksheet_components.write(0,12,'Прикладное ПО')
+    worksheet_components.write(0,13,'Комментарий')
+
+    i = 0
+    for d_node in deployment_nodes:
+        i += 1
+        worksheet_components.write(i,0,i)
+        worksheet_components.write(i,1,product_name)
+        if('description' in d_node):
+            worksheet_components.write(i,2,d_node['description'])
+        worksheet_components.write(i,3,d_node['name'])
+
+        tags = d_node['tags'].split(',')
+        system_applications = ''
+        for tag in tags:
+            if not tag in {'Element','Deployment Node'}:
+                system_applications += tag + '; '
+        worksheet_components.write(i,11,system_applications)
+
+        applications = ''
+        for container_instance in d_node['containerInstances']:
+             c_id = container_instance['containerId']
+             applications += f"{containers[c_id]['name']}; "
+        worksheet_components.write(i,12,applications)
+             
+
+    workbook.close()

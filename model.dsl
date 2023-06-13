@@ -39,14 +39,11 @@ user = person "Пользователь" "Заказчик услуги, осу�
                     billing_database = component "Subscription Database" "Информация о балансах" "PostgreSQL" "Database"
                     billing_controller = component "Controler" "Сервис учета использования дронов" "GoLang"
                     billing_queue  = component "Брокер" "Брокер для учета использования дронов" "RabbitMQ/MQTT" "AMQP"
-                    biiling_ussd_gateway = component "Шлюз"
-                    billing_queue -> biiling_ussd_gateway "связь" "REST/HTTP :80"
-                    billing_queue -> billing_controller "учет использования дрона" "REST/HTTP :80"
 
+                    billing_queue -> billing_controller "учет использования дрона" "REST/HTTP :80"
                     billing_facade -> billing_database "запрос остатка баланса" "REST/HTTP :80"
                     billing_facade -> billing_database "списание баланса" "REST/HTTP :80"
                     billing_facade -> billing_database "пополнение баланса" "REST/HTTP :80"
-                    
                     payment_system -> billing_facade "пополнение баланса" "REST/HTTP :80"
                     billing_controller -> billing_database "списание баланса" "REST/HTTP :80"
                     bpm -> billing_facade "Запрос баланса/осуществление платежа" "REST/HTTP :80"
