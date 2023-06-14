@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Мобильный телохранитель",
   "description" : "демонстрационный пример для показа техник ведения проектной документацииы",
-  "lastModifiedDate" : "2023-06-13T08:57:29Z",
+  "lastModifiedDate" : "2023-06-14T07:30:05Z",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIG5hbWUgItCc0L7QsdC40LvRjNC90YvQuSDRgtC10LvQvtGF0YDQsNC90LjRgtC10LvRjCIKICAgIGRlc2NyaXB0aW9uICLQtNC10LzQvtC90YHRgtGA0LDRhtC40L7QvdC90YvQuSDQv9GA0LjQvNC10YAg0LTQu9GPINC/0L7QutCw0LfQsCDRgtC10YXQvdC40Log0LLQtdC00LXQvdC40Y8g0L/RgNC+0LXQutGC0L3QvtC5INC00L7QutGD0LzQtdC90YLQsNGG0LjQuNGLIgogICAgIWFkcnMgZGVjaXNpb25zCiAgICAhZG9jcyBkb2N1bWVudGF0aW9uCiAgICAjIWlkZW50aWZpZXJzIGhpZXJhcmNoaWNhbAogICAgCiAgICAKICAgIG1vZGVsIHsKICAgICAgICBncm91cCAiQlNTIExhbmRzY2FwZSIgewogICAgICAgICAgICBwYXltZW50X3N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICLQktC90LXRiNC90Y/RjyDQv9C70LDRgtC10LbQvdCw0Y8g0YHQuNGB0YLQtdC80LAiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQodC40YHRgtC10LzQsCDRgNC10LPQuNGB0YLRgNCw0YbQuNC4INC/0LvQsNGC0LXQttC10Lkg0L/QviDQsdCw0L3QutC+0LLRgdC60LjQvCDQutCw0YDRgtCw0LwsIFFSINC60L7QtNCw0Lwg0Lgg0YfQtdGA0LXQtyBTUEIiCiAgICAgICAgICAgICAgICB0YWdzICJFeHRlcm5hbFN5c3RlbSIKICAgICAgICAgICAgfSAKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgZ3JvdXAgIkluZnJhc3RydWN0dXJlIHBsYXRmb3JtcyIgewogICAgICAgICAgICBzZWN1cml0eSA9IHNvZnR3YXJlU3lzdGVtICLQp9Ce0J8iIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQktC90LXRiNC90LXQtSDQv9Cw0YDRgtC90LXRgNGB0LrQvtC1INC+0YXRgNCw0L3QvdC+0LUg0LDQs9C10L3RgdGC0LLQviIKICAgICAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsU3lzdGVtIgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIGdyb3VwICJPU1MgTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGRyb25lID0gc29mdHdhcmVTeXN0ZW0gItCU0YDQvtC9InsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQkNGN0YDQvtC80L7QsdC40LvRjNC90LDRjyDQv9C70LDRgtGE0L7RgNC80LAg0LTQu9GPINC90LDQsdC70Y7QtNC10L3QuNGPINC30LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0LzQuCIgCiAgICAgICAgICAgICAgICB0YWdzICJFeHRlcm5hbFN5c3RlbSIKICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICBtbGMgPSBzb2Z0d2FyZVN5c3RlbSAiTUxDInsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJNb2JpbGUgTG9jYXRpb24gQ2VudHJlIgogICAgICAgICAgICAgICAgdGFncyAiRXh0ZXJuYWxzeXN0ZW0iCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdXNlciA9IHBlcnNvbiAi0J/QvtC70YzQt9C+0LLQsNGC0LXQu9GMIiAi0JfQsNC60LDQt9GH0LjQuiDRg9GB0LvRg9Cz0LgsINC+0YHRg9GJ0LXRgdGC0LLQu9GP0Y7RidC40Lkg0L3QsNCx0LvRjtC00LXQvdC40LUg0LfQsCDRgNC10LHQtdC90LrQvtC8IiAiQ3VzdG9tZXIiCiAgICAgICAgCiAgICAgICAgICAgICAgICBndWFyZF9zeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAi0JzQvtCx0LjQu9GM0L3Ri9C5INGC0LXQu9C+0YXRgNCw0L3QuNGC0LXQu9GMIiB7CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgI2NsaWVuIGFwcAogICAgICAgICAgICAgICAgICAgIGdyb3VwICLQmtC70LjQtdC90YLRgdC60LjQtSDQv9GA0LjQu9C+0LbQtdC90LjRjyIgewogICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfbW9iaWxlX2FwcCAgID0gIGNvbnRhaW5lciAi0JzQvtCx0LjQu9GM0L3QvtC1INC/0YDQuNC70L7QttC10L3QuNC1INC60LvQuNC10L3RgtCwIiAi0J/RgNC40LvQvtC20LXQvdC40LUg0LTQu9GPINC+0YHRg9GJ0LXRgdGC0LLQu9C10L3QuNGPINC30LDQutCw0LfQsCDRg9GB0LvRg9Cz0Lgg0Lgg0LrQvtC90YLRgNC+0LvRjyDQv9C10YDQtdC00LLQuNC20LXQvdC40Y8iICAiQW5kcm9pZC9pT1MgYXBwIiAiTW9iaWxlQXBwIgogICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfd2ViX2FwcCAgICAgID0gIGNvbnRhaW5lciAi0JLQtdCxINC/0YDQuNC70L7QttC10L3QuNC1INC60LvQuNC10L3RgtCwIiAi0J/RgNC40LvQvtC20LXQvdC40LUg0LTQu9GPINC+0YHRg9GJ0LXRgdGC0LLQu9C10L3QuNGPINC30LDQutCw0LfQsCDRg9GB0LvRg9Cz0Lgg0Lgg0LrQvtC90YLRgNC+0LvRjyDQv9C10YDQtdC00LLQuNC20LXQvdC40Y8iICAiV2ViIEJyb3dzZXIiICJXZWJCcm93c2VyIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgICAgICAgICBjbGllbnRfbW9iaWxlX2FwcCAtPiBwYXltZW50X3N5c3RlbSAi0J7Qv9C70LDRgtCwIgogICAgICAgICAgICAgICAgICAgIGNsaWVudF93ZWJfYXBwIC0+IHBheW1lbnRfc3lzdGVtICLQntC/0LvQsNGC0LAiCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgI2JmZgogICAgICAgICAgICAgICAgICAgIGdyb3VwICJBUEkg0LrQu9C40LXQvdGC0LAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZCAgPSAgY29udGFpbmVyICJCYWNrZW5kINC80L7QsdC40LvRjNC90L7Qs9C+INC/0YDQuNC70L7QttC10L3QuNGPINC60LvQuNC10L3RgtCwIiAi0J/RgNC40LvQvtC20LXQvdC40LUg0LTQu9GPINC+0YHRg9GJ0LXRgdGC0LLQu9C10L3QuNGPINC30LDQutCw0LfQsCDRg9GB0LvRg9Cz0Lgg0Lgg0LrQvtC90YLRgNC+0LvRjyDQv9C10YDQtdC00LLQuNC20LXQvdC40Y8iICAiR29MYW5nIiAiQ29udGFpbmVyIgogICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfd2ViX2FwcF9iYWNrZW5kICAgICA9ICBjb250YWluZXIgIkJhY2tlbmQg0LLQtdCxINC/0YDQuNC70L7QttC10L3QuNGPINC60LvQuNC10L3RgtCwIiAi0J/RgNC40LvQvtC20LXQvdC40LUg0LTQu9GPINC+0YHRg9GJ0LXRgdGC0LLQu9C10L3QuNGPINC30LDQutCw0LfQsCDRg9GB0LvRg9Cz0Lgg0Lgg0LrQvtC90YLRgNC+0LvRjyDQv9C10YDQtdC00LLQuNC20LXQvdC40Y8iICAiR29MYW5nIiAiQ29udGFpbmVyIgogICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgY2xpZW50X21vYmlsZV9hcHAgICAgICAgLT4gY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZCAi0J/QvtC70YPRh9C10L3QuNC1INC00LDQvdC90YvRhS8g0L3QvtGC0LjRhNC40LrQsNGG0LjQuS8g0LLRi9C/0L7Qu9C90LXQvdC40LUg0LfQsNC/0YDQvtGB0L7QsiIgIldlYlNvY2tldCIKICAgICAgICAgICAgICAgICAgICAgICAgY2xpZW50X3dlYl9hcHAgICAgICAgICAgLT4gY2xpZW50X3dlYl9hcHBfYmFja2VuZCAi0J/QvtC70YPRh9C10L3QuNC1INC00LDQvdC90YvRhS8g0L3QvtGC0LjRhNC40LrQsNGG0LjQuS8g0LLRi9C/0L7Qu9C90LXQvdC40LUg0LfQsNC/0YDQvtGB0L7QsiIgIldlYlNvY2tldCIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgIyBjb250YWluZXJzCiAgICAgICAgICAgICAgICAgICAgc3NvID0gY29udGFpbmVyICJTaW5nbGUgU2lnbiBPbiIgItCQ0YPRgtC10L3RgtC40YTQuNC60LDRhtC40Y8g0Lgg0LDQstGC0L7RgNC40LfQsNGG0LjRjyDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSIgIktleUNsb2FrIgogICAgICAgICAgICAgICAgICAgIGNsaWVudF9tb2JpbGVfYXBwICAgICAgIC0+IHNzbyAi0J/QvtC70YPRh9C10L3QuNC1INC00LDQvdC90YvRhS/QvdC+0YLQuNGE0LjQutCw0YbQuNC5IiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAgICAgICAgICAgICBjbGllbnRfd2ViX2FwcCAgICAgICAgICAtPiBzc28gItCf0L7Qu9GD0YfQtdC90LjQtSDQtNCw0L3QvdGL0YUv0L3QvtGC0LjRhNC40LrQsNGG0LjQuSIgIlJFU1QvSFRUUCA6ODAiCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgYnBtID0gY29udGFpbmVyICJCUE0iICLQoNC10LDQu9C40LfQsNGG0LjRjyDRgdGG0LXQvdCw0YDQuNC10LIg0YLRgNGN0LrQuNC90LPQsCIgIkNhbXVuZGEiCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZCAtPiBicG0gItCf0L7Qu9GD0YfQtdC90LjQtSDQtNCw0L3QvdGL0YUvINC90L7RgtC40YTQuNC60LDRhtC40LkvINCy0YvQv9C+0LvQvdC10L3QuNC1INC30LDQv9GA0L7RgdC+0LIiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgIGNsaWVudF93ZWJfYXBwX2JhY2tlbmQgLT4gIGJwbSAi0J/QvtC70YPRh9C10L3QuNC1INC00LDQvdC90YvRhS8g0L3QvtGC0LjRhNC40LrQsNGG0LjQuS8g0LLRi9C/0L7Qu9C90LXQvdC40LUg0LfQsNC/0YDQvtGB0L7QsiIgIlJFU1QvSFRUUCA6ODAiCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgYnBtIC0+IG1sYyAi0JfQsNC/0YDQvtGBINC00LDQvdC90YvRhSDQv9C+INCz0LXQvtC/0L7Qt9C40YbQuNC4INC00LXRgtC10LkiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGdyb3VwICAi0JTQvtC80LXQvdC90YvQtSDRgdC10YDQstC40YHRiyIgewogICAgICAgICAgICAgICAgICAgICAgICBiaWxsaW5nICAgPSBjb250YWluZXIgIkJpbGxpbmciICLQn9GA0LjQtdC8INC+0L/Qu9Cw0YIg0Lgg0LrQvtC90YLRgNC+0LvRjCDRgNCw0YHRhdC+0LTQvtCyIiAiR29MYW5nIiAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiaWxsaW5nX2ZhY2FkZSA9IGNvbXBvbmVudCAiQVBJIiAi0JjQvdGC0LXRgNGE0LXQudGBINC00LvRjyDRgNCw0LHQvtGC0Ysg0YEg0L/QvtC00L/QuNGB0LrQsNC80LgiICJHb0xhbmciCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiaWxsaW5nX2RhdGFiYXNlID0gY29tcG9uZW50ICJTdWJzY3JpcHRpb24gRGF0YWJhc2UiICLQmNC90YTQvtGA0LzQsNGG0LjRjyDQviDQsdCw0LvQsNC90YHQsNGFIiAiUG9zdGdyZVNRTCIgIkRhdGFiYXNlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlsbGluZ19jb250cm9sbGVyID0gY29tcG9uZW50ICJDb250cm9sZXIiICLQodC10YDQstC40YEg0YPRh9C10YLQsCDQuNGB0L/QvtC70YzQt9C+0LLQsNC90LjRjyDQtNGA0L7QvdC+0LIiICJHb0xhbmciCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiaWxsaW5nX3F1ZXVlICA9IGNvbXBvbmVudCAi0JHRgNC+0LrQtdGAIiAi0JHRgNC+0LrQtdGAINC00LvRjyDRg9GH0LXRgtCwINC40YHQv9C+0LvRjNC30L7QstCw0L3QuNGPINC00YDQvtC90L7QsiIgIlJhYmJpdE1RL01RVFQiICJBTVFQIgogICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlsbGluZ19xdWV1ZSAtPiBiaWxsaW5nX2NvbnRyb2xsZXIgItGD0YfQtdGCINC40YHQv9C+0LvRjNC30L7QstCw0L3QuNGPINC00YDQvtC90LAiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlsbGluZ19mYWNhZGUgLT4gYmlsbGluZ19kYXRhYmFzZSAi0LfQsNC/0YDQvtGBINC+0YHRgtCw0YLQutCwINCx0LDQu9Cw0L3RgdCwIiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJpbGxpbmdfZmFjYWRlIC0+IGJpbGxpbmdfZGF0YWJhc2UgItGB0L/QuNGB0LDQvdC40LUg0LHQsNC70LDQvdGB0LAiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlsbGluZ19mYWNhZGUgLT4gYmlsbGluZ19kYXRhYmFzZSAi0L/QvtC/0L7Qu9C90LXQvdC40LUg0LHQsNC70LDQvdGB0LAiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGF5bWVudF9zeXN0ZW0gLT4gYmlsbGluZ19mYWNhZGUgItC/0L7Qv9C+0LvQvdC10L3QuNC1INCx0LDQu9Cw0L3RgdCwIiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJpbGxpbmdfY29udHJvbGxlciAtPiBiaWxsaW5nX2RhdGFiYXNlICLRgdC/0LjRgdCw0L3QuNC1INCx0LDQu9Cw0L3RgdCwIiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJwbSAtPiBiaWxsaW5nX2ZhY2FkZSAi0JfQsNC/0YDQvtGBINCx0LDQu9Cw0L3RgdCwL9C+0YHRg9GJ0LXRgdGC0LLQu9C10L3QuNC1INC/0LvQsNGC0LXQttCwIiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICBpbnZlbnRvcnkgPSBjb250YWluZXIgIkludmVudG9yeSIgItCj0YfQtdGCINC00YDQvtC90L7QsiIgIkdvTGFuZyIgIkNvbnRhaW5lciJ7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnZlbnRvcnlfZmFjYWRlID0gY29tcG9uZW50ICJBUEkiICJBUEkg0YPRh9C10YLQsCDQuNC90YTQvtGA0LzQsNGG0LjQuCDQviDQtNGA0L7QvdCw0YUiICJHb2xhbmciCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnZlbnRvcnlfZGF0YWJhc2UgPSBjb21wb25lbnQgItCg0LXQtdGB0YLRgCDQtNGA0L7QvdC+0LIiICLQo9GH0LXRgiDQuNC90YTQvtGA0LzQsNGG0LjQuCDQviDQtNGA0L7QvdCw0YUiICJQb3N0aHJlU1FMIiAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnZlbnRvcnlfZmFjYWRlIC0+IGludmVudG9yeV9kYXRhYmFzZSAi0JfQsNC/0YDQvtGBINC4INC+0LHQvdC+0LLQu9C10L3QuNC1INC40L3RhNC+0YDQvNCw0YbQuNC4INC+INC00YDQvtC90LDRhSIgIlRDUCA6NTQ1MyIKICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJwbSAtPiBpbnZlbnRvcnlfZmFjYWRlICLQl9Cw0L/RgNC+0YEg0LTQsNC90L3Ri9GFINC+INGB0LLQvtCx0L7QtNC90YvRhSDQtNGA0L7QvdCw0YUv0KDQtdC30LXRgNCy0LDRhtC40Y8iICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIGNybSAgICAgICA9IGNvbnRhaW5lciAiQ2xpZW50cyIgItCj0YfQtdGCINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiAiR29MYW5nIiAiQ29udGFpbmVyInsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNybV9mYWNhZGUgPSBjb21wb25lbnQgIkFQSSIgItCY0L3RgtC10YDRhNC10LnRgSDQtNC70Y8g0YDQsNCx0L7RgtGLINGBINC60LvQuNC10L3RgtC+0LwiICJHb2xhbmciCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcm1fZGF0YWJhc2UgPSBjb21wb25lbnQgIkNsaWVudCBEYXRhYmFzZSIgItCY0L3RhNC+0YDQvNCw0YbQuNGPINC+INC60LvQuNC10L3RgtCw0YUiICJQb3N0Z3JlU1FMIiAiRGF0YWJhc2UiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcm1fZmFjYWRlIC0+IGNybV9kYXRhYmFzZSAi0LfQsNC/0YDQvtGBL9C40LfQvNC10L3QtdC90LjQtSDQtNCw0L3QvdGL0YUg0L4g0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GP0YUiICJUQ1AgOjU0MzIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzc28gLT4gY3JtX2ZhY2FkZSAi0L/QvtC70YPRh9C10L3QuNC1INC/0YDQvtGE0LjQu9GPINC60LvQuNC10L3RgtCwINC/0L4gaWQiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3NvIC0+IGNybV9mYWNhZGUgItCw0YPQutGC0LXQvdGC0LjRhNC40LrQsNGG0LjRjyDQutC70LjQtdC90YLQsCIgIlJFU1QvSFRUUCA6ODAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicG0gLT4gY3JtX2ZhY2FkZSAi0JfQsNC/0YDQvtGBINC00LDQvdC90YvRhSDQviDQutC70LjQtdC90YLQtSDQuCDQtdCz0L4g0LTQtdGC0Y/RhSIgIlJFU1QvSFRUUCA6ODAiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXIgICA9IGNvbnRhaW5lciAiVHJhY2tlciIgItCf0L7QtNGB0LjRgdGC0LXQvNCwINGC0YDRjdC60LjQvdCz0LAg0LTRgNC+0L3QvtCyINCyINGA0LXQsNC70YzQvdC+0Lwg0LLRgNC10LzQtdC90LgiICJHb0xhbmciICJDb250YWluZXIiewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tlcl9mYWNhZGUgPSBjb21wb25lbnQgIkFQSSIgItCY0L3RgtC10YDRhNC10LnRgSDQtNC70Y8g0YDQsNCx0L7RgtGLINGBINC00YDQvtC90LDQvNC4IiAiR29MYW5nIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tlcl9zdGF0dXMgPSBjb21wb25lbnQgItCU0LDQvdC90YvQtSDQtNGA0L7QvdC+0LIiICLQmNC90YTQvtGA0LzQsNGG0LjRjyDQviDQv9C+0LfQuNGG0LjQuCDQuCDQtNCw0L3QvdGL0YUg0LTRgNC+0L3QvtCyIiAiUmVkaXMiICJEYXRhYmFzZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfcXVldWUgID0gY29tcG9uZW50ICLQkdGA0L7QutC10YAiICLQkdGA0L7QutC10YAg0LTQu9GPINCy0LfQsNC40LzQvtC00LXQudGB0YLQstC40Y8g0YEg0LTRgNC+0L3QsNC80LgiICJSYWJiaXRNUS9NUVRUIiAiUXVldWUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFja2VyX2NvbnRyb2xlciA9IGNvbXBvbmVudCAiQ29udHJvbGVyIiAi0KHQtdGA0LLQuNGBINGD0L/RgNCw0LLQu9C10L3QuNGPINC00YDQvtC90LDQvNC4IiAiR29MYW5nIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFja2VyX2ZhY2FkZSAtPiB0cmFja2VyX3N0YXR1cyAi0JfQsNC/0YDQvtGBINC00LDQvdC90YvRhSDQviDRgdGC0LDRgtGD0YHQtSDQtNGA0L7QvdCwIiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfZmFjYWRlIC0+IHRyYWNrZXJfY29udHJvbGVyICLQo9C/0YDQsNCy0LvQtdC90LjQtSDQtNGA0L7QvdC+0LwiICJSRVNUL0hUVFAgOjgwIgogICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tlcl9jb250cm9sZXIgLT4gdHJhY2tlcl9xdWV1ZSAi0JrQvtC80LDQvdC00Ysg0YPQv9GA0LDQstC70LXQvdC40Y8iICJNUVRUIDoxODgzIiAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfY29udHJvbGVyIC0+IHRyYWNrZXJfc3RhdHVzICLQntCx0L3QvtCy0LvQtdC90LjQtSDQsNC60YLRg9Cw0LvRjNC90L7Qs9C+INGB0YLQsNGC0YPRgdCwINC00YDQvtC90L7QsiIgIlJFU1QvSFRUUCA6ODAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFja2VyX2NvbnRyb2xlciAtPiBiaWxsaW5nX3F1ZXVlICLQlNCw0L3QvdGL0LUg0L7QsSDQuNGB0L/QvtC70YzQt9C+0LLQsNC90LjQuCDQtNGA0L7QvdCwIiAiTVFUVCA6MTg4MyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfY29udHJvbGVyIC0+IGJpbGxpbmdfZmFjYWRlICLQt9Cw0L/RgNC+0YEg0L7RgdGC0LDRgtC60LAg0LHQsNC70LDQvdGB0LAiICJSRVNUL0hUVFAgOjgwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tlcl9jb250cm9sZXIgLT4gaW52ZW50b3J5X2ZhY2FkZSAi0J7QsdC90L7QstC00LXQvdC40LUg0LjQvdGE0L7RgNC80LDRhtC40Lgg0L4g0LTRgNC+0L3QsNGFIiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfY29udHJvbGVyIC0+IHNlY3VyaXR5ICLQktGL0LfQvtCyINGB0LvRg9C20LHRiyDQvtGF0YDQsNC90Ysg0L3QsCDQv9GA0L7QuNGI0LXRgdGC0LLQuNC1IiAiUkVTVC9IVFRQIDo4MCIKICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJpbGxpbmdfY29udHJvbGxlciAtPiB0cmFja2VyX2ZhY2FkZSAi0JjQvdGE0L7RgNC80LjRgNC+0LLQsNC90LjQtSDQvtCxINC40YHRh9C10YDQv9Cw0L3QuNC4INGB0YDQtdC00YHRgtCyINC90LAg0L/QvtC00L/QuNGB0LrQtSIKICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfcXVldWUgLT4gZHJvbmUgItCa0L7QvNCw0L3QtNGLINGD0L/RgNCw0LLQu9C10L3QuNGPIiAiTVFUVCA6MTg4MyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfcXVldWUgLT4gdHJhY2tlcl9jb250cm9sZXIgItCi0LXQu9C10LzQtdGC0YDQuNGPIiAiTVFUVCA6MTg4MyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNrZXJfcXVldWUgLT4gdHJhY2tlcl9jb250cm9sZXIgItCh0L7QsdGL0YLQuNGPINCx0LXQt9C+0L/QsNGB0L3QvtGB0YLQuCIgIk1RVFQgOjE4ODMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkcm9uZSAtPiB0cmFja2VyX3F1ZXVlICLQotC10LvQtdC80LXRgtGA0LjRjyIgIk1RVFQgOjE4ODMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkcm9uZSAtPiB0cmFja2VyX3F1ZXVlICLQodC+0LHRi9GC0LjRjyDQsdC10LfQvtC/0LDRgdC90L7RgdGC0LgiICJNUVRUIDoxODgzIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZHJvbmUgLT4gY2xpZW50X21vYmlsZV9hcHAgItCS0LjQtNC10L4iICJXZWJSVEMgOjQ0MyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyb25lIC0+IGNsaWVudF93ZWJfYXBwICLQktC40LTQtdC+IiAiV2ViUlRDIDo0NDMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicG0gLT4gdHJhY2tlcl9mYWNhZGUgItCj0L/RgNCw0LLQu9C10L3QuNC1INC00YDQvtC90L7QvCIgIlJFU1QvSFRUUCA6ODAiCiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIH0gICAgICAKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgIyBSZWxhdGlvbnMgd2l0aCBjdXN0b21lcgogICAgICAgICAgICAgICAgICAgIHVzZXIgLT4gY2xpZW50X21vYmlsZV9hcHAgItCj0L/RgNCw0LLQu9C10L3QuNC1INGD0YHQu9GD0LPQvtC5IgogICAgICAgICAgICAgICAgICAgIHVzZXIgLT4gY2xpZW50X3dlYl9hcHAgItCj0L/RgNCw0LLQu9C10L3QuNC1INGD0YHQu9GD0LPQvtC5IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJQcm9kdWN0aW9uRGVwbG95bWVudCIgewogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJDbGllbnQgRGV2aWNlIDEiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQnNC+0LHQuNC70YzQvdGL0LUg0YLQtdC70LXRhNC+0L3RiyDQuCDQv9C70LDQvdGI0LXRgtGLINC60LvQuNC10L3RgtC+0LIg0LLQviDQstC90LXRiNC90LXQuSDRgdC10YLQuCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFuZHJvaWQiICJpT1MiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfbW9iaWxlX2FwcF9pbnN0YW5jZSAgPSBjb250YWluZXJJbnN0YW5jZSBjbGllbnRfbW9iaWxlX2FwcAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQ2xpZW50IERldmljZSAyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAi0KHRgtCw0YbQuNC+0L3QsNGA0L3Ri9C1INC60L7QvNC/0YzRjtGC0LXRgNGLINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5INCy0L4g0LLQvdC10YjQvdC10Lkg0YHQtdGC0Lgg0LjQu9C4INC80L7QsdC40LvRjNC90YvQtSDRg9GB0YLRgNC+0LnRgdGC0LLQsCDRgSDRg9GB0YLQsNC90L7QstC70LXQvdC90YvQvCDQsdGA0LDRg9C30LXRgNC+0LwiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJXaW5kb3dzIiAiTWFjT1MiICJMaW51eCBVYnVudHUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfd2ViX2FwcF9pbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGNsaWVudF93ZWJfYXBwCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGdyb3VwICJCYWNrZW5kIENsdXN0ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkJGRiBTZXJ2ZXIgTW9iaWxlIDEiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQmFja2VuZCDQtNC70Y8g0LzQvtCx0LjQu9GM0L3QvtCz0L4g0L/RgNC40LvQvtC20LXQvdC40Y8iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiT3JhY2xlIEVudGVwcmlzZSBMaW51eCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfbW9iaWxlX2FwcF9iYWNrZW5kX2luc3RhbmNlMSA9IGNvbnRhaW5lckluc3RhbmNlIGNsaWVudF9tb2JpbGVfYXBwX2JhY2tlbmQKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQkZGIFNlcnZlciBNb2JpbGUgMiIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJCYWNrZW5kINC00LvRjyDQvNC+0LHQuNC70YzQvdC+0LPQviDQv9GA0LjQu9C+0LbQtdC90LjRjyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJPcmFjbGUgRW50ZXByaXNlIExpbnV4IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWVudF9tb2JpbGVfYXBwX2JhY2tlbmRfaW5zdGFuY2UyID0gY29udGFpbmVySW5zdGFuY2UgY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJCRkYgU2VydmVyIE1vYmlsZSAzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkJhY2tlbmQg0LTQu9GPINC80L7QsdC40LvRjNC90L7Qs9C+INC/0YDQuNC70L7QttC10L3QuNGPIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIk9yYWNsZSBFbnRlcHJpc2UgTGludXgiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZF9pbnN0YW5jZTMgPSBjb250YWluZXJJbnN0YW5jZSBjbGllbnRfbW9iaWxlX2FwcF9iYWNrZW5kCiAgICAgICAgICAgICAgICAgICAgICAgIH0gICAKICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkJGRiBTZXJ2ZXIgV2ViIDEiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQmFja2VuZCDQtNC70Y8g0LLQtdCx0LAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiT3JhY2xlIEVudGVwcmlzZSBMaW51eCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfd2ViX2FwcF9iYWNrZW5kX2luc3RhbmNlMSA9IGNvbnRhaW5lckluc3RhbmNlIGNsaWVudF93ZWJfYXBwX2JhY2tlbmQKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQkZGIFNlcnZlciBXZWIgMiIgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQmFja2VuZCDQtNC70Y8g0LLQtdCx0LAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiT3JhY2xlIEVudGVwcmlzZSBMaW51eCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGllbnRfd2ViX2FwcF9iYWNrZW5kX2luc3RhbmNlMiA9IGNvbnRhaW5lckluc3RhbmNlIGNsaWVudF93ZWJfYXBwX2JhY2tlbmQKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQkZGIFNlcnZlciBXZWIgMyIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJCYWNrZW5kINC00LvRjyDQstC10LHQsCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJPcmFjbGUgRW50ZXByaXNlIExpbnV4IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsaWVudF93ZWJfYXBwX2JhY2tlbmRfaW5zdGFuY2UzID0gY29udGFpbmVySW5zdGFuY2UgY2xpZW50X3dlYl9hcHBfYmFja2VuZAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJCUE0gRmlyc3QiIHsKICAgICAgICAgICAgICAgICAgICAgICAgIXNjcmlwdCBncm9vdnkgeyAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LmRlc2NyaXB0aW9uID0gd29ya3NwYWNlLm1vZGVsLnNvZnR3YXJlU3lzdGVtcy5maW5kewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQgLT4gZWxlbWVudC5uYW1lPT0n0JzQvtCx0LjQu9GM0L3Ri9C5INGC0LXQu9C+0YXRgNCw0L3QuNGC0LXQu9GMJ30uY29udGFpbmVycy5maW5kIHsgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQgLT4gZWxlbWVudC5uYW1lPT0nQlBNJ30uZGVzY3JpcHRpb24KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJPcmFjbGUgRW50ZXByaXNlIExpbnV4IiAiQ2FtdW5kYSA3IgogICAgICAgICAgICAgICAgICAgICAgICBicG1faW5zdGFuY2UxID0gY29udGFpbmVySW5zdGFuY2UgYnBtCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJCUE0gU2Vjb25kIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICFzY3JpcHQgZ3Jvb3Z5IHsgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudC5kZXNjcmlwdGlvbiA9IHdvcmtzcGFjZS5tb2RlbC5zb2Z0d2FyZVN5c3RlbXMuZmluZHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50IC0+IGVsZW1lbnQubmFtZT09J9Cc0L7QsdC40LvRjNC90YvQuSDRgtC10LvQvtGF0YDQsNC90LjRgtC10LvRjCd9LmNvbnRhaW5lcnMuZmluZCB7IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50IC0+IGVsZW1lbnQubmFtZT09J0JQTSd9LmRlc2NyaXB0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiT3JhY2xlIEVudGVwcmlzZSBMaW51eCIgIkNhbXVuZGEgNyIKICAgICAgICAgICAgICAgICAgICAgICAgYnBtX2luc3RhbmNlMiA9IGNvbnRhaW5lckluc3RhbmNlIGJwbQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiSW52ZW50b3J5IHNlcnZlciIgewogICAgICAgICAgICAgICAgICAgICAgICAhc2NyaXB0IGdyb292eSB7ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQuZGVzY3JpcHRpb24gPSB3b3Jrc3BhY2UubW9kZWwuc29mdHdhcmVTeXN0ZW1zLmZpbmR7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudCAtPiBlbGVtZW50Lm5hbWU9PSfQnNC+0LHQuNC70YzQvdGL0Lkg0YLQtdC70L7RhdGA0LDQvdC40YLQtdC70YwnfS5jb250YWluZXJzLmZpbmQgeyAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudCAtPiBlbGVtZW50Lm5hbWU9PSdJbnZlbnRvcnknfS5kZXNjcmlwdGlvbgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIk9yYWNsZSBFbnRlcHJpc2UgTGludXgiCiAgICAgICAgICAgICAgICAgICAgICAgIGludmVudG9yeV9pbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGludmVudG9yeSAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlRyYWNrZXIgRmlyc3QiIHsKICAgICAgICAgICAgICAgICAgICAgICAgIXNjcmlwdCBncm9vdnkgeyAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LmRlc2NyaXB0aW9uID0gd29ya3NwYWNlLm1vZGVsLnNvZnR3YXJlU3lzdGVtcy5maW5kewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQgLT4gZWxlbWVudC5uYW1lPT0n0JzQvtCx0LjQu9GM0L3Ri9C5INGC0LXQu9C+0YXRgNCw0L3QuNGC0LXQu9GMJ30uY29udGFpbmVycy5maW5kIHsgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQgLT4gZWxlbWVudC5uYW1lPT0nVHJhY2tlcid9LmRlc2NyaXB0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiT3JhY2xlIEVudGVwcmlzZSBMaW51eCIKICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tlcl9pbnN0YW5jZTEgPSBjb250YWluZXJJbnN0YW5jZSB0cmFja2VyCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgIAogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJUcmFja2VyIFNlY29uZCIgewogICAgICAgICAgICAgICAgICAgICAgICAhc2NyaXB0IGdyb292eSB7ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQuZGVzY3JpcHRpb24gPSB3b3Jrc3BhY2UubW9kZWwuc29mdHdhcmVTeXN0ZW1zLmZpbmR7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudCAtPiBlbGVtZW50Lm5hbWU9PSfQnNC+0LHQuNC70YzQvdGL0Lkg0YLQtdC70L7RhdGA0LDQvdC40YLQtdC70YwnfS5jb250YWluZXJzLmZpbmQgeyAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudCAtPiBlbGVtZW50Lm5hbWU9PSdUcmFja2VyJ30uZGVzY3JpcHRpb24KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJPcmFjbGUgRW50ZXByaXNlIExpbnV4IgogICAgICAgICAgICAgICAgICAgICAgICB0cmFja2VyX2luc3RhbmNlMiA9IGNvbnRhaW5lckluc3RhbmNlIHRyYWNrZXIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkJpbGxpbmciIHsKICAgICAgICAgICAgICAgICAgICAgICAgIXNjcmlwdCBncm9vdnkgeyAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LmRlc2NyaXB0aW9uID0gd29ya3NwYWNlLm1vZGVsLnNvZnR3YXJlU3lzdGVtcy5maW5kewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQgLT4gZWxlbWVudC5uYW1lPT0n0JzQvtCx0LjQu9GM0L3Ri9C5INGC0LXQu9C+0YXRgNCw0L3QuNGC0LXQu9GMJ30uY29udGFpbmVycy5maW5kIHsgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQgLT4gZWxlbWVudC5uYW1lPT0nQmlsbGluZyd9LmRlc2NyaXB0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiT3JhY2xlIEVudGVwcmlzZSBMaW51eCIKICAgICAgICAgICAgICAgICAgICAgICAgYmlsbGluZ19pbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGJpbGxpbmcKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgCiAgICAgICAgCgogICAgfQoKICAgICMhcGx1Z2luIEZpbmRSZWxhdGlvbnNoaXBzUGx1Z2luCgogICAgdmlld3MgewogICAgICAgIHByb3BlcnRpZXMgewogICAgICAgICAgICAic3RydWN0dXJpenIuc29ydCIgInR5cGUiCiAgICAgICAgfQoKICAgICAgICAjIHN5c3RlbUxhbmRzY2FwZSAiU3lzdGVtTGFuZHNjYXBlIiB7CiAgICAgICAgIyAgICAgaW5jbHVkZSAqCiAgICAgICAgIyAgICAgYXV0b0xheW91dCBscgogICAgICAgICMgfQogICAgICAgIHN5c3RlbUNvbnRleHQgZ3VhcmRfc3lzdGVtICJDb250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZ3VhcmRfc3lzdGVtICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgICAgIAogICAgICAgIGNvbXBvbmVudCBiaWxsaW5nICJCaWxsaW5nInsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGJwbQogICAgICAgICAgICAgICAgdHJhY2tlcgogICAgICAgICAgICAgICAgYmlsbGluZ19xdWV1ZQogICAgICAgICAgICAgICAgYmlsbGluZ19jb250cm9sbGVyCiAgICAgICAgICAgICAgICBiaWxsaW5nX2RhdGFiYXNlICAKICAgICAgICAgICAgICAgIHBheW1lbnRfc3lzdGVtCiAgICAgICAgICAgICAgICBiaWxsaW5nX2ZhY2FkZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgaW52ZW50b3J5ICJJbnZlbnRvcnkiewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGNybSAiQ1JNInsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB0cmFja2VyICJUcmFja2luZyJ7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IGd1YXJkX3N5c3RlbSAiUHJvZHVjdGlvbkRlcGxveW1lbnQiICJ2cyJ7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBkZXNjcmlwdGlvbiAi0KLQuNC/0L7QstC+0LUg0YDQsNC30LzQtdGJ0LXQvdC40LUg0L7QsdC+0YDRg9C00L7QstCw0L3QuNGPIgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBkeW5hbWljIGd1YXJkX3N5c3RlbSAiVUMwMSIgewogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgICAgIGRlc2NyaXB0aW9uICLQn9C+0LjRgdC6INC4INCw0YDQtdC90LTQsCDQtNGA0L7QvdCwIgogICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgIHBsYW50dW1sLnNlcXVlbmNlRGlhZ3JhbSB0cnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGNsaWVudF9tb2JpbGVfYXBwIC0+IHNzbyAi0JfQsNC/0YDQvtGBINGC0L7QutC10L3QsCDQtNC70Y8g0LDRg9GC0LXQvdGC0LjRhNC40LrQsNGG0LjQuCIKICAgICAgICAgICAgY2xpZW50X21vYmlsZV9hcHAgLT4gY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZCAi0JfQsNC/0YDQvtGBINC90LAg0L/QvtC40YHQuiDQtNGA0L7QvdCwINCyINC+0LrRgNC10YHQvdC+0YHRgtGP0YUg0LPQtdC+0LvQvtC60LDRhtC40LgiICAgICAgICAKICAgICAgICAgICAgY2xpZW50X21vYmlsZV9hcHBfYmFja2VuZCAtPiBicG0gItCX0LDQv9GA0L7RgSDQvdCwINC/0L7QuNGB0Log0LTRgNC+0L3QsCIKICAgICAgICAgICAgYnBtIC0+IGNybSAi0JfQsNC/0YDQvtGBINC00LDQvdC90YvRhSDQv9C+INC60LvQuNC10L3RgtGDIgogICAgICAgICAgICBicG0gLT4gY3JtICLQl9Cw0L/RgNC+0YEg0LTQsNC90L3Ri9GFINC/0L4g0YDQtdCx0LXQvdC60YMiCiAgICAgICAgICAgIGJwbSAtPiBtbGMgItCX0LDQv9GA0L7RgSDQtNCw0L3QvdGL0YUg0L4g0LPQtdC+0L/QvtC30LjRhtC40Y/RhSDRgNC10LHQtdC90LrQsCIKICAgICAgICAgICAgYnBtIC0+IGJpbGxpbmcgItCX0LDQv9GA0L7RgSDQtNC+0YHRgtCw0YLQvtGH0L3QvtGB0YLQuCDQsdCw0LvQsNC90YHQsCIKICAgICAgICAgICAgYnBtIC0+IGludmVudG9yeSAi0J/QvtC40YHQuiDRgdCy0L7QsdC+0LTQvdGL0YUg0LTRgNC+0L3QvtCyIgogICAgICAgICAgICBicG0gLT4gdHJhY2tlciAi0J/QtdGA0LXQtNCw0YfQsCDQtNCw0L3QvdGL0YUg0YDQtdCx0LXQvdC60LAg0L3QsCDQtNGA0L7QvSIKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJFeHRlcm5hbFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjYzBjMGMwCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWJCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlQXBwIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VQb3J0cmFpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlF1ZXVlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwMDAKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICB9CgogICAgICAgICAgICAKICAgICAgICB9CiAgICB9Cgp9Cg=="
   },
@@ -183,6 +183,390 @@
       } ],
       "location" : "Unspecified",
       "containers" : [ {
+        "id" : "16",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sso"
+        },
+        "name" : "Single Sign On",
+        "description" : "Аутентификация и авторизация пользователей",
+        "relationships" : [ {
+          "id" : "49",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "46",
+          "description" : "получение профиля клиента по id",
+          "technology" : "REST/HTTP :80"
+        }, {
+          "id" : "50",
+          "sourceId" : "16",
+          "destinationId" : "45",
+          "description" : "получение профиля клиента по id",
+          "technology" : "REST/HTTP :80",
+          "linkedRelationshipId" : "49"
+        }, {
+          "id" : "51",
+          "tags" : "Relationship",
+          "sourceId" : "16",
+          "destinationId" : "46",
+          "description" : "ауктентификация клиента",
+          "technology" : "REST/HTTP :80"
+        } ],
+        "technology" : "KeyCloak",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,WebBrowser",
+        "properties" : {
+          "structurizr.dsl.identifier" : "client_web_app"
+        },
+        "name" : "Веб приложение клиента",
+        "description" : "Приложение для осуществления заказа услуги и контроля передвижения",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "1",
+          "description" : "Оплата"
+        }, {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "13",
+          "description" : "Получение данных/ нотификаций/ выполнение запросов",
+          "technology" : "WebSocket"
+        }, {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "16",
+          "description" : "Получение данных/нотификаций",
+          "technology" : "REST/HTTP :80"
+        } ],
+        "group" : "Клиентские приложения",
+        "technology" : "Web Browser",
+        "documentation" : { }
+      }, {
+        "id" : "45",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "crm"
+        },
+        "name" : "Clients",
+        "description" : "Учет пользователей",
+        "group" : "Доменные сервисы",
+        "technology" : "GoLang",
+        "components" : [ {
+          "id" : "47",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "crm_database"
+          },
+          "name" : "Client Database",
+          "description" : "Информация о клиентах",
+          "technology" : "PostgreSQL",
+          "documentation" : { }
+        }, {
+          "id" : "46",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "crm_facade"
+          },
+          "name" : "API",
+          "description" : "Интерфейс для работы с клиентом",
+          "relationships" : [ {
+            "id" : "48",
+            "tags" : "Relationship",
+            "sourceId" : "46",
+            "destinationId" : "47",
+            "description" : "запрос/изменение данных о пользователях",
+            "technology" : "TCP :5432"
+          } ],
+          "technology" : "Golang",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bpm"
+        },
+        "name" : "BPM",
+        "description" : "Реализация сценариев трэкинга",
+        "relationships" : [ {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "4",
+          "description" : "Запрос данных по геопозиции детей",
+          "technology" : "REST/HTTP :80"
+        }, {
+          "id" : "37",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "25",
+          "description" : "Запрос баланса/осуществление платежа",
+          "technology" : "REST/HTTP :80"
+        }, {
+          "id" : "38",
+          "sourceId" : "19",
+          "destinationId" : "24",
+          "description" : "Запрос баланса/осуществление платежа",
+          "technology" : "REST/HTTP :80",
+          "linkedRelationshipId" : "37"
+        }, {
+          "id" : "43",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "40",
+          "description" : "Запрос данных о свободных дронах/Резервация",
+          "technology" : "REST/HTTP :80"
+        }, {
+          "id" : "44",
+          "sourceId" : "19",
+          "destinationId" : "39",
+          "description" : "Запрос данных о свободных дронах/Резервация",
+          "technology" : "REST/HTTP :80",
+          "linkedRelationshipId" : "43"
+        }, {
+          "id" : "52",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "46",
+          "description" : "Запрос данных о клиенте и его детях",
+          "technology" : "REST/HTTP :80"
+        }, {
+          "id" : "53",
+          "sourceId" : "19",
+          "destinationId" : "45",
+          "description" : "Запрос данных о клиенте и его детях",
+          "technology" : "REST/HTTP :80",
+          "linkedRelationshipId" : "52"
+        }, {
+          "id" : "91",
+          "tags" : "Relationship",
+          "sourceId" : "19",
+          "destinationId" : "55",
+          "description" : "Управление дроном",
+          "technology" : "REST/HTTP :80"
+        }, {
+          "id" : "92",
+          "sourceId" : "19",
+          "destinationId" : "54",
+          "description" : "Управление дроном",
+          "technology" : "REST/HTTP :80",
+          "linkedRelationshipId" : "91"
+        } ],
+        "technology" : "Camunda",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,MobileApp",
+        "properties" : {
+          "structurizr.dsl.identifier" : "client_mobile_app"
+        },
+        "name" : "Мобильное приложение клиента",
+        "description" : "Приложение для осуществления заказа услуги и контроля передвижения",
+        "relationships" : [ {
+          "id" : "9",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "1",
+          "description" : "Оплата"
+        }, {
+          "id" : "14",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "12",
+          "description" : "Получение данных/ нотификаций/ выполнение запросов",
+          "technology" : "WebSocket"
+        }, {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "16",
+          "description" : "Получение данных/нотификаций",
+          "technology" : "REST/HTTP :80"
+        } ],
+        "group" : "Клиентские приложения",
+        "technology" : "Android/iOS app",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "client_web_app_backend"
+        },
+        "name" : "Backend веб приложения клиента",
+        "description" : "Приложение для осуществления заказа услуги и контроля передвижения",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "19",
+          "description" : "Получение данных/ нотификаций/ выполнение запросов",
+          "technology" : "REST/HTTP :80"
+        } ],
+        "group" : "API клиента",
+        "technology" : "GoLang",
+        "documentation" : { }
+      }, {
+        "id" : "39",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "inventory"
+        },
+        "name" : "Inventory",
+        "description" : "Учет дронов",
+        "group" : "Доменные сервисы",
+        "technology" : "GoLang",
+        "components" : [ {
+          "id" : "40",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "inventory_facade"
+          },
+          "name" : "API",
+          "description" : "API учета информации о дронах",
+          "relationships" : [ {
+            "id" : "42",
+            "tags" : "Relationship",
+            "sourceId" : "40",
+            "destinationId" : "41",
+            "description" : "Запрос и обновление информации о дронах",
+            "technology" : "TCP :5453"
+          } ],
+          "technology" : "Golang",
+          "documentation" : { }
+        }, {
+          "id" : "41",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "inventory_database"
+          },
+          "name" : "Реестр дронов",
+          "description" : "Учет информации о дронах",
+          "technology" : "PosthreSQL",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "24",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "billing"
+        },
+        "name" : "Billing",
+        "description" : "Прием оплат и контроль расходов",
+        "relationships" : [ {
+          "id" : "78",
+          "sourceId" : "24",
+          "destinationId" : "55",
+          "description" : "Информирование об исчерпании средств на подписке",
+          "linkedRelationshipId" : "76"
+        }, {
+          "id" : "79",
+          "sourceId" : "24",
+          "destinationId" : "54",
+          "description" : "Информирование об исчерпании средств на подписке",
+          "linkedRelationshipId" : "76"
+        } ],
+        "group" : "Доменные сервисы",
+        "technology" : "GoLang",
+        "components" : [ {
+          "id" : "25",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "billing_facade"
+          },
+          "name" : "API",
+          "description" : "Интерфейс для работы с подписками",
+          "relationships" : [ {
+            "id" : "30",
+            "tags" : "Relationship",
+            "sourceId" : "25",
+            "destinationId" : "26",
+            "description" : "запрос остатка баланса",
+            "technology" : "REST/HTTP :80"
+          }, {
+            "id" : "31",
+            "tags" : "Relationship",
+            "sourceId" : "25",
+            "destinationId" : "26",
+            "description" : "списание баланса",
+            "technology" : "REST/HTTP :80"
+          }, {
+            "id" : "32",
+            "tags" : "Relationship",
+            "sourceId" : "25",
+            "destinationId" : "26",
+            "description" : "пополнение баланса",
+            "technology" : "REST/HTTP :80"
+          } ],
+          "technology" : "GoLang",
+          "documentation" : { }
+        }, {
+          "id" : "28",
+          "tags" : "Element,Component,AMQP",
+          "properties" : {
+            "structurizr.dsl.identifier" : "billing_queue"
+          },
+          "name" : "Брокер",
+          "description" : "Брокер для учета использования дронов",
+          "relationships" : [ {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "28",
+            "destinationId" : "27",
+            "description" : "учет использования дрона",
+            "technology" : "REST/HTTP :80"
+          } ],
+          "technology" : "RabbitMQ/MQTT",
+          "documentation" : { }
+        }, {
+          "id" : "26",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "billing_database"
+          },
+          "name" : "Subscription Database",
+          "description" : "Информация о балансах",
+          "technology" : "PostgreSQL",
+          "documentation" : { }
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "billing_controller"
+          },
+          "name" : "Controler",
+          "description" : "Сервис учета использования дронов",
+          "relationships" : [ {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "27",
+            "destinationId" : "26",
+            "description" : "списание баланса",
+            "technology" : "REST/HTTP :80"
+          }, {
+            "id" : "76",
+            "tags" : "Relationship",
+            "sourceId" : "27",
+            "destinationId" : "55",
+            "description" : "Информирование об исчерпании средств на подписке"
+          }, {
+            "id" : "77",
+            "sourceId" : "27",
+            "destinationId" : "54",
+            "description" : "Информирование об исчерпании средств на подписке",
+            "linkedRelationshipId" : "76"
+          } ],
+          "technology" : "GoLang",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
         "id" : "54",
         "tags" : "Element,Container",
         "properties" : {
@@ -275,41 +659,6 @@
           "technology" : "RabbitMQ/MQTT",
           "documentation" : { }
         }, {
-          "id" : "56",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "tracker_status"
-          },
-          "name" : "Данные дронов",
-          "description" : "Информация о позиции и данных дронов",
-          "technology" : "Redis",
-          "documentation" : { }
-        }, {
-          "id" : "55",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "tracker_facade"
-          },
-          "name" : "API",
-          "description" : "Интерфейс для работы с дронами",
-          "relationships" : [ {
-            "id" : "59",
-            "tags" : "Relationship",
-            "sourceId" : "55",
-            "destinationId" : "56",
-            "description" : "Запрос данных о статусе дрона",
-            "technology" : "REST/HTTP :80"
-          }, {
-            "id" : "60",
-            "tags" : "Relationship",
-            "sourceId" : "55",
-            "destinationId" : "58",
-            "description" : "Управление дроном",
-            "technology" : "REST/HTTP :80"
-          } ],
-          "technology" : "GoLang",
-          "documentation" : { }
-        }, {
           "id" : "58",
           "tags" : "Element,Component",
           "properties" : {
@@ -376,186 +725,42 @@
           } ],
           "technology" : "GoLang",
           "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "24",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "billing"
-        },
-        "name" : "Billing",
-        "description" : "Прием оплат и контроль расходов",
-        "relationships" : [ {
-          "id" : "78",
-          "sourceId" : "24",
-          "destinationId" : "55",
-          "description" : "Информирование об исчерпании средств на подписке",
-          "linkedRelationshipId" : "76"
         }, {
-          "id" : "79",
-          "sourceId" : "24",
-          "destinationId" : "54",
-          "description" : "Информирование об исчерпании средств на подписке",
-          "linkedRelationshipId" : "76"
-        } ],
-        "group" : "Доменные сервисы",
-        "technology" : "GoLang",
-        "components" : [ {
-          "id" : "26",
+          "id" : "56",
           "tags" : "Element,Component,Database",
           "properties" : {
-            "structurizr.dsl.identifier" : "billing_database"
+            "structurizr.dsl.identifier" : "tracker_status"
           },
-          "name" : "Subscription Database",
-          "description" : "Информация о балансах",
-          "technology" : "PostgreSQL",
+          "name" : "Данные дронов",
+          "description" : "Информация о позиции и данных дронов",
+          "technology" : "Redis",
           "documentation" : { }
         }, {
-          "id" : "27",
+          "id" : "55",
           "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "billing_controller"
-          },
-          "name" : "Controler",
-          "description" : "Сервис учета использования дронов",
-          "relationships" : [ {
-            "id" : "36",
-            "tags" : "Relationship",
-            "sourceId" : "27",
-            "destinationId" : "26",
-            "description" : "списание баланса",
-            "technology" : "REST/HTTP :80"
-          }, {
-            "id" : "76",
-            "tags" : "Relationship",
-            "sourceId" : "27",
-            "destinationId" : "55",
-            "description" : "Информирование об исчерпании средств на подписке"
-          }, {
-            "id" : "77",
-            "sourceId" : "27",
-            "destinationId" : "54",
-            "description" : "Информирование об исчерпании средств на подписке",
-            "linkedRelationshipId" : "76"
-          } ],
-          "technology" : "GoLang",
-          "documentation" : { }
-        }, {
-          "id" : "25",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "billing_facade"
+            "structurizr.dsl.identifier" : "tracker_facade"
           },
           "name" : "API",
-          "description" : "Интерфейс для работы с подписками",
+          "description" : "Интерфейс для работы с дронами",
           "relationships" : [ {
-            "id" : "30",
+            "id" : "59",
             "tags" : "Relationship",
-            "sourceId" : "25",
-            "destinationId" : "26",
-            "description" : "запрос остатка баланса",
+            "sourceId" : "55",
+            "destinationId" : "56",
+            "description" : "Запрос данных о статусе дрона",
             "technology" : "REST/HTTP :80"
           }, {
-            "id" : "31",
+            "id" : "60",
             "tags" : "Relationship",
-            "sourceId" : "25",
-            "destinationId" : "26",
-            "description" : "списание баланса",
-            "technology" : "REST/HTTP :80"
-          }, {
-            "id" : "32",
-            "tags" : "Relationship",
-            "sourceId" : "25",
-            "destinationId" : "26",
-            "description" : "пополнение баланса",
+            "sourceId" : "55",
+            "destinationId" : "58",
+            "description" : "Управление дроном",
             "technology" : "REST/HTTP :80"
           } ],
           "technology" : "GoLang",
           "documentation" : { }
-        }, {
-          "id" : "28",
-          "tags" : "Element,Component,AMQP",
-          "properties" : {
-            "structurizr.dsl.identifier" : "billing_queue"
-          },
-          "name" : "Брокер",
-          "description" : "Брокер для учета использования дронов",
-          "relationships" : [ {
-            "id" : "29",
-            "tags" : "Relationship",
-            "sourceId" : "28",
-            "destinationId" : "27",
-            "description" : "учет использования дрона",
-            "technology" : "REST/HTTP :80"
-          } ],
-          "technology" : "RabbitMQ/MQTT",
-          "documentation" : { }
         } ],
-        "documentation" : { }
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container,WebBrowser",
-        "properties" : {
-          "structurizr.dsl.identifier" : "client_web_app"
-        },
-        "name" : "Веб приложение клиента",
-        "description" : "Приложение для осуществления заказа услуги и контроля передвижения",
-        "relationships" : [ {
-          "id" : "11",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "1",
-          "description" : "Оплата"
-        }, {
-          "id" : "15",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "13",
-          "description" : "Получение данных/ нотификаций/ выполнение запросов",
-          "technology" : "WebSocket"
-        }, {
-          "id" : "18",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "16",
-          "description" : "Получение данных/нотификаций",
-          "technology" : "REST/HTTP :80"
-        } ],
-        "group" : "Клиентские приложения",
-        "technology" : "Web Browser",
-        "documentation" : { }
-      }, {
-        "id" : "16",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "sso"
-        },
-        "name" : "Single Sign On",
-        "description" : "Аутентификация и авторизация пользователей",
-        "relationships" : [ {
-          "id" : "49",
-          "tags" : "Relationship",
-          "sourceId" : "16",
-          "destinationId" : "46",
-          "description" : "получение профиля клиента по id",
-          "technology" : "REST/HTTP :80"
-        }, {
-          "id" : "50",
-          "sourceId" : "16",
-          "destinationId" : "45",
-          "description" : "получение профиля клиента по id",
-          "technology" : "REST/HTTP :80",
-          "linkedRelationshipId" : "49"
-        }, {
-          "id" : "51",
-          "tags" : "Relationship",
-          "sourceId" : "16",
-          "destinationId" : "46",
-          "description" : "ауктентификация клиента",
-          "technology" : "REST/HTTP :80"
-        } ],
-        "technology" : "KeyCloak",
         "documentation" : { }
       }, {
         "id" : "12",
@@ -575,211 +780,6 @@
         } ],
         "group" : "API клиента",
         "technology" : "GoLang",
-        "documentation" : { }
-      }, {
-        "id" : "13",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "client_web_app_backend"
-        },
-        "name" : "Backend веб приложения клиента",
-        "description" : "Приложение для осуществления заказа услуги и контроля передвижения",
-        "relationships" : [ {
-          "id" : "21",
-          "tags" : "Relationship",
-          "sourceId" : "13",
-          "destinationId" : "19",
-          "description" : "Получение данных/ нотификаций/ выполнение запросов",
-          "technology" : "REST/HTTP :80"
-        } ],
-        "group" : "API клиента",
-        "technology" : "GoLang",
-        "documentation" : { }
-      }, {
-        "id" : "39",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "inventory"
-        },
-        "name" : "Inventory",
-        "description" : "Учет дронов",
-        "group" : "Доменные сервисы",
-        "technology" : "GoLang",
-        "components" : [ {
-          "id" : "40",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "inventory_facade"
-          },
-          "name" : "API",
-          "description" : "API учета информации о дронах",
-          "relationships" : [ {
-            "id" : "42",
-            "tags" : "Relationship",
-            "sourceId" : "40",
-            "destinationId" : "41",
-            "description" : "Запрос и обновление информации о дронах",
-            "technology" : "TCP :5453"
-          } ],
-          "technology" : "Golang",
-          "documentation" : { }
-        }, {
-          "id" : "41",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "inventory_database"
-          },
-          "name" : "Реестр дронов",
-          "description" : "Учет информации о дронах",
-          "technology" : "PosthreSQL",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "19",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "bpm"
-        },
-        "name" : "BPM",
-        "description" : "Реализация сценариев трэкинга",
-        "relationships" : [ {
-          "id" : "22",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "4",
-          "description" : "Запрос данных по геопозиции детей",
-          "technology" : "REST/HTTP :80"
-        }, {
-          "id" : "37",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "25",
-          "description" : "Запрос баланса/осуществление платежа",
-          "technology" : "REST/HTTP :80"
-        }, {
-          "id" : "38",
-          "sourceId" : "19",
-          "destinationId" : "24",
-          "description" : "Запрос баланса/осуществление платежа",
-          "technology" : "REST/HTTP :80",
-          "linkedRelationshipId" : "37"
-        }, {
-          "id" : "43",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "40",
-          "description" : "Запрос данных о свободных дронах/Резервация",
-          "technology" : "REST/HTTP :80"
-        }, {
-          "id" : "44",
-          "sourceId" : "19",
-          "destinationId" : "39",
-          "description" : "Запрос данных о свободных дронах/Резервация",
-          "technology" : "REST/HTTP :80",
-          "linkedRelationshipId" : "43"
-        }, {
-          "id" : "52",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "46",
-          "description" : "Запрос данных о клиенте и его детях",
-          "technology" : "REST/HTTP :80"
-        }, {
-          "id" : "53",
-          "sourceId" : "19",
-          "destinationId" : "45",
-          "description" : "Запрос данных о клиенте и его детях",
-          "technology" : "REST/HTTP :80",
-          "linkedRelationshipId" : "52"
-        }, {
-          "id" : "91",
-          "tags" : "Relationship",
-          "sourceId" : "19",
-          "destinationId" : "55",
-          "description" : "Управление дроном",
-          "technology" : "REST/HTTP :80"
-        }, {
-          "id" : "92",
-          "sourceId" : "19",
-          "destinationId" : "54",
-          "description" : "Управление дроном",
-          "technology" : "REST/HTTP :80",
-          "linkedRelationshipId" : "91"
-        } ],
-        "technology" : "Camunda",
-        "documentation" : { }
-      }, {
-        "id" : "45",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "crm"
-        },
-        "name" : "Clients",
-        "description" : "Учет пользователей",
-        "group" : "Доменные сервисы",
-        "technology" : "GoLang",
-        "components" : [ {
-          "id" : "46",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "crm_facade"
-          },
-          "name" : "API",
-          "description" : "Интерфейс для работы с клиентом",
-          "relationships" : [ {
-            "id" : "48",
-            "tags" : "Relationship",
-            "sourceId" : "46",
-            "destinationId" : "47",
-            "description" : "запрос/изменение данных о пользователях",
-            "technology" : "TCP :5432"
-          } ],
-          "technology" : "Golang",
-          "documentation" : { }
-        }, {
-          "id" : "47",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "crm_database"
-          },
-          "name" : "Client Database",
-          "description" : "Информация о клиентах",
-          "technology" : "PostgreSQL",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "7",
-        "tags" : "Element,Container,MobileApp",
-        "properties" : {
-          "structurizr.dsl.identifier" : "client_mobile_app"
-        },
-        "name" : "Мобильное приложение клиента",
-        "description" : "Приложение для осуществления заказа услуги и контроля передвижения",
-        "relationships" : [ {
-          "id" : "9",
-          "tags" : "Relationship",
-          "sourceId" : "7",
-          "destinationId" : "1",
-          "description" : "Оплата"
-        }, {
-          "id" : "14",
-          "tags" : "Relationship",
-          "sourceId" : "7",
-          "destinationId" : "12",
-          "description" : "Получение данных/ нотификаций/ выполнение запросов",
-          "technology" : "WebSocket"
-        }, {
-          "id" : "17",
-          "tags" : "Relationship",
-          "sourceId" : "7",
-          "destinationId" : "16",
-          "description" : "Получение данных/нотификаций",
-          "technology" : "REST/HTTP :80"
-        } ],
-        "group" : "Клиентские приложения",
-        "technology" : "Android/iOS app",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -913,14 +913,14 @@
           "structurizr.dsl.identifier" : "client_mobile_app_backend_instance2"
         },
         "relationships" : [ {
-          "id" : "123",
+          "id" : "122",
           "sourceId" : "104",
           "destinationId" : "119",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "20"
         }, {
-          "id" : "131",
+          "id" : "130",
           "sourceId" : "104",
           "destinationId" : "127",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
@@ -947,14 +947,14 @@
           "structurizr.dsl.identifier" : "client_mobile_app_backend_instance3"
         },
         "relationships" : [ {
-          "id" : "122",
+          "id" : "123",
           "sourceId" : "107",
           "destinationId" : "119",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "20"
         }, {
-          "id" : "130",
+          "id" : "131",
           "sourceId" : "107",
           "destinationId" : "127",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
@@ -981,14 +981,14 @@
           "structurizr.dsl.identifier" : "client_web_app_backend_instance1"
         },
         "relationships" : [ {
-          "id" : "121",
+          "id" : "120",
           "sourceId" : "110",
           "destinationId" : "119",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "21"
         }, {
-          "id" : "129",
+          "id" : "128",
           "sourceId" : "110",
           "destinationId" : "127",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
@@ -1049,14 +1049,14 @@
           "structurizr.dsl.identifier" : "client_web_app_backend_instance3"
         },
         "relationships" : [ {
-          "id" : "120",
+          "id" : "121",
           "sourceId" : "116",
           "destinationId" : "119",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "21"
         }, {
-          "id" : "128",
+          "id" : "129",
           "sourceId" : "116",
           "destinationId" : "127",
           "description" : "Получение данных/ нотификаций/ выполнение запросов",
@@ -1150,7 +1150,7 @@
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "92"
         }, {
-          "id" : "155",
+          "id" : "151",
           "sourceId" : "127",
           "destinationId" : "149",
           "description" : "Запрос баланса/осуществление платежа",
@@ -1201,7 +1201,7 @@
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "72"
         }, {
-          "id" : "152",
+          "id" : "155",
           "sourceId" : "139",
           "destinationId" : "149",
           "description" : "Данные об использовании дрона",
@@ -1234,7 +1234,7 @@
           "technology" : "REST/HTTP :80",
           "linkedRelationshipId" : "72"
         }, {
-          "id" : "154",
+          "id" : "153",
           "sourceId" : "144",
           "destinationId" : "149",
           "description" : "Данные об использовании дрона",
@@ -1260,15 +1260,15 @@
           "structurizr.dsl.identifier" : "billing_instance"
         },
         "relationships" : [ {
-          "id" : "151",
+          "id" : "152",
           "sourceId" : "149",
-          "destinationId" : "139",
+          "destinationId" : "144",
           "description" : "Информирование об исчерпании средств на подписке",
           "linkedRelationshipId" : "79"
         }, {
-          "id" : "153",
+          "id" : "154",
           "sourceId" : "149",
-          "destinationId" : "144",
+          "destinationId" : "139",
           "description" : "Информирование об исчерпании средств на подписке",
           "linkedRelationshipId" : "79"
         } ],
@@ -1419,9 +1419,9 @@
       }, {
         "id" : "94"
       }, {
-        "id" : "87"
-      }, {
         "id" : "35"
+      }, {
+        "id" : "87"
       }, {
         "id" : "23"
       }, {
@@ -1473,9 +1473,9 @@
       }, {
         "id" : "72"
       }, {
-        "id" : "92"
-      }, {
         "id" : "50"
+      }, {
+        "id" : "92"
       }, {
         "id" : "74"
       }, {
@@ -1509,9 +1509,9 @@
       }, {
         "id" : "14"
       }, {
-        "id" : "34"
-      }, {
         "id" : "11"
+      }, {
+        "id" : "34"
       }, {
         "id" : "9"
       }, {
@@ -1520,19 +1520,19 @@
         "id" : "38"
       } ],
       "elements" : [ {
-        "id" : "12",
-        "x" : 0,
-        "y" : 0
-      }, {
         "id" : "45",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "24",
+        "id" : "12",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "24",
         "x" : 0,
         "y" : 0
       }, {
@@ -1582,6 +1582,45 @@
       } ]
     } ],
     "componentViews" : [ {
+      "key" : "CRM",
+      "order" : 5,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "45",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "51"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "49"
+      } ],
+      "elements" : [ {
+        "id" : "46",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "47",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "16",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      } ]
+    }, {
       "key" : "Billing",
       "order" : 3,
       "automaticLayout" : {
@@ -1636,9 +1675,9 @@
       }, {
         "id" : "32"
       }, {
-        "id" : "77"
-      }, {
         "id" : "31"
+      }, {
+        "id" : "77"
       }, {
         "id" : "30"
       }, {
@@ -1674,6 +1713,45 @@
         "y" : 0
       } ]
     }, {
+      "key" : "Inventory",
+      "order" : 4,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "39",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "71"
+      }, {
+        "id" : "92"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      } ],
+      "elements" : [ {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "41",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "54",
+        "x" : 0,
+        "y" : 0
+      } ]
+    }, {
       "key" : "Tracking",
       "order" : 6,
       "automaticLayout" : {
@@ -1693,15 +1771,15 @@
       }, {
         "id" : "80"
       }, {
-        "id" : "91"
-      }, {
         "id" : "61"
+      }, {
+        "id" : "91"
       }, {
         "id" : "60"
       }, {
-        "id" : "62"
-      }, {
         "id" : "73"
+      }, {
+        "id" : "62"
       }, {
         "id" : "84"
       }, {
@@ -1753,84 +1831,6 @@
         "y" : 0
       }, {
         "id" : "19",
-        "x" : 0,
-        "y" : 0
-      } ]
-    }, {
-      "key" : "CRM",
-      "order" : 5,
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "containerId" : "45",
-      "externalContainerBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "51"
-      }, {
-        "id" : "52"
-      }, {
-        "id" : "48"
-      }, {
-        "id" : "49"
-      } ],
-      "elements" : [ {
-        "id" : "46",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "47",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "16",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "19",
-        "x" : 0,
-        "y" : 0
-      } ]
-    }, {
-      "key" : "Inventory",
-      "order" : 4,
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "containerId" : "39",
-      "externalContainerBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "71"
-      }, {
-        "id" : "92"
-      }, {
-        "id" : "42"
-      }, {
-        "id" : "43"
-      } ],
-      "elements" : [ {
-        "id" : "19",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "40",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "41",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "54",
         "x" : 0,
         "y" : 0
       } ]
@@ -2168,7 +2168,7 @@
         } ]
       },
       "terminology" : { },
-      "lastSavedView" : "vs",
+      "lastSavedView" : "UC01",
       "properties" : {
         "structurizr.sort" : "type"
       }

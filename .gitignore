@@ -1,3 +1,4 @@
 onpremises/*
 .structurizr/*
 out/*
+export_tools/node_modules/*
