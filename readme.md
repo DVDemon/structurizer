@@ -4,18 +4,6 @@
 
 Пример предназначен для демонстрации шаблона HLD с ичпользованием Structurizr
 
-## Полезные ссылки
-* [Описание языка моделирования](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md)
-
-* [ADR tool](https://asiermarques.medium.com/implementing-a-workflow-for-your-architecture-decisions-records-ab5b55ee2a9d)
-
-* [Пример модели от Саймона Брауна](https://github.com/structurizr/examples/blob/main/dsl/big-bank-plc/workspace.dsl)
-
-## Конфигурирование Structurizr OnPremise
-
-* [Ссылка на документацию](https://structurizr.com/share/18571/documentation) паролль и логин "по умолчанию" structurizr/password
-* [Инструкция по спользованию CLI](https://github.com/structurizr/cli)
-
 ## Примеры команд CLI
 
 Экспорт модели в OnPremise репозиторий с помощью докер контейнера structurizr/cli:
@@ -26,12 +14,14 @@
 
 *docker run -it --rm -v /Users/dvdemon/src/structurizer:/usr/local/structurizr structurizr/cli export -workspace workspace.dsl -format json*
 
-## Пример автоматизации по работе со Structurizr OnPremise
+## Пример автоматизации по работе со Structurizr OnPremise 
 
 python3 diagram_check.py
 
 * Вывод на экран всех компонент продукта
 * Выгрузка реестра технологий продукта
+
+python3 deployment.py
 * Формирование шаблона для паспорта стенда в XLS
 
 ## Как выгрузить offline html
@@ -48,3 +38,14 @@ node export-documentation.js http://localhost:8080/workspace/documentation
 * sudo npm install -g widdershins
 * widdershins --environment env.json swagger.json -o myOutput.md
 
+## Полезные ссылки
+* [Описание языка моделирования](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md)
+
+* [ADR tool](https://asiermarques.medium.com/implementing-a-workflow-for-your-architecture-decisions-records-ab5b55ee2a9d)
+
+* [Пример модели от Саймона Брауна](https://github.com/structurizr/examples/blob/main/dsl/big-bank-plc/workspace.dsl)
+
+## Конфигурирование Structurizr OnPremise
+
+* [Ссылка на документацию](https://structurizr.com/share/18571/documentation) паролль и логин "по умолчанию" structurizr/password
+* [Инструкция по спользованию CLI](https://github.com/structurizr/cli)
