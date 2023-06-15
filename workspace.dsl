@@ -67,6 +67,13 @@ workspace {
         deployment guard_system "ProductionDeployment" "vs"{
             include *
             description "Типовое размещение оборудования"
+
+            # скрываем запросы которые мы закрыли firewall/loadbalancer
+
+            exclude relationship.tag=="balanced"
+            # exclude t_rel_1 t_rel_2
+            exclude ext_rel_1 ext_rel_2 bpm_rel_1 bpm_rel_2 
+            
             autoLayout
         }
 
@@ -85,7 +92,7 @@ workspace {
             bpm -> mlc "Запрос данных о геопозициях ребенка"
             bpm -> billing "Запрос достаточности баланса"
             bpm -> inventory "Поиск свободных дронов"
-            bpm -> tracker "Передача данных ребенка на дрон"
+            #bpm -> tracker "Передача данных ребенка на дрон"
         }
         
         styles {

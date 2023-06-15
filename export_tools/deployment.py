@@ -69,10 +69,9 @@ headers = {
 resp = requests.get(url=apiUrl, headers=headers)
 
 if(resp.status_code==200):
-    data  = resp.json()
-    product_name = data['name']
-    model = data['model']
-    
+    data                = resp.json()
+    product_name        = data['name']
+    model               = data['model']
 
     peoples             = model['people'] # Акторы
     software_systems    = model['softwareSystems'] # Системы
@@ -82,26 +81,67 @@ if(resp.status_code==200):
     imsgaes             = data['documentation']['images'] # Картинки (если есть)
     views               = data['views'] # диаграммы
 
-    # ----------------------------------------------------------------------------------
-    # распечатаем все компоненты (микросервисы) и соберем реестр используемых технологий 
-    tech = set()
+
     containers = dict()
     
-    print('Системы использованные в решении:')
     for s in software_systems:
-        print(f"system: {s['name']}")
         if 'containers' in s:
             for c2 in s['containers']:
-                print(f" - container: {c2['name']}")
                 containers[c2["id"]]=c2
-                if 'technology' in c2:
-                    tech.add(c2['technology'])
-                if 'components' in c2:
-                    for c3 in c2['components']:
-                        print(f"   - component: {c3['name']}")
-                        if 'technology' in c3:
-                            tech.add(c3['technology'])
-    print()
-    print('Использованны технологии:')
-    for t in tech:
-        print(f' - {t}')      
+                
+    # Создадим XLS с паспортом стенда   
+    # нам потребуется библиотечка: pip3 install xlsxwriter
+    import xlsxwriter
+
+    workbook = xlsxwriter.Workbook("паспорт.xlsx")
+    worksheet_components = workbook.add_worksheet("Боевой стенд")
+
+    worksheet_components.write(0,0,'#')
+    worksheet_components.write(0,1,'ИС (продукт)')
+    worksheet_components.write(0,2,'Назначение сервера')
+    worksheet_components.write(0,3,'Имя сервера')
+    worksheet_components.write(0,4,'IP-address')
+    worksheet_components.write(0,5,'Тип сервера (VM/k8s)')
+    worksheet_components.write(0,6,'OC')
+    worksheet_components.write(0,7,'Pods')
+    worksheet_components.write(0,8,'CPU')
+    worksheet_components.write(0,9,'RAM,Gb')
+    worksheet_components.write(0,10,'HDD,Gb')
+    worksheet_components.write(0,11,'Системное ПО')
+    worksheet_components.write(0,12,'Прикладное ПО')
+    worksheet_components.write(0,13,'Комментарий')
+
+    def process_node(worksheet_components,i,d_node):
+        applications = ''
+        if 'containerInstances' in d_node:
+            worksheet_components.write(i,0,i)
+            worksheet_components.write(i,1,product_name)
+            if('description' in d_node):
+                worksheet_components.write(i,2,d_node['description'])
+            worksheet_components.write(i,3,d_node['name'])
+
+            tags = d_node['tags'].split(',')
+            system_applications = ''
+            for tag in tags:
+                if not tag in {'Element','Deployment Node'}:
+                    system_applications += tag + '; '
+            worksheet_components.write(i,6,system_applications)
+
+            for container_instance in d_node['containerInstances']:
+                c_id = container_instance['containerId']
+                applications += f"{containers[c_id]['name']}; "
+            worksheet_components.write(i,12,applications)
+            return i+1
+        else:
+            if 'children' in d_node:
+                for c in d_node['children']:
+                    i = process_node(worksheet_components,i,c)
+        return i
+
+    i = 1
+    for d_node in deployment_nodes:
+        i = process_node(worksheet_components,i,d_node)
+        
+             
+
+    workbook.close()

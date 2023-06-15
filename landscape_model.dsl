@@ -10,6 +10,10 @@ group "Infrastructure platforms" {
         description "Внешнее партнерское охранное агенство"
         tags "ExternalSystem"
     }
+    firewall = softwareSystem "FireWall" {
+        description "Программный межсетевой экран"
+        tags "ExternalSystem"
+    }
 }
 
 group "OSS Landscape" {
