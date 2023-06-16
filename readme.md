@@ -12,6 +12,10 @@
 * Директория documentation - папка с документацией проекта в формате MarkDown
 * Директория export_tools - папка с примерами скриптов по автоматизации работы с Structurizr OnPremise
 
+## Запуск
+
+**docker-compose up -d**
+
 ## Примеры команд CLI
 
 Экспорт модели в OnPremise репозиторий с помощью докер контейнера structurizr/cli:
