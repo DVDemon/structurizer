@@ -17,14 +17,15 @@ workspace {
     #!plugin FindRelationshipsPlugin
 
     views {
-        properties {
-            "structurizr.sort" "type"
-        }
+        # properties {
+        #     "structurizr.sort" "type"
+        # }
 
         # systemLandscape "SystemLandscape" {
         #     include *
         #     autoLayout lr
         # }
+
         systemContext guard_system "Context" {
             include *
             autoLayout
@@ -37,7 +38,7 @@ workspace {
         
         component billing "Billing"{
             include *
-            autoLayout
+            autoLayout tb
             animation {
                 bpm
                 tracker
@@ -51,7 +52,7 @@ workspace {
 
         component inventory "Inventory"{
             include *
-            autoLayout
+            autoLayout lr
         }
 
         component crm "CRM"{
@@ -69,9 +70,7 @@ workspace {
             description "Типовое размещение оборудования"
 
             # скрываем запросы которые мы закрыли firewall/loadbalancer
-
-            exclude relationship.tag=="balanced"
-            # exclude t_rel_1 t_rel_2
+            # exclude relationship.tag=="balanced"
             exclude ext_rel_1 ext_rel_2 bpm_rel_1 bpm_rel_2 
             
             autoLayout

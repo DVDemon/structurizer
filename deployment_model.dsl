@@ -70,14 +70,14 @@
                 client_mobile_app_instance1 -> fw1
                 client_mobile_app_instance2 -> fw1
                 client_web_app_instance -> fw1
-                fw1 -> lb1 "Запросы от мобильного клиента"
-                fw1 -> lb2 "Запросы от веб клиента"
-                lb1 -> bffm1 "Перенаправление запросов"
-                lb1 -> bffm2 "Перенаправление запросов"
-                lb1 -> bffm3 "Перенаправление запросов"
-                lb2 -> bffw1 "Перенаправление запросов"
-                lb2 -> bffw2 "Перенаправление запросов"
-                lb2 -> bffw3 "Перенаправление запросов"
+                fw1 -> lb1 "HTTP :80,443"
+                fw1 -> lb2 "HTTP :80,443"
+                lb1 -> bffm1 "HTTP :80,443"
+                lb1 -> bffm2 "HTTP :80,443"
+                lb1 -> bffm3 "HTTP :80,443"
+                lb2 -> bffw1 "HTTP :80,443"
+                lb2 -> bffw2 "HTTP :80,443"
+                lb2 -> bffw3 "HTTP :80,443"
             }
 
             deploymentNode "BPM Cluster" {
@@ -106,15 +106,15 @@
                         bpm_instance2 = containerInstance bpm
                 }
 
-                bffm1 -> fw2 "Перенаправление запросов"
-                bffm2 -> fw2 "Перенаправление запросов"
-                bffm3 -> fw2 "Перенаправление запросов"
-                bffw1 -> fw2 "Перенаправление запросов"
-                bffw2 -> fw2 "Перенаправление запросов"
-                bffw3 -> fw2 "Перенаправление запросов"
+                bffm1 -> fw2 "HTTP :80,443"
+                bffm2 -> fw2 "HTTP :80,443"
+                bffm3 -> fw2 "HTTP :80,443"
+                bffw1 -> fw2 "HTTP :80,443"
+                bffw2 -> fw2 "HTTP :80,443"
+                bffw3 -> fw2 "HTTP :80,443"
 
-                fw2 -> bpm1 "Перенаправление запросов"
-                fw2 -> bpm2 "Перенаправление запросов"
+                fw2 -> bpm1 "HTTP :80,443"
+                fw2 -> bpm2 "HTTP :80,443"
             }
 
             
