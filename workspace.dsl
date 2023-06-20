@@ -7,6 +7,7 @@ workspace {
     
     
     model {
+
         !include landscape_model.dsl
         !include model.dsl  
         !include deployment_model.dsl  
@@ -28,7 +29,7 @@ workspace {
 
         systemContext guard_system "Context" {
             include *
-            autoLayout
+            # autoLayout
         }
 
         container guard_system "Containers" {
@@ -76,22 +77,22 @@ workspace {
             autoLayout
         }
 
+        
         dynamic guard_system "UC01" {
             autoLayout lr
-            description "Поиск и аренда дрона"
-            properties {
-                plantuml.sequenceDiagram true
-            }
+            description "Тестовый сценарий"
 
-            client_mobile_app -> sso "Запрос токена для аутентификации"
-            client_mobile_app -> client_mobile_app_backend "Запрос на поиск дрона в окресностях геолокации"        
-            client_mobile_app_backend -> bpm "Запрос на поиск дрона"
-            bpm -> crm "Запрос данных по клиенту"
-            bpm -> crm "Запрос данных по ребенку"
-            bpm -> mlc "Запрос данных о геопозициях ребенка"
-            bpm -> billing "Запрос достаточности баланса"
-            bpm -> inventory "Поиск свободных дронов"
-            #bpm -> tracker "Передача данных ребенка на дрон"
+            user -> client_mobile_app "1. Клиент открывает мобильное приложение"
+            client_mobile_app -> authorization_password "2. Мобильное приложение запрашивает данные для аутентификации клиента (login/password) и проверяет их через WebSSO"
+            user -> client_mobile_app "3. Клиент выбирает раздел Заказ дрона"
+            client_mobile_app -> client_mobile_app_backend "4. Мобильное приложение запрашивает backend для поиска дрона"
+            client_mobile_app_backend -> bpm "5. Backend мобильного приложения запускает на BPM сценарий поиска дрона"
+            bpm -> crm "6. BPM получает в CRM данные по клиенту и его детям"
+            bpm -> crm "7. BPM получает информацию о маршруте ребенка"
+            bpm -> mlc "8. BPM получает информацию о текущем положении ребенка из MLC"
+            bpm -> billing  "9. BPM получает данные по достаточности баланса у клиента"
+            bpm -> inventory "10. BPM получает данные в inventory о свободных дронах"
+            bpm -> tracker "11. BPM передает команду на дрона о начале трэкинга"
         }
         
         styles {

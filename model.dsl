@@ -1,4 +1,4 @@
-user = person "Пользователь" "Заказчик услуги, осуществляющий наблюдение за ребенком" "Customer"
+        user = person "Пользователь" "Заказчик услуги, осуществляющий наблюдение за ребенком" "Customer"
 
         guard_system = softwareSystem "Мобильный телохранитель" {
 
@@ -8,7 +8,7 @@ user = person "Пользователь" "Заказчик услуги, осу�
                 client_web_app      =  container "Веб приложение клиента" {
                     description "Приложение для осуществления заказа услуги и контроля передвижения"
                     technology "Web Browser"
-                    tags "WebBrowser"
+                    tags "WebBrowser" "ClientApp"
                 }   
             }
 
@@ -27,10 +27,13 @@ user = person "Пользователь" "Заказчик услуги, осу�
             ext_rel_2 = client_web_app -> client_web_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket" "balanced"
 
             
-            # Single Sign On
-            sso = container "Single Sign On" "Аутентификация и авторизация пользователей" "KeyCloak"
-            client_mobile_app       -> sso "Получение данных/нотификаций" "REST/HTTP :80"
-            client_web_app          -> sso "Получение данных/нотификаций" "REST/HTTP :80"
+            client_mobile_app -> authorization_password "Авторизация/аутентификация" "REST/HTTPS :443"
+            client_mobile_app -> authorization_mobile_id "Авторизация/аутентификация" "REST/HTTPS :443"
+            client_mobile_app -> authorization_one_time "Авторизация/аутентификация" "REST/HTTPS :443"
+
+            client_web_app -> authorization_password "Авторизация/аутентификация" "REST/HTTPS :443"
+            client_web_app -> authorization_mobile_id "Авторизация/аутентификация" "REST/HTTPS :443"
+            client_web_app -> authorization_one_time "Авторизация/аутентификация" "REST/HTTPS :443"
 
             bpm = container "BPM" "Реализация сценариев трэкинга" "Camunda"
 
@@ -40,7 +43,7 @@ user = person "Пользователь" "Заказчик услуги, осу�
             bpm -> mlc "Запрос данных по геопозиции детей" "REST/HTTP :80"
             
             group  "Доменные сервисы" {
-                billing   = container "Billing" "Прием оплат и контроль расходов" "GoLang" "Container" {
+                billing   = container "Billing" "Прием оплат и контроль расходов" "GoLang" "Container"{
                     billing_facade = component "API" "Интерфейс для работы с подписками" "GoLang"
                     billing_database = component "Subscription Database" "Информация о балансах" "PostgreSQL" "Database"
                     billing_controller = component "Controler" "Сервис учета использования дронов" "GoLang"
@@ -53,7 +56,6 @@ user = person "Пользователь" "Заказчик услуги, осу�
                     payment_system -> billing_facade "пополнение баланса" "REST/HTTP :80"
                     billing_controller -> billing_database "списание баланса" "REST/HTTP :80"
                     bpm -> billing_facade "Запрос баланса/осуществление платежа" "REST/HTTP :80"
-
                 }
 
                 inventory = container "Inventory" "Учет дронов" "GoLang" "Container"{
