@@ -12,7 +12,7 @@ group "BSS Landscape" {
 group "Infrastructure platforms" {
     security = softwareSystem "ЧОП" {
         description "Внешнее партнерское охранное агенство"
-        tags "ExternalSystem"
+        tags "ExternalSystem" 
     }
     firewall = softwareSystem "FireWall" {
         description "Программный межсетевой экран"

@@ -27,13 +27,13 @@
             ext_rel_2 = client_web_app -> client_web_app_backend "Получение данных/ нотификаций/ выполнение запросов" "WebSocket" "balanced"
 
             
-            client_mobile_app -> authorization_password "Авторизация/аутентификация" "REST/HTTPS :443"
-            client_mobile_app -> authorization_mobile_id "Авторизация/аутентификация" "REST/HTTPS :443"
-            client_mobile_app -> authorization_one_time "Авторизация/аутентификация" "REST/HTTPS :443"
+            client_mobile_app -> authorization_password "Авторизация/аутентификация" "REST/HTTPS tcp/443"
+            client_mobile_app -> authorization_mobile_id "Авторизация/аутентификация" "REST/HTTPS tcp/443"
+            client_mobile_app -> authorization_one_time "Авторизация/аутентификация" "REST/HTTPS tcp/443"
 
-            client_web_app -> authorization_password "Авторизация/аутентификация" "REST/HTTPS :443"
-            client_web_app -> authorization_mobile_id "Авторизация/аутентификация" "REST/HTTPS :443"
-            client_web_app -> authorization_one_time "Авторизация/аутентификация" "REST/HTTPS :443"
+            client_web_app -> authorization_password "Авторизация/аутентификация" "REST/HTTPS tcp/443"
+            client_web_app -> authorization_mobile_id "Авторизация/аутентификация" "REST/HTTPS tcp/443"
+            client_web_app -> authorization_one_time "Авторизация/аутентификация" "REST/HTTPS tcp/443"
 
             bpm = container "BPM" "Реализация сценариев трэкинга" "Camunda"
 
@@ -100,8 +100,8 @@
                     tracker_queue -> tracker_controler "События безопасности" "MQTT :1883"
                     drone -> tracker_queue "Телеметрия" "MQTT :1883"
                     drone -> tracker_queue "События безопасности" "MQTT :1883"
-                    drone -> client_mobile_app "Видео" "WebRTC :443"
-                    drone -> client_web_app "Видео" "WebRTC :443"
+                    drone -> client_mobile_app "Видео" "WebRTC tcp/443"
+                    drone -> client_web_app "Видео" "WebRTC tcp/443"
                     
                     t_rel_2 = bpm -> tracker_facade "Управление дроном" "REST/HTTP :80"
                 }      

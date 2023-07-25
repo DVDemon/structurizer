@@ -90,27 +90,31 @@ if(resp.status_code==200):
     # распечатаем все компоненты (микросервисы) и соберем реестр используемых технологий 
     
 
-    def print_dict(val,offset):
+    def print_dict(val,offset,is_usecase):
         if isinstance(val, list):
-            for v in val:
-                for i in range(offset):
-                    print(' ',end='')
-                print_dict(v,offset+1)
+            if is_usecase:
+                for v in val:
+                    for i in range(offset):
+                        print(' ',end='')
+                    print_dict(v,offset+1,True)
         elif isinstance(val, dict):
             for k, v in val.items():
-                for i in range(offset):
-                    print(' ',end='')
-                print(f'{k}:')
-                print_dict(v,offset+1)
+                if k.startswith('Use-cases') or is_usecase:
+                    for i in range(offset):
+                        print(' ',end='')
+                    print(f'{k}:')
+                    print_dict(v,offset+1,True)
+                else:
+                    print_dict(v,offset+1,False)
         else:
-            for i in range(offset):
-                    print(' ',end='')
-            print(val)
+            if is_usecase:
+                for i in range(offset):
+                        print(' ',end='')
+                print(val)
 
     for section in documentation:
         if '06_runtime_view.md'==section['filename']:
             markdown_content = section['content']
             json_conent = markdown_to_json.dictify(markdown_content)
-            #json_conent = markdown_to_json.jsonify(markdown_content)
-            print_dict(json_conent,0)
+            print_dict(json_conent,0,False)
               

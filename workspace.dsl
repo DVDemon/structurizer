@@ -4,37 +4,37 @@ workspace {
     !adrs decisions
     !docs documentation
     #!identifiers hierarchical
+
     
     
     model {
-
         !include landscape_model.dsl
         !include model.dsl  
         !include deployment_model.dsl  
-        
-
     }
 
     #!plugin FindRelationshipsPlugin
 
     views {
-        # properties {
-        #     "structurizr.sort" "type"
-        # }
-
-        # systemLandscape "SystemLandscape" {
-        #     include *
-        #     autoLayout lr
-        # }
+        properties {
+            "plantuml.url" "https://plantuml.com/plantuml"
+            "plantuml.format" "png"
+    #        "plantuml.includes" "https://gist.githubusercontent.com/simonbrowndotje/b84878f8b87af3b76753ed871611c700/raw/b659b7ab9ac02a04725606f59138f37d2e67c265/styles.puml"
+        }
+        
+        systemLandscape "SystemLandscape" {
+            include *
+            autoLayout lr
+        }
 
         systemContext guard_system "Context" {
             include *
-            # autoLayout
+            autoLayout
         }
 
         container guard_system "Containers" {
             include *
-            autoLayout
+            // autoLayout
         }
         
         component billing "Billing"{
@@ -77,6 +77,11 @@ workspace {
             autoLayout
         }
 
+
+
+        image * "datamodel"{
+            plantuml datamodel.puml
+        }
         
         dynamic guard_system "UC01" {
             autoLayout lr
@@ -93,6 +98,7 @@ workspace {
             bpm -> billing  "9. BPM получает данные по достаточности баланса у клиента"
             bpm -> inventory "10. BPM получает данные в inventory о свободных дронах"
             bpm -> tracker "11. BPM передает команду на дрона о начале трэкинга"
+            
         }
         
         styles {
