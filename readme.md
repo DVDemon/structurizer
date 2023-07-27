@@ -43,6 +43,7 @@
 
 Offline html выгружается c помощью скрипта https://github.com/structurizr/puppeteer.git
 Требует node.js и https://developer.chrome.com/docs/puppeteer/
+npm install puppeteer
 
 node export-documentation.js http://localhost:8080/workspace/documentation
 

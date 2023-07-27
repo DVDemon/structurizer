@@ -34,7 +34,7 @@ workspace {
 
         container guard_system "Containers" {
             include *
-            // autoLayout
+            autoLayout
         }
         
         component billing "Billing"{
@@ -71,17 +71,15 @@ workspace {
             description "Типовое размещение оборудования"
 
             # скрываем запросы которые мы закрыли firewall/loadbalancer
-            # exclude relationship.tag=="balanced"
+            # exclude "relationship.tag==balanced"
             exclude ext_rel_1 ext_rel_2 bpm_rel_1 bpm_rel_2 
             
             autoLayout
         }
 
-
-
-        image * "datamodel"{
-            plantuml datamodel.puml
-        }
+        // image * "datamodel"{
+        //     plantuml datamodel.puml
+        // }
         
         dynamic guard_system "UC01" {
             autoLayout lr
