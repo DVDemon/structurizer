@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><XMI xmlns:UML="href://org.omg/UML/1.3" xmi.version="1.1">
+    <XMI.header>
+        <XMI.documentation>
+            <XMI.exporter>PlantUML</XMI.exporter>
+            <XMI.exporterVersion>1.2023.10</XMI.exporterVersion>
+        </XMI.documentation>
+        <XMI.metamodel xmi.name="UML" xmi.version="1.4"/>
+    </XMI.header>
+    <XMI.content>
+        <UML:Model name="PlantUML" xmi.id="model1">
+            <UML:Namespace.ownedElement>
+                <UML:Class name="Invoice" xmi.id="cl0002">
+                    <UML:Classifier.feature>
+                        <UML:Attribute name="innvoice_id integer" xmi.id="att10"/>
+                        <UML:Attribute name="client_id integer" xmi.id="att11"/>
+                        <UML:Attribute name="amount integer" xmi.id="att12"/>
+                        <UML:Attribute name="tax integer" xmi.id="att13"/>
+                        <UML:Attribute name="data datetime" xmi.id="att14"/>
+                    </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Class name="Client" xmi.id="cl0003">
+                    <UML:Classifier.feature>
+                        <UML:Attribute name="client_id integer" xmi.id="att15"/>
+                        <UML:Operation name="address varchar(4096)" xmi.id="att16"/>
+                    </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Class name="Payment" xmi.id="cl0004">
+                    <UML:Classifier.feature>
+                        <UML:Attribute name="payment_id integer" xmi.id="att17"/>
+                        <UML:Attribute name="amount integer" xmi.id="att18"/>
+                    </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Class name="Usage" xmi.id="cl0005">
+                    <UML:Classifier.feature>
+                        <UML:Attribute name="usage_id integer" xmi.id="att19"/>
+                        <UML:Attribute name="invoice_id integer" xmi.id="att20"/>
+                        <UML:Attribute name="payment_id integer" xmi.id="att21"/>
+                    </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Association namespace="model1" xmi.id="ass22">
+                    <UML:Association.connection>
+                        <UML:AssociationEnd association="ass22" type="cl0002" xmi.id="end23">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                        <UML:AssociationEnd association="ass22" type="cl0004" xmi.id="end24">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                    </UML:Association.connection>
+                </UML:Association>
+                <UML:Association namespace="model1" xmi.id="ass25">
+                    <UML:Association.connection>
+                        <UML:AssociationEnd association="ass25" type="cl0002" xmi.id="end26">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                        <UML:AssociationEnd association="ass25" type="cl0003" xmi.id="end27">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                    </UML:Association.connection>
+                </UML:Association>
+                <UML:Association namespace="model1" xmi.id="ass28">
+                    <UML:Association.connection>
+                        <UML:AssociationEnd association="ass28" type="cl0005" xmi.id="end29">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                        <UML:AssociationEnd association="ass28" type="cl0002" xmi.id="end30">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                    </UML:Association.connection>
+                </UML:Association>
+                <UML:Association namespace="model1" xmi.id="ass31">
+                    <UML:Association.connection>
+                        <UML:AssociationEnd association="ass31" type="cl0005" xmi.id="end32">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                        <UML:AssociationEnd association="ass31" type="cl0004" xmi.id="end33">
+                            <UML:AssociationEnd.participant/>
+                        </UML:AssociationEnd>
+                    </UML:Association.connection>
+                </UML:Association>
+            </UML:Namespace.ownedElement>
+        </UML:Model>
+    </XMI.content>
+</XMI>

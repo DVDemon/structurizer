@@ -1,0 +1,1 @@
+java -jar plantuml.jar datamodel.puml -xmi:star

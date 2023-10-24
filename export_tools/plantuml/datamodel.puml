@@ -1,0 +1,32 @@
+@startuml Billing Data Model
+
+class Invoice {
+    innvoice_id integer
+    client_id integer
+    amount integer
+    tax integer
+    data datetime
+}
+
+class Client {
+    client_id integer
+    address varchar(4096)
+}
+
+class Payment {
+    payment_id integer
+    amount integer
+}
+
+class Usage {
+    usage_id integer
+    invoice_id integer
+    payment_id integer
+}
+
+Invoice }|-- Payment
+Invoice }|-- Client
+Usage }-- Invoice
+Usage --|{ Payment
+
+@enduml

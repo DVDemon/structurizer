@@ -1,7 +1,11 @@
-        user = person "Пользователь" "Заказчик услуги, осуществляющий наблюдение за ребенком" "Customer"
+        user = person "Пользователь" "Заказчик услуги, осуществляющий наблюдение за ребенком"{
+            tags "Customer" "rel:1.1.0"
+        }
 
         guard_system = softwareSystem "Мобильный телохранитель" {
+            url "https://www.yandex.ru/"
 
+            tags "rel:1.1.0" "rel:2.0"
             # Клиентские приложения 
             group "Клиентские приложения" {
                 client_mobile_app   =  container "Мобильное приложение клиента" "Приложение для осуществления заказа услуги и контроля передвижения"  "Android/iOS app" "MobileApp"
@@ -12,8 +16,12 @@
                 }   
             }
 
-            client_mobile_app -> payment_system "Оплата"
-            client_web_app -> payment_system "Оплата"
+            client_mobile_app -> payment_system "Оплата" {
+                url http://pay.beeline.ru/
+            }
+            client_web_app -> payment_system "Оплата" {
+                url http://pay.beeline.ru/
+            }
 
             # Слой backend для клиентских приложений
 
@@ -53,7 +61,9 @@
                     billing_facade -> billing_database "запрос остатка баланса" "REST/HTTP :80"
                     billing_facade -> billing_database "списание баланса" "REST/HTTP :80"
                     billing_facade -> billing_database "пополнение баланса" "REST/HTTP :80"
-                    payment_system -> billing_facade "пополнение баланса" "REST/HTTP :80"
+                    payment_system -> billing_facade "пополнение баланса" "REST/HTTP :80"{
+                        url http://pay.beeline.ru/
+                    }
                     billing_controller -> billing_database "списание баланса" "REST/HTTP :80"
                     bpm -> billing_facade "Запрос баланса/осуществление платежа" "REST/HTTP :80"
                 }
@@ -81,8 +91,6 @@
                     tracker_status = component "Данные дронов" "Информация о позиции и данных дронов" "Redis" "Database"
                     tracker_queue  = component "Брокер" "Брокер для взаимодействия с дронами" "RabbitMQ/MQTT" "Queue"
                     tracker_controler = component "Controler" "Сервис управления дронами" "GoLang"
-                    
-
                     tracker_facade -> tracker_status "Запрос данных о статусе дрона" "REST/HTTP :80"
                     tracker_facade -> tracker_controler "Управление дроном" "REST/HTTP :80"
 

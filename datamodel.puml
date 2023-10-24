@@ -1,6 +1,6 @@
 @startuml Billing Data Model
 
-entity Invoice {
+class Invoice {
     * innvoice_id integer
     * client_id integer
     --
@@ -9,19 +9,19 @@ entity Invoice {
     data datetime
 }
 
-entity Client {
+class Client {
     * client_id integer
     --
     address varchar(4096)
 }
 
-entity Payment {
+class Payment {
     * payment_id integer
     --
     amount integer
 }
 
-entity Usage {
+class Usage {
     * usage_id integer
     --
     * invoice_id integer
