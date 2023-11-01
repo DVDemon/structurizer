@@ -16,7 +16,6 @@ workspace {
     views {
         properties {
             "plantuml.url" "http://localhost:8082/plantuml"
-     #       "plantuml.url" "https://plantuml.com/plantuml"
             "plantuml.format" "svg"
             "structurizr.sort" "created"
         }
@@ -71,16 +70,14 @@ workspace {
             autoLayout
         }
 
-        deployment guard_system "ProductionDeployment" "vs"{
+        deployment guard_system "Production" "vs"{
             include *
             description "Типовое размещение оборудования"
             exclude ext_rel_1 ext_rel_2 bpm_rel_1 bpm_rel_2 
 
-            autoLayout
+            #autoLayout
         }
 
-
-        
         dynamic guard_system "UC01" {
             autoLayout lr
             description "Тестовый сценарий"

@@ -73,7 +73,10 @@
                     inventory_database = component "Реестр дронов" "Учет информации о дронах" "PosthreSQL" "Database"
                     inventory_facade -> inventory_database "Запрос и обновление информации о дронах" "TCP :5453"
 
-                    bpm -> inventory_facade "Запрос данных о свободных дронах/Резервация" "REST/HTTP :80"
+                    bpm -> inventory_facade "Запрос данных о свободных дронах/Резервация" "REST/HTTP :80" {
+                        url http://somehost/index.yml
+                    }
+
                 }
 
                 crm       = container "Clients" "Учет пользователей" "GoLang" "Container"{

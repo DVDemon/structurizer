@@ -40,15 +40,21 @@ def _message_digest(
     return f"{http_verb}\n{uri_path}\n{definition_md5}\n{content_type}\n{nonce}\n"
 
 # Настройки доступа к репозиторию (лучше хранить не в коде, а в переменных окружения)
-apiKey='42853b91-b32e-4922-80e7-2774c8cbe0c4'
-apiSecret='d5d21ea9-b9b0-473a-8bd8-df3becd33981'
-apiUrl='http://localhost:8081/api/workspace/2' # предположим что нам нужен именно workspace 1
+id='1'
+apiKey='f4efddc4-ef85-4efd-aa8b-3020ce351413'
+apiSecret='470bb115-9aa6-43ec-b827-bf0058150d8c'
+apiUrl='http://localhost:8081/api/workspace/'+id # предположим что нам нужен именно workspace 1
+
+# id='36921'
+# apiUrl='http://arch-code.arch-code.cloud.vimpelcom.ru:8080/api/workspace'+id
+# apiKey='30f83bd7-3463-4a8d-a218-4ffcf6a6da99'
+# apiSecret='c106fd6f-b28e-48de-8a05-b35500f5b5d8'
 
 # Формируем контент запроса
 method ='GET'
 content=''
 content_type=''
-url_path = '/api/workspace/2' # предположим что нам нужен именно workspace 1
+url_path = '/api/workspace/'+id # предположим что нам нужен именно workspace 1
 definition_md5 = _md5(content)
 nonce = _number_once()
 message_digest = _message_digest(

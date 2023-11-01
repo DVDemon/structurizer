@@ -4,4 +4,5 @@ out/*
 export_tools/node_modules/*
 *.log
 *.xlsx
-.DS_Store
+*.DS_Store
+.vs_code/*

@@ -1,4 +1,4 @@
-        deploymentEnvironment "ProductionDeployment" {
+        deploymentEnvironment "Production" {
             deploymentNode "iOS Device" {
                     description "Мобильные телефоны и планшеты клиентов во внешней сети"
                     properties {
@@ -16,6 +16,7 @@
                         "os" "Android"
                         "cpu" "2"
                         "ram" "8"
+                        "hdd" "70"
                     }
             }
 
@@ -25,6 +26,7 @@
                         "os" "Windows/MacOS/Linux Ubuntu"
                         "cpu" "4"
                         "ram" "8"
+                        "hdd" "70"
                     }
                     client_web_app_instance = containerInstance client_web_app
             }
@@ -53,6 +55,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "16"
+                                "hdd" "70"
                         }
                         client_mobile_app_backend_instance1 = containerInstance client_mobile_app_backend
                 }
@@ -62,6 +65,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "16"
+                                "hdd" "70"
                         }
                         client_mobile_app_backend_instance2 = containerInstance client_mobile_app_backend
                 }
@@ -72,6 +76,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "16"
+                                "hdd" "70"
                         }
                         client_mobile_app_backend_instance3 = containerInstance client_mobile_app_backend
                 }   
@@ -82,6 +87,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "16"
+                                "hdd" "70"
                         }
                         client_web_app_backend_instance1 = containerInstance client_web_app_backend
                 }
@@ -91,6 +97,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "16"
+                                "hdd" "70"
                         }
                         client_web_app_backend_instance2 = containerInstance client_web_app_backend
                 }
@@ -100,6 +107,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "16"
+                                "hdd" "70"
                         }
                         client_web_app_backend_instance3 = containerInstance client_web_app_backend
                 }
@@ -133,6 +141,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "8"
+                                "hdd" "70"
                         }
                         bpm_instance1 = containerInstance bpm
                 }
@@ -147,6 +156,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "8"
+                                "hdd" "70"
                         }
                         bpm_instance2 = containerInstance bpm
                 }
@@ -174,6 +184,7 @@
                         "os" "Oracle Enteprise Linux"
                         "cpu" "4"
                         "ram" "8"
+                        "hdd" "70"
                 }
                 inventory_instance = containerInstance inventory          
             }
@@ -189,6 +200,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "8"
+                                "hdd" "70"
                         }
                         tracker_instance = containerInstance tracker
             }
@@ -206,6 +218,7 @@
                                 "os" "Oracle Enteprise Linux"
                                 "cpu" "4"
                                 "ram" "32"
+                                "hdd" "70"
                         }
                 billing_instance = containerInstance billing
             }

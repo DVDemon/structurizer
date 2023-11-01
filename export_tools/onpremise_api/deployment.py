@@ -40,15 +40,16 @@ def _message_digest(
     return f"{http_verb}\n{uri_path}\n{definition_md5}\n{content_type}\n{nonce}\n"
 
 # Настройки доступа к репозиторию (лучше хранить не в коде, а в переменных окружения)
+id='1'
 apiKey='f4efddc4-ef85-4efd-aa8b-3020ce351413'
 apiSecret='470bb115-9aa6-43ec-b827-bf0058150d8c'
-apiUrl='http://localhost:8081/api/workspace/1' # предположим что нам нужен именно workspace 1
+apiUrl='http://localhost:8081/api/workspace/'+id # предположим что нам нужен именно workspace 1
 
 # Формируем контент запроса
 method ='GET'
 content=''
 content_type=''
-url_path = '/api/workspace/1' # предположим что нам нужен именно workspace 1
+url_path = '/api/workspace/'+id # предположим что нам нужен именно workspace 1
 definition_md5 = _md5(content)
 nonce = _number_once()
 message_digest = _message_digest(
@@ -115,20 +116,18 @@ if(resp.status_code==200):
         applications = ''
         if 'containerInstances' in d_node:
             if ('properties' in d_node):
-                print("have properties")
                 for prop in d_node['properties'].keys():
                     prop_name = prop
-                    prop_value = d_node['properties'][prop]
-                    print(prop_name,prop_value)
+                    prop_value = d_node['properties'][prop]                
                     if prop_name == 'os':
                          worksheet_components.write(i,6,prop_value)
                     if prop_name == 'cpu':
                          worksheet_components.write(i,8,prop_value)
                     if prop_name == 'ram':
                          worksheet_components.write(i,9,prop_value)
-
+                    if prop_name == 'hdd':
+                         worksheet_components.write(i,10,prop_value)
                
-
             worksheet_components.write(i,0,i)
             worksheet_components.write(i,1,product_name)
             if('description' in d_node):
@@ -157,6 +156,4 @@ if(resp.status_code==200):
     for d_node in deployment_nodes:
         i = process_node(worksheet_components,i,d_node)
         
-             
-
     workbook.close()

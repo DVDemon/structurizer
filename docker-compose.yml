@@ -24,3 +24,17 @@ services:
       - 8082:8080
     environment:
       - BASE_URL=plantuml
+
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - db-volume:/var/lib/postgresql
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: pguser
+      POSTGRES_PASSWORD: pguser
+      POSTGRES_DB: pgdb
+volumes:
+  db-volume:
