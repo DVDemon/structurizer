@@ -1,0 +1,2317 @@
+Engine(postgresql+psycopg2://pguser:***@localhost/pgdb)
+requesthttps://structurizr.vimpelcom.ru/api/workspace with 1234567890
+
+369397: Atlant CH
+Loading workspace ...2023-12-06T13:15:19Z
+- Нет cmdb кода системы Атлант ЦХ
+- Property CMDB для системы [BeepayXP] не существует
+- Property CMDB для системы [CRM3] не существует
+- Property CMDB для системы [BIIS] не существует
+- Property CMDB для системы [COMM (SMS)] не существует
+- Property CMDB для системы [ЮФО] не существует
+- Property CMDB для системы [Atlant ABH (mail-server)] не существует
+- Property CMDB для системы [Switch, Bras ...] не существует
+- Property CMDB для системы [Balancing System] не существует
+- Property CMDB для системы [SwitchControl] не существует
+- Property CMDB для системы [IVR] не существует
+- Property CMDB для системы [StBMS] не существует
+- Property CMDB для системы [MOZ] не существует
+- Property CMDB для системы [voice switches] не существует
+- Property CMDB для системы [Точка подключения (Switch, Bras ..)] не существует
+- Property CMDB для системы [Атлант ЦХ] не существует
+- Property CMDB для системы [Платформа наблюдаемости] не существует
+- Property CMDB для системы [SpeedCollect] не существует
+- Property CMDB для системы [NIS] не существует
+- Property CMDB для системы [INRS/FDGW] не существует
+- Property CMDB для системы [Voice Mediation] не существует
+- Property CMDB для системы [Antilopa] не существует
+- Property CMDB для системы [MQS] не существует
+- Property CMDB для системы [Банк клиент] не существует
+- Property CMDB для системы [IDM] не существует
+- Property CMDB для системы [ARFix] не существует
+- Property CMDB для системы [BillingOrder] не существует
+- Property CMDB для системы [Softel] не существует
+- Property CMDB для системы [CMD off] не существует
+- Property CMDB для системы [BeeWorks] не существует
+- Property CMDB для системы [ETL] не существует
+- relation: Не указана технология для вызова выгрузка отчетности [Атлант ЦХ->Balancing System]
+- relation: Не указана технология для вызова синхронизация справочников [Атлант ЦХ->INRS/FDGW]
+- relation: Не указана технология для вызова управление оборудованием [Атлант ЦХ->voice switches]
+- relation: Не указана технология для вызова выгрузка отчетов [Атлант ЦХ->MOZ]
+- relation: Не указана технология для вызова отчетность [Атлант ЦХ->BIIS]
+- relation: Не указана технология для вызова сбор метрик и логов [Атлант ЦХ->Платформа наблюдаемости]
+- relation: Не указана технология для вызова информация по контрактам [Атлант ЦХ->BillingOrder]
+- relation: Не указана технология для вызова управление оборудованием [Атлант ЦХ->Точка подключения (Switch, Bras ..)]
+- relation: Не указана технология для вызова отправка счетов [Атлант ЦХ->Atlant ABH (mail-server)]
+- relation: Не указана технология для вызова отправка смс-уведомлений [Атлант ЦХ->COMM (SMS)]
+- relation: Не указана технология для вызова управление оборудованием [Атлант ЦХ->ЮФО]
+- relation: Не указана технология для вызова трафик (файлом вручную) [Атлант ЦХ->CRM3]
+- relation: Не указана технология для вызова информирование [Атлант ЦХ->IVR]
+- relation: Не указана технология для вызова номерная емкость [Атлант ЦХ->NIS]
+- relation: Не указана технология для вызова отчетность [Атлант ЦХ->ETL]
+- relation: Не указана технология для вызова контроль УЗ [IDM->Атлант ЦХ]
+- relation: Не указана технология для вызова авторизация абонентов [Switch, Bras ...->Атлант ЦХ]
+- relation: Не указана технология для вызова синхронизация номерной емкости [Softel->Атлант ЦХ]
+- relation: Не указана технология для вызова сбор трафика [Voice Mediation->Атлант ЦХ]
+- relation: Не указана технология для вызова техучет (Калининград) [Antilopa->Атлант ЦХ]
+- relation: Не указана технология для вызова контроль трафика [StBMS->Атлант ЦХ]
+- relation: Не указана технология для вызова загрузка платежей [BeepayXP->Атлант ЦХ]
+- relation: Не указана технология для вызова загрузка справочников [MQS->Атлант ЦХ]
+- relation: Не указана технология для вызова фискализация [ARFix->Атлант ЦХ]
+- relation: Не указана технология для вызова CI/CD [BeeWorks->Атлант ЦХ]
+- relation: Не указана технология для вызова загрузка банковских выписок [Банк клиент->Атлант ЦХ]
+- relation: Не указана технология для вызова загрузка банковских выписок [SpeedCollect->Атлант ЦХ]
+- relation: Не указана технология для вызова портированные номера [SwitchControl->Атлант ЦХ]
+- relation: Не указана технология для вызова получение трафика [CMD off->Атлант ЦХ]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+369396: B2C Digitale Gamification
+Loading workspace ...2024-01-11T15:36:53Z
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digitale Retail Domain->honycombeBalance]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->B2C Digital BTV Domain]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->APS Checker]
+- relation: Не указана технология для вызова Данные по заказам в рамках подключения суперспособностей и оплаты услуг за соты [B2C Digitale Retail Domain->B2C Digital Gamification Domain]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->APS Activator]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->BTV Activator]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->payment check]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->BTV Checker]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->B2C Digital SelfService Domain]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->BSSActivator]
+- relation: Не указан сетевой порт для вызова DE [B2C Digitale Retail Domain->Партнерская платформа]
+- relation: Не указана технология для вызова Активация SOC услуги [RICH->ENSEMBLE]
+- relation: Не указана технология для вызова Управление тарифом UP [uapi->PBE.LEGO]
+- relation: Не указана технология для вызова Нотификация билинга [SMSNE->GLASSFISH]
+- relation: Не указана технология для вызова Уведомления билинга [SMSNE->SCP]
+- relation: Не указана технология для вызова  [Admin-portal->B2C Digital Gamification Domain]
+- relation: Не указана технология для вызова Вызов API [Admin-portal->Ability catalog]
+- relation: Не указана технология для вызова Вызов API [Admin-portal->tasks]
+- relation: Не указана технология для вызова Вызов API [Admin-portal->Characters v2]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital BTV Domain->B2C Digital Gamification Domain]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital BTV Domain->Ability catalog]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital BTV Domain->CTN Check]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital BTV Domain->honycombeBalance]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital BTV Domain->B2C Digital SelfService Domain]
+- relation: Не указана технология для вызова  [B2C Digital BTV Domain->Партнерская платформа]
+- relation: Не указана технология для вызова Получение контента [BackEnd сайта->QP]
+- relation: Не указана технология для вызова Управление заказом в рамках подключения суперспособностей и оплаты услуг за соты [BackEnd сайта->B2C Digitale Retail Domain]
+- relation: Не указан сетевой порт для вызова Make API call [BackEnd сайта->honycombeBalance]
+- relation: Не указан сетевой порт для вызова Получение оферов докупки трафика [BackEnd сайта->APS Backend]
+- relation: Не указана технология для вызова Получение данных по геймификации для отображения абоненту на UI [BackEnd сайта->B2C Digital Gamification Domain]
+- relation: Не указана технология для вызова Аутентификация [Мой билайн->uapi]
+- relation: Не указан сетевой порт для вызова Получение данных по геймификации для отображения абоненту на UI, передача команд в рамаках сценариев [Мой билайн->Mobile BackEnd]
+- relation: Не указан сетевой порт для вызова Взаимодействие в игре [Мой билайн->Games Backend]
+- relation: Не указан сетевой порт для вызова Взаимодействие в рамках оферов в играх [Games Backend->Партнерская платформа]
+- relation: Не указан сетевой порт для вызова Получение данных по геймификации для отображения абоненту на UI, передача команд в рамаках сценариев [beeline.ru->BackEnd сайта]
+- relation: Не указана технология для вызова Push [SCP->beeline.ru]
+- relation: Не указана технология для вызова SMS, Push [SCP->Мой билайн]
+- relation: Не указана технология для вызова Активация SOC услуги [B2C Digital SelfService Domain->RICH]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital SelfService Domain->honycombeBalance]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital SelfService Domain->B2C Digital Gamification Domain]
+- relation: Не указана технология для вызова Данные для отправки СМС о подключении телеком услуги [B2C Digital SelfService Domain->SCP]
+- relation: Не указана технология для вызова Управление тарифом UP [PBE.LEGO->ENSEMBLE]
+- relation: Не указана технология для вызова Активация/диактивация суперспособностей БТВ [B2C Digital Gamification Domain->B2C Digital BTV Domain]
+- relation: Не указан сетевой порт для вызова DE [B2C Digital Gamification Domain->buy on click]
+- relation: Не указан сетевой порт для вызова DE [B2C Digital Gamification Domain->Партнерская платформа]
+- relation: Не указан сетевой порт для вызова DE [B2C Digital Gamification Domain->B2C Digitale Retail Domain]
+- relation: Не указана технология для вызова Активация SOC услуги [B2C Digital Gamification Domain->GLASSFISH]
+- relation: Не указан сетевой порт для вызова Make API call [B2C Digital Gamification Domain->CTN Check]
+- relation: Не указана технология для вызова Проверка СТН. Подключение пакетов ГБ. [B2C Digital Gamification Domain->B2C Digital SelfService Domain]
+- relation: Не указан сетевой порт для вызова event [ENSEMBLE->progress]
+- relation: Не указана технология для вызова Передача данных в биллинг по подключенной услуге [ENSEMBLE->COMVERSE]
+- relation: Не указан сетевой порт для вызова event [ENSEMBLE->SOCChangedLogger]
+- relation: Не указан сетевой порт для вызова event [ENSEMBLE->event-emitter]
+- relation: Не указан сетевой порт для вызова event [ENSEMBLE->BSSActivator]
+- relation: Не указан сетевой порт для вызова event [ENSEMBLE->B2C Digital Gamification Domain]
+- relation: Не указан сетевой порт для вызова Make API call [APS Backend->Self service catalog]
+- relation: Не указан сетевой порт для вызова Make API call [APS Backend->B2C Digital SelfService Domain]
+- relation: Не указан сетевой порт для вызова Получить набор оферов [APS Backend->SASMA]
+- relation: Не указан сетевой порт для вызова Command [Партнерская платформа->buy on click]
+- relation: Не указана технология для вызова Покупки за соты в играх и на витрине лояльности [Партнерская платформа->B2C Digitale Retail Domain]
+- relation: Не указан сетевой порт для вызова Command [Партнерская платформа->event-emitter]
+- relation: Не указана технология для вызова  [Партнерская платформа->билайн ТВ]
+- relation: Не указана технология для вызова События для начисления сот в играх и на витрине лояльности [Партнерская платформа->B2C Digital Gamification Domain]
+- relation: Не указана технология для вызова Авторизация. Управление тарифом UP [Mobile BackEnd->uapi]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->event-emitter]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->ordering]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->progress]
+- relation: Не указан сетевой порт для вызова Получение контента [Mobile BackEnd->QP]
+- relation: Не указана технология для вызова  [Mobile BackEnd->honycombeBalance]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->B2C Digital SelfService Domain]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->APS Checker]
+- relation: Не указана технология для вызова  [Mobile BackEnd->product basket]
+- relation: Не указан сетевой порт для вызова Взаимодействие в рамках оферов на витрине лояльности [Mobile BackEnd->Партнерская платформа]
+- relation: Не указана технология для вызова  [Mobile BackEnd->B2C Digital Gamification Domain]
+- relation: Не указана технология для вызова Управление заказом в рамках подключения суперспособностей и оплаты услуг за соты [Mobile BackEnd->B2C Digitale Retail Domain]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->CTN Check]
+- relation: Не указан сетевой порт для вызова Получение оферов докупки трафика [Mobile BackEnd->APS Backend]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->buy on click]
+- relation: Не указан сетевой порт для вызова Make API call [Mobile BackEnd->Characters v2]
+- relation: Не указана технология для вызова Активация SOC услуги [GLASSFISH->ENSEMBLE]
+- relation: Не указана технология для вызова Нотификация билинга [COMVERSE->SMSNE]
+- Не указана операционная система для b2c-digital-retail-prod
+- Не указаны требования к CPU для b2c-digital-retail-prod
+- Не указаны требования к RAM для b2c-digital-retail-prod
+- Не указана операционная система для b2c-digital-retail-load
+- Не указаны требования к CPU для b2c-digital-retail-load
+- Не указаны требования к RAM для b2c-digital-retail-load
+- Диаграмма развертывания для среды Production не существует
+[88] deploy
+CMDB код системы IS-BT : errors = 88
+
+369402: BASIS
+Loading workspace ...2024-01-09T14:39:48Z
+- Нет cmdb кода системы БАЗИС
+- Property CMDB для системы [IMS] не существует
+- Property CMDB для системы [Шлюз ЭДО] не существует
+- Property CMDB для системы [DCM] не существует
+- Property CMDB для системы [ЛК] не существует
+- Property CMDB для системы [NRI] не существует
+- Property CMDB для системы [Beeline.ru] не существует
+- Property CMDB для системы [DC] не существует
+- Property CMDB для системы [Светофор] не существует
+- Property CMDB для системы [БАЗИС] не существует
+- Property CMDB для системы [DMP] не существует
+- Property CMDB для системы [DMC] не существует
+- Property CMDB для системы [WIIC] не существует
+- Property CMDB для системы [Qlick] не существует
+- Property CMDB для системы [НФС] не существует
+- relation: Не указан сетевой порт для вызова Загрузка входящих документов [DCM->Внутренний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Загрузка входящих документов [DCM->Integration API]
+- relation: Не указан сетевой порт для вызова Загрузка входящих документов [DCM->БАЗИС]
+- relation: Не указан сетевой порт для вызова Замещения [ЛК->Внутренний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Замещения [ЛК->Integration API]
+- relation: Не указан сетевой порт для вызова Замещения [ЛК->БАЗИС]
+- relation: Не указан сетевой порт для вызова Заявки на претензию [DMC->БАЗИС]
+- relation: Не указан сетевой порт для вызова Заявки на претензию [DMC->Integration API]
+- relation: Не указан сетевой порт для вызова Заявки на претензию [DMC->Внутренний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Уведомления по лимитам, Загрузка Удержание\Зачет\Возмещение [НФС->Integration API]
+- relation: Не указан сетевой порт для вызова Отслеживание назначения плановых дат оплаты, Отслеживание наличия СФ к Заказам [НФС->Внешний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Уведомления по лимитам, Загрузка Удержание\Зачет\Возмещение [НФС->Внутренний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Отслеживание назначения плановых дат оплаты, Отслеживание наличия СФ к Заказам [НФС->Integration API]
+- relation: Не указан сетевой порт для вызова Уведомления по лимитам, Загрузка Удержание\Зачет\Возмещение [НФС->БАЗИС]
+- relation: Не указан сетевой порт для вызова Справочники [DMP->Integration API]
+- relation: Не указан сетевой порт для вызова Справочники [DMP->Внешний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Справочники, Отчет 868 [DMP->Внутренний App Server БАЗИС]
+- relation: Не указан сетевой порт для вызова Справочники, Отчет 868 [DMP->Integration API]
+- relation: Не указан сетевой порт для вызова Справочники [DMP->БАЗИС]
+- relation: Не указан сетевой порт для вызова Данные по завершенным ЗМ 
+ Статусы по Договорам\ДС\Соглашениям [БАЗИС->DMC]
+- relation: Не указан сетевой порт для вызова Публикация планов закупок [БАЗИС->Beeline.ru]
+- relation: Не указан сетевой порт для вызова Проверка безопасности по Контрагентам [БАЗИС->Светофор]
+- relation: Не указан сетевой порт для вызова Создание ЗМ (Протокол), Создание\Изменение Отделений\СЗП\КЗП\SSD\PR [БАЗИС->DC]
+- relation: Не указан сетевой порт для вызова Планирование бюджета на стандартные конфигурации оборудования на базе цен в прайс-листах [БАЗИС->NRI]
+- relation: Не указан сетевой порт для вызова Загрузка подписанных документов [БАЗИС->Шлюз ЭДО]
+- relation: Не указан сетевой порт для вызова Передача претензий, Заявлений о зачете, служебных записок [БАЗИС->DCM АПФД]
+- relation: Не указан сетевой порт для вызова Запрос в ОЦО на блокировку [БАЗИС->IMS]
+- relation: Не указан сетевой порт для вызова Передача претензий, Заявлений о зачете, служебных записок [БАЗИС->DCM]
+- relation: Не указан сетевой порт для вызова Получение регномера [БАЗИС->DCM ОРД]
+- relation: Не указан сетевой порт для вызова Рейсы [БАЗИС->WIIC]
+- relation: Не указан сетевой порт для вызова Отправка документов в архив [БАЗИС->DCM ДИС]
+- relation: Не указан сетевой порт для вызова Отчеты [БАЗИС->Qlick]
+- relation: Не указан сетевой порт для вызова Отправка запроса на формирование акта сверки и получение ответа, Создание\Изменение НП, Формирование\Изменение\Отмена ПУП [БАЗИС->НФС]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36938: BillingOrder
+Loading workspace ...2024-01-10T19:25:43Z
+- Нет cmdb кода системы BillingOrder
+- Property CMDB для системы [BillingOrder] не существует
+- relation: Не указана технология для вызова  [GT IDB->BillingOrder]
+- relation: Не указана технология для вызова  [INRS->BillingOrder]
+- relation: Не указана технология для вызова  [Order Flow Management (OFM)->BillingOrder]
+- Не указана операционная система для Docker Cluster
+- Не указаны требования к CPU для Docker Cluster
+- Не указаны требования к RAM для Docker Cluster
+- Диаграмма развертывания для среды Production не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36921: CDF
+Loading workspace ...2024-01-17T12:12:30Z
+[0] deploy
+CMDB код системы Документы за контрагента : errors = 0
+
+369401: CDP Content Delivery Platform
+Loading workspace ...2023-12-18T13:10:45Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+369405: CM
+Loading workspace ...2024-01-18T13:13:22Z
+- Property CMDB для системы [ЛК Абонента] не существует
+- Property CMDB для системы [mailhost] не существует
+- Property CMDB для системы [Gamification_platform] не существует
+- Property CMDB для системы [PRODUCT_CATALOG] не существует
+- Property CMDB для системы [AUTOMATED_OPERATOR_WORKSTATION] не существует
+- relation: Не указан сетевой порт для вызова Нотификации, статус абонента [SMSNE->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные для отчетности [BIIS Business Intelligence & Information System->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные профиля абонента [UCP Unified Customer Profile->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные по SOC [ARENA->Campaign Management (CM)]
+- relation: Не указана технология для вызова Передача хвостов [DEL_ STP (Camel)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные по абоненту [CT Интеграционная среда FTTB (INAC)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [Мобильное приложение Монобренда->Campaign Management (CM)]
+- relation: Не указана технология для вызова Отправка SMS, получение статуса о доставке [Campaign Management (CM)->SMS Router]
+- relation: Не указана технология для вызова Данные по роумингу [Campaign Management (CM)->Target SMS]
+- relation: Не указан сетевой порт для вызова Отправка welcome события в топик [Campaign Management (CM)->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Отправка  Email и получение ошибок [Campaign Management (CM)->mailhost]
+- relation: Не указан сетевой порт для вызова Получение данных профиля абонента [Campaign Management (CM)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова  [Campaign Management (CM)->Unified API]
+- relation: Не указана технология для вызова Логи и метрики [Campaign Management (CM)->Платформа наблюдаемости]
+- relation: Не указан сетевой порт для вызова Геоданные [Campaign Management (CM)->TD Polystar]
+- relation: Не указана технология для вызова Компании по начислениям [Campaign Management (CM)->Сервисная площадка ESB.NET]
+- relation: Не указана технология для вызова Данные абонента [Campaign Management (CM)->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Оценка корзины [Campaign Management (CM)->Ordering Tibco]
+- relation: Не указана технология для вызова Отгрузка картнок для сторис [Campaign Management (CM)->Мобильное приложение Мой Билайн]
+- relation: Не указана технология для вызова Запрос доступных продуктов, корзины [Campaign Management (CM)->Unified Self Service System (USSS)]
+- relation: Не указана технология для вызова Загрузка кампаний [Campaign Management (CM)->Amdocs CRM (ACRM)]
+- relation: Не указана технология для вызова Данные для доверительного платежа [Campaign Management (CM)->Доверительный платеж 2.0]
+- relation: Не указана технология для вызова Отправка коммуникаций [Campaign Management (CM)->Communication Platform]
+- relation: Не указан сетевой порт для вызова Запрос продуктовых предложений [Campaign Management (CM)->PRODUCT_CATALOG]
+- relation: Не указана технология для вызова Запрос данных по компаниям [GT 1C-Инвентори (1С Work Order)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Геоданные [TD SQA RADCOM->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение контактов [Outbound Campaign Management->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [ЛК Абонента->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [билайн PRO->Campaign Management (CM)]
+- relation: Не указана технология для вызова Запрос контактов для обзвона, карточки контакта, диалога, подбор inbound кампаний [Amdocs CRM (ACRM)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение предложений, инициирование подключения [Gamification_platform->Campaign Management (CM)]
+- relation: Не указана технология для вызова Отгрузка абонентов для рассылки по периодическим кампаниям [ETL->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [Мобильное приложение Мой Билайн->Campaign Management (CM)]
+- relation: Не указана технология для вызова Рекомендованный платеж [АРМ Клиент-Сбербанк->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос данных [Доверительный платеж 2.0->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные по подключенным, отключенным услугам [Ensemble->Campaign Management (CM)]
+- relation: Не указана технология для вызова Отправка результатов дозвона [IPCP->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [NRobot (Система роботизированного обзвона Нейро)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Какие то данные [ScriptManager->Campaign Management (CM)]
+- relation: Не указана технология для вызова Статус доставки SMS [SMS Router->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение предложений, списка кампаний [Универсальный IVR (UIVR)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос контактов, данных по абоненту [AUTOMATED_OPERATOR_WORKSTATION->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные профиля абонента [DMP: Data Management Platform (BigData)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Запрос кампаний [DOL Dealer On Line->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные для отчетности [MOZ Система операционной отчетности (МОЗ)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [IRobot (Система роботизированного обзвона Инлексис)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные для отчетности [BeeMetrics->Campaign Management (CM)]
+- Диаграмма развертывания не существует
+[53] deploy
+CMDB код системы SASMA : errors = 53
+
+5369401: CRMMNP
+Loading workspace ...2024-01-09T12:51:46Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36919: DCM - ШЛЮЗ ЭДО
+Loading workspace ...2024-01-12T11:02:59Z
+- Нет cmdb кода системы Шлюз ЭДО
+- Property CMDB для системы [Шлюз ЭДО] не существует
+- Property CMDB для системы [ECM_SSC] не существует
+- Property CMDB для системы [SBIS] не существует
+- Property CMDB для системы [Diadoc] не существует
+- Property CMDB для системы [Система ВК] не существует
+- relation: Не указан сетевой порт для вызова Изменение статуса документа [Diadoc->Сервис отправки]
+- relation: Не указан сетевой порт для вызова Входящие документы Диадок [Diadoc->Шлюз ЭДО]
+- relation: Не указан сетевой порт для вызова Входящие документы Диадок [Diadoc->Сервис получения Диадок]
+- relation: Не указан сетевой порт для вызова Входящие документы СБИС [SBIS->Шлюз ЭДО]
+- relation: Не указан сетевой порт для вызова Входящие документы СБИС [SBIS->Сервис получения СБИС]
+- relation: Не указан сетевой порт для вызова Отправка документа в Диадок [Система ВК->Шлюз ЭДО]
+- relation: Не указан сетевой порт для вызова Отправка документа в Диадок [Система ВК->Сервис отправки]
+- relation: Не указан сетевой порт для вызова Загрузка для обработки выгруженных документов ЭДО Диадок и СБИС [ECM_SSC->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Загрузка для обработки выгруженных документов ЭДО СБИС [Шлюз ЭДО->ECM_SSC]
+- relation: Не указан сетевой порт для вызова Отправка документа в Диадок [Шлюз ЭДО->Diadoc]
+- relation: Не указан сетевой порт для вызова Выгрузка/загрузка файлов полученных документов Диадок [Шлюз ЭДО->Контент-сервер Documentum BEE_SSC]
+- relation: Не указан сетевой порт для вызова Выгрузка реестра и файлов полученных по ЭДО документов [Шлюз ЭДО->Система ВК]
+- relation: Не указан сетевой порт для вызова Выгрузка/загрузка метаданных полученных документов Диадок [Шлюз ЭДО->Экземпляр БД Репозитория]
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+3: Digital Contract
+Loading workspace ...2024-01-19T11:29:42Z
+- Нет cmdb кода системы Digital Contract
+- Property CMDB для системы [B2O] не существует
+- Property CMDB для системы [DMP] не существует
+- Property CMDB для системы [BeeWorks] не существует
+- Property CMDB для системы [DPL] не существует
+- Property CMDB для системы [DaData] не существует
+- Property CMDB для системы [NFS] не существует
+- Property CMDB для системы [Product Catalog] не существует
+- Property CMDB для системы [Платформа Наблюдаемости Zabbix] не существует
+- Property CMDB для системы [Vega Cloud S3] не существует
+- Property CMDB для системы [IMS] не существует
+- Property CMDB для системы [DCM] не существует
+- Property CMDB для системы [BeeLego] не существует
+- Property CMDB для системы [ТехАренда] не существует
+- Property CMDB для системы [Commissions] не существует
+- Property CMDB для системы [BPMS] не существует
+- Property CMDB для системы [AD] не существует
+- Property CMDB для системы [Mapic] не существует
+- Property CMDB для системы [ADFS] не существует
+- Property CMDB для системы [b2bOnline] не существует
+- Property CMDB для системы [UCP 2.0] не существует
+- Property CMDB для системы [Базис] не существует
+- Property CMDB для системы [Digital Contract] не существует
+- Property CMDB для системы [Платформа Наблюдаемости Kibana] не существует
+- Property CMDB для системы [Монобренд] не существует
+- Property CMDB для системы [iDP] не существует
+- relation: Не указан сетевой порт для вызова Поиск условий оплат в НФС [BeeLego->API поиска условий оплат]
+- relation: Не указан сетевой порт для вызова Создание контракта в DCM и НФС [BeeLego->API создания Контракта]
+- relation: Не указана технология для вызова Чтение статусов по договорам, которые перешли в Действуют [Commissions->topic status]
+- relation: Не указана технология для вызова Чтение статусов по договорам, которые перешли в Действуют [Commissions->Digital Contract]
+- relation: Не указана технология для вызова Публикация API на MAPIC [Digital Contract->Mapic]
+- relation: Не указана технология для вызова Хранение шаблонов документов [Digital Contract->Product Catalog]
+- relation: Не указана технология для вызова Публикация данных цифрового контракта [Digital Contract->DMP]
+- relation: Не указан сетевой порт для вызова Поиск договоров и доп. соглашений, контрагентов, условий оплат. Создание контрагентов, ЗП Контракт и Стандартный [Digital Contract->NFS]
+- relation: Не указана технология для вызова Согласование документов [Digital Contract->BPMS]
+- relation: Не указана технология для вызова Авторизация пользователя [Digital Contract->iDP]
+- relation: Не указана технология для вызова Хранение профиля контрагента [Digital Contract->UCP 2.0]
+- relation: Не указана технология для вызова Хранение файлов договоров и доп. соглашений [Digital Contract->Vega Cloud S3]
+- relation: Не указан сетевой порт для вызова Статусы согласования контракта [DCM->Digital Contract]
+- relation: Не указан сетевой порт для вызова Статусы согласования контракта [DCM->Сервис создания договоров и доп. соглашений]
+- relation: Не указан сетевой порт для вызова Поиск контрагента и отделения [Монобренд->Digital Contract]
+- relation: Не указан сетевой порт для вызова Поиск условий оплат в НФС [Монобренд->API поиска условий оплат]
+- relation: Не указан сетевой порт для вызова Создание ЗП контракт в НФС [Монобренд->API создания ЗП типа Контракт в НФС]
+- relation: Не указан сетевой порт для вызова Поиск контрагента и отделения [Монобренд->API Поиска и создания Контрагента и Отделения]
+- Не указана операционная система для digital-contract-ext-api
+- Не указаны требования к CPU для digital-contract-ext-api
+- Не указаны требования к RAM для digital-contract-ext-api
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36927: EDF
+Loading workspace ...2023-12-27T10:03:50Z
+- Property CMDB для системы [DMP] не существует
+- relation: Не указана технология для вызова Результат транзакции [RPA->EDF]
+- relation: Не указана технология для вызова Создание транзакции в НФС [RPA->NFS]
+- relation: Не указана технология для вызова Результат транзакции [RPA->greenplum]
+- relation: Не указана технология для вызова Результат транзакции [RPA->cs_m_nfs_result]
+- relation: Не указана технология для вызова Результат транзакции [RPA->cs_m_nds_nfs_result]
+- relation: Не указана технология для вызова Результат транзакции [NFS->cs_general__nfs__downloader__psf_avz()]
+- relation: Не указан сетевой порт для вызова Результат транзакции [NFS->cs_general__nfs__downloader__ssf()]
+- relation: Не указана технология для вызова Результат транзакции [NFS->greenplum]
+- relation: Не указана технология для вызова Результат транзакции [NFS->RPA]
+- relation: Не указана технология для вызова Результат транзакции [NFS->EDF]
+- relation: Не указан сетевой порт для вызова Результат транзакции [NFS->cs_general__nfs__downloader__accept()]
+- relation: Не указан сетевой порт для вызова Результат транзакции [NFS->cs_general__nfs__downloader__psf()]
+- relation: Не указан сетевой порт для вызова Результат транзакции [NFS->cs_general__nfs__downloader__nds_refund()]
+- relation: Не указана технология для вызова Данные для транзакции [EDF->NFS]
+- relation: Не указана технология для вызова Данные для дашборда [EDF->DMP]
+- relation: Не указана технология для вызова Создание транзакции в НФС [EDF->RPA]
+- relation: Не указана технология для вызова Перегрузка данных из ECM [ECM->DMP]
+- relation: Не указана технология для вызова Перегрузка данных из ECM [ECM->airflow]
+- relation: Не указана технология для вызова Перегрузка данных из ECM [ECM->cs_etl]
+- relation: Не указана технология для вызова Перегрузка данных из ECM [DMP->greenplum]
+- relation: Не указана технология для вызова Перегрузка данных из ECM [DMP->EDF]
+- relation: Не указана технология для вызова Данные для дашборда [DMP->Qlik]
+- Не указана операционная система для k8s
+- Не указаны требования к CPU для k8s
+- Не указаны требования к RAM для k8s
+[26] deploy
+CMDB код системы edf : errors = 26
+
+369407: Feature_store
+Loading workspace ...2024-01-15T08:34:15Z
+- Нет cmdb кода системы FEATURE_STORE
+- Нет cmdb кода системы FEATURE_STORE
+- Нет cmdb кода системы FEATURE_STORE
+- Property CMDB для системы [FEATURE_STORE] не существует
+- relation: Не указана технология для вызова Информирование потребителей [FEATURE_STORE->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Логи и метрики [FEATURE_STORE->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Извлечение данных для формирования признаков [FEATURE_STORE->DMP: Data Management Platform (BigData)]
+- relation: Не указана технология для вызова Публикация и просмотр витрин с признаками [FEATURE_STORE->OMD (Openmetadata)]
+- relation: Не указана технология для вызова Получение данных по абонентам [FEATURE_STORE->Единый клиентский профиль]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36935: Hermes architecture
+Loading workspace ...2023-12-18T07:18:46Z
+- Property CMDB для системы [Monetization domain] не существует
+- Property CMDB для системы [Ensemble] не существует
+- Property CMDB для системы [Techblock] не существует
+- Property CMDB для системы [Internet] не существует
+- Property CMDB для системы [Legacy] не существует
+- Property CMDB для системы [Product domain] не существует
+- relation: Не указан сетевой порт для вызова Reads BucketSpecifications [Monetization domain->Catalogs]
+- relation: Не указан сетевой порт для вызова Reads BucketSpecifications [Monetization domain->Product domain]
+- relation: Не указан сетевой порт для вызова Notifies [Monetization domain->Notifications Receiver]
+- relation: Не указан сетевой порт для вызова Veon Usage [Monetization domain->Legacy]
+- relation: Не указан сетевой порт для вызова Veon Usage [Monetization domain->CCBO]
+- relation: Не указан сетевой порт для вызова Reads BucketSpecifications [Monetization domain->Product Catalogue]
+- relation: Не указан сетевой порт для вызова Notifies [Monetization domain->Ensemble]
+- relation: Не указан сетевой порт для вызова Notifies [Monetization domain->Glass Fish]
+- relation: Не указана технология для вызова Provisions [Ensemble->Monetization domain]
+- relation: Не указана технология для вызова Provisions [Ensemble->Provisioning Queue]
+- relation: Не указана технология для вызова Provisions [Ensemble->CMD On]
+- relation: Не указан сетевой порт для вызова Usage [Techblock->Gy HDA]
+- relation: Не указан сетевой порт для вызова Usage [Techblock->Hermes]
+- relation: Не указана технология для вызова  [Techblock->Internet]
+- relation: Не указан сетевой порт для вызова Usage [Techblock->Monetization domain]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36916: HR сервисы в ЛКС.
+Loading workspace ...2024-01-18T13:33:02Z
+- Property CMDB для системы [Sharepoint Space] не существует
+- Property CMDB для системы [MobileId + ADFS] не существует
+- Property CMDB для системы [MyProfile] не существует
+- Property CMDB для системы [ETL] не существует
+- Property CMDB для системы [Cистема Potok] не существует
+- Property CMDB для системы [Active Directory] не существует
+- Property CMDB для системы [Личный кабинет кандидата] не существует
+- Property CMDB для системы [система НФС] не существует
+- Property CMDB для системы [СКУД ИБ] не существует
+- Property CMDB для системы [Zoom] не существует
+- Property CMDB для системы [ЛКС сотрудника] не существует
+- Property CMDB для системы [система Lotus] не существует
+- Property CMDB для системы [Jira] не существует
+- Property CMDB для системы [RegEsp] не существует
+- Property CMDB для системы [Confluence] не существует
+- Property CMDB для системы [Exchange] не существует
+- Property CMDB для системы [Глобальный единый справочник пользователей] не существует
+- relation: Не указан сетевой порт для вызова фото профиля [MyProfile->Confluence]
+- relation: Не указан сетевой порт для вызова фото профиля [MyProfile->Sharepoint Space]
+- relation: Не указан сетевой порт для вызова change phone [MyProfile->система НФС]
+- relation: Не указан сетевой порт для вызова фото профиля [MyProfile->Jira]
+- relation: Не указана технология для вызова фото профиля [MyProfile->СКУД ИБ]
+- relation: Не указан сетевой порт для вызова проверка номера OTP [MyProfile->MobileId + ADFS]
+- relation: Не указан сетевой порт для вызова фото профиля [MyProfile->Zoom]
+- relation: Не указан сетевой порт для вызова check phone [MyProfile->Region DB]
+- relation: Не указан сетевой порт для вызова фото профиля [MyProfile->Active Directory]
+- relation: Не указан сетевой порт для вызова send sms [MyProfile->Сервис нотификаций]
+- relation: Не указан сетевой порт для вызова Публикация [MyProfile->ЛКС сотрудника]
+- relation: Не указан сетевой порт для вызова Отправка уведомлений [JobBeeline->Communication platform]
+- relation: Не указан сетевой порт для вызова Файлы [JobBeeline->Песочница. Проверка файлов.]
+- relation: Не указан сетевой порт для вызова Обмен данными [JobBeeline->Cистема Skillaz]
+- relation: Не указан сетевой порт для вызова Авторизация [JobBeeline->eAuth]
+- relation: Не указан сетевой порт для вызова Запись данных [JobBeeline->Платформа наблюдаемости]
+- relation: Не указан сетевой порт для вызова Обмен данными [JobBeeline->Cистема Potok]
+- relation: Не указан сетевой порт для вызова Сбор веб-аналитики [JobBeeline->Система веб-аналитики]
+- relation: Не указан сетевой порт для вызова Запрос данных [JobBeeline->MyProfile]
+- relation: Не указан сетевой порт для вызова фото профиля [Active Directory->Exchange]
+- relation: Не указана технология для вызова передача телефона [Active Directory->Zoom]
+- relation: Не указана технология для вызова фото профиля [Active Directory->Sharepoint Space]
+- relation: Не указан сетевой порт для вызова Передача данных [BPMS->Kafka]
+- relation: Не указана технология для вызова внесение телефона [RegEsp->система НФС]
+- relation: Не указана технология для вызова передача телефона? [система НФС->Глобальный единый справочник пользователей]
+- relation: Не указан сетевой порт для вызова Передача телефона [система НФС->система Lotus]
+- relation: Не указана технология для вызова передача телефона [система НФС->MobileId + ADFS]
+- relation: Не указан сетевой порт для вызова Синхронизация данных [система НФС->DMP]
+- relation: Не указана технология для вызова передача телефона [система НФС->Sharepoint Space]
+- relation: Не указана технология для вызова передача телефона [система НФС->MyProfile]
+- relation: Не указана технология для вызова передача телефона [система Lotus->система НФС]
+- relation: Не указана технология для вызова передача телефона [система Lotus->Глобальный единый справочник пользователей]
+- relation: Не указана технология для вызова фото профиля [система Lotus->Active Directory]
+- relation: Не указана технология для вызова данные кандидата [Cистема Potok->ETL]
+- relation: Не указана технология для вызова данные кандидата [Личный кабинет кандидата->Cистема Potok]
+- relation: Не указан сетевой порт для вызова Передача телефона [Личный кабинет кандидата->RegEsp]
+- relation: Не указан сетевой порт для вызова Авторизация [MyFinance->eAuth]
+- relation: Не указан сетевой порт для вызова Запрос данных [MyFinance->MyProfile]
+- relation: Не указан сетевой порт для вызова Запись данных [MyFinance->Платформа наблюдаемости]
+- relation: Не указан сетевой порт для вызова Получение данных [MyFinance->DMP]
+- relation: Не указан сетевой порт для вызова Публикация [MyFinance->ЛКС сотрудника]
+- relation: Не указана технология для вызова данные кандидата [ETL->система НФС]
+- relation: Не указан сетевой порт для вызова Дизайн. Компоненты [DesignSystem->frontend JobBeeline]
+- relation: Не указан сетевой порт для вызова Дизайн. Компоненты [DesignSystem->frontend lkvacation]
+- relation: Не указан сетевой порт для вызова Дизайн. Компоненты [DesignSystem->frontend myfinance]
+- relation: Не указан сетевой порт для вызова Дизайн. Компоненты [DesignSystem->JobBeeline]
+- relation: Не указан сетевой порт для вызова Дизайн. Компоненты [DesignSystem->MyFinance]
+- relation: Не указан сетевой порт для вызова Дизайн. Компоненты [DesignSystem->LKVacation]
+- relation: Не указан сетевой порт для вызова Компонент [eAuth->frontend myfinance]
+- relation: Не указан сетевой порт для вызова Компонент [eAuth->MyFinance]
+- relation: Не указан сетевой порт для вызова Компонент [eAuth->frontend JobBeeline]
+- relation: Не указан сетевой порт для вызова Компонент [eAuth->LKVacation]
+- relation: Не указан сетевой порт для вызова Компонент [eAuth->JobBeeline]
+- relation: Не указан сетевой порт для вызова Компонент [eAuth->frontend lkvacation]
+- relation: Не указан сетевой порт для вызова Публикация [LKVacation->ЛКС сотрудника]
+- relation: Не указан сетевой порт для вызова Авторизация [LKVacation->eAuth]
+- relation: Не указан сетевой порт для вызова Запрос данных [LKVacation->MyProfile]
+- relation: Не указан сетевой порт для вызова Вызовы методов [LKVacation->Kafka]
+- relation: Не указан сетевой порт для вызова Вызовы методов [LKVacation->система НФС]
+- relation: Не указан сетевой порт для вызова Вызовы методов [LKVacation->Сервис нотификаций]
+- relation: Не указан сетевой порт для вызова Сбор веб-аналитики [LKVacation->Система веб-аналитики]
+- relation: Не указан сетевой порт для вызова Вызовы методов [LKVacation->BPMS]
+- relation: Не указан сетевой порт для вызова Запись данных [LKVacation->Платформа наблюдаемости]
+- relation: Не указана технология для вызова передача телефона [Глобальный единый справочник пользователей->Active Directory]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+2: Least Cost Routing
+Loading workspace ...2023-10-11T17:31:07Z
+- Нет cmdb кода системы Least Cost Routing
+- Property CMDB для системы [IDM] не существует
+- Property CMDB для системы [GT.INTEXP] не существует
+- Property CMDB для системы [Huawei SoftX 3000 MSK/SPB] не существует
+- Property CMDB для системы [NIS] не существует
+- Property CMDB для системы [BM] не существует
+- Property CMDB для системы [GT.BO] не существует
+- Property CMDB для системы [ICS Offline] не существует
+- Property CMDB для системы [GT.TRUNKINT] не существует
+- Property CMDB для системы [GT.INRS] не существует
+- Property CMDB для системы [GT.RAPL] не существует
+- Property CMDB для системы [GT.SOFTEL] не существует
+- Property CMDB для системы [GT.NDC] не существует
+- Property CMDB для системы [GT.CARRIERSRATES] не существует
+- Property CMDB для системы [GT.TELARIX] не существует
+- Property CMDB для системы [UCP] не существует
+- Property CMDB для системы [hermes] не существует
+- Property CMDB для системы [PMD.BPCAT] не существует
+- Property CMDB для системы [DMP] не существует
+- Property CMDB для системы [COMM] не существует
+- Property CMDB для системы [ATLANT] не существует
+- Property CMDB для системы [Least Cost Routing] не существует
+- Property CMDB для системы [ICS_ITTS] не существует
+- Property CMDB для системы [ICS Online] не существует
+- Property CMDB для системы [Correlator] не существует
+- Property CMDB для системы [GT.VOICEMEDIATION] не существует
+- Property CMDB для системы [ADFS] не существует
+- Property CMDB для системы [Convex] не существует
+- Property CMDB для системы [pretium] не существует
+- Property CMDB для системы [FMS] не существует
+- Property CMDB для системы [GT.CRMVIEWER] не существует
+- Property CMDB для системы [GT.CRM] не существует
+- Property CMDB для системы [idp] не существует
+- Property CMDB для системы [GT.FASTRATER] не существует
+- Property CMDB для системы [OSP Gateway] не существует
+- relation: Не указана технология для вызова Управление ролями пользователей [IDM->idp]
+- relation: Не указан сетевой порт для вызова Загрузка тарифов [Convex->ICS Offline]
+- relation: Не указан сетевой порт для вызова Команды управления [OSP Gateway->Huawei SoftX 3000 MSK/SPB]
+- relation: Не указан сетевой порт для вызова Передача CDR для тарификации [hermes->pretium]
+- relation: Не указан сетевой порт для вызова Получение технических данных о сети [NIS->GT.TRUNKINT]
+- relation: Не указан сетевой порт для вызова Получение технических данных о сети [NIS->hermes]
+- relation: Не указан сетевой порт для вызова Получение технических данных о сети [NIS->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Получение технических данных о сети [NIS->GT.VOICEMEDIATION]
+- relation: Не указан сетевой порт для вызова Получение данных по профилю партнера для целей тарификации [UCP->pretium]
+- relation: Не указан сетевой порт для вызова Получение данных по профилю партнера для биллинговой обработки тарифицированного трафика [UCP->ATLANT]
+- relation: Не указан сетевой порт для вызова Обновление данных по профилям партнеров [UCP->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Получение данных по профилю партнера для целей тарификации [UCP->hermes]
+- relation: Не указан сетевой порт для вызова Протарифицированные вызовы, агрегаты [ICS Offline->GT.INTEXP]
+- relation: Не указан сетевой порт для вызова Передача обработанных CDR [Correlator->GT.TELARIX]
+- relation: Не указан сетевой порт для вызова Получение технических данных о сети [GT.TRUNKINT->GT.TELARIX]
+- relation: Не указан сетевой порт для вызова Получение данных о коммерческих транках [GT.TRUNKINT->GT.BO]
+- relation: Не указан сетевой порт для вызова Аутентификация и авторизация пользователей LCR [idp->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Получение состояний счетчиков [BM->pretium]
+- relation: Не указан сетевой порт для вызова Получение агрегатов по голосовому трафику [GT.VOICEMEDIATION->GT.FASTRATER]
+- relation: Не указан сетевой порт для вызова Получение данных по трафику (CDR) [GT.VOICEMEDIATION->GT.TELARIX]
+- relation: Не указан сетевой порт для вызова Передача CDR для обогащения и тарификации [GT.VOICEMEDIATION->hermes]
+- relation: Не указан сетевой порт для вызова Получение данных по трафику (CDR) [GT.VOICEMEDIATION->ICS Offline]
+- relation: Не указан сетевой порт для вызова Получение данных по трафику (CDR) [GT.VOICEMEDIATION->ICS Online]
+- relation: Не указан сетевой порт для вызова Загрузка тарифов [GT.RAPL->ICS Offline]
+- relation: Не указан сетевой порт для вызова Управление онлайн маршрутизацией [FMS->OSP Gateway]
+- relation: Не указан сетевой порт для вызова Протарифицированные вызовы, агрегаты [ICS Online->GT.INTEXP]
+- relation: Не указан сетевой порт для вызова Позвонковая выгрузка [ICS Online->ICS_ITTS]
+- relation: Не указан сетевой порт для вызова Агрегаты [GT.INTEXP->GT.SOFTEL]
+- relation: Не указан сетевой порт для вызова Агрегаты [GT.INTEXP->GT.INRS]
+- relation: Не указан сетевой порт для вызова Протарифицированные вызовы [GT.INTEXP->GT.CRMVIEWER]
+- relation: Не указан сетевой порт для вызова Получение данных по тарифным планам для целей тарификации [PMD.BPCAT->pretium]
+- relation: Не указан сетевой порт для вызова Входящая коммуникация от партнеров [COMM->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Агрегаты [GT.INRS->GT.INTEXP]
+- relation: Не указан сетевой порт для вызова Аутентификация и авторизация пользователей LCR [ADFS->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Хранение данных по протарифицированному трафику [ATLANT->DMP]
+- relation: Не указан сетевой порт для вызова CDR [Huawei SoftX 3000 MSK/SPB->GT.VOICEMEDIATION]
+- relation: Не указан сетевой порт для вызова Команды управления [Huawei SoftX 3000 MSK/SPB->OSP Gateway]
+- relation: Не указан сетевой порт для вызова Загрузка тарифов [GT.TELARIX->GT.RAPL]
+- relation: Не указан сетевой порт для вызова Управление таблицами маршрутизации [GT.TELARIX->Huawei SoftX 3000 MSK/SPB]
+- relation: Не указан сетевой порт для вызова Рассылка уведомлений партнерам об изменении тарифов [GT.TELARIX->GT.NDC]
+- relation: Не указан сетевой порт для вызова Данные по вызовам [GT.TELARIX->ICS_ITTS]
+- relation: Не указан сетевой порт для вызова Передача CDR для корреляции вызовов [GT.TELARIX->Correlator]
+- relation: Не указан сетевой порт для вызова Обновление состояний счетчиков [pretium->BM]
+- relation: Не указан сетевой порт для вызова Данные по протарифицированному трафику [pretium->ATLANT]
+- relation: Не указан сетевой порт для вызова Получение данных по протарифицированному трафику [DMP->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Идентификация владельцев транков [Least Cost Routing->GT.VOICEMEDIATION]
+- relation: Не указан сетевой порт для вызова Исходящая коммуникация для партнеров [Least Cost Routing->COMM]
+- relation: Не указан сетевой порт для вызова Публикация тарифных планов и тарифов [Least Cost Routing->PMD.BPCAT]
+- relation: Не указан сетевой порт для вызова Управление таблицами маршрутизации [Least Cost Routing->Huawei SoftX 3000 MSK/SPB]
+- relation: Не указан сетевой порт для вызова Передача данных для онлайн маршрутизации [Least Cost Routing->FMS]
+- relation: Не указан сетевой порт для вызова Управление справочниками по направлениям и кодам [Least Cost Routing->GT.CRM]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам [GT.CRM->Least Cost Routing]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам [GT.CRM->pretium]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам [GT.CRM->PMD.BPCAT]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам [GT.CRM->GT.CARRIERSRATES]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам [GT.CRM->GT.FASTRATER]
+- relation: Не указана технология для вызова Обновление контактных данных партнеров [GT.CRM->GT.NDC]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам [GT.CRM->GT.VOICEMEDIATION]
+- relation: Не указан сетевой порт для вызова Получение справочников по направлениям и кодам, данных по партнерам [GT.CRM->GT.TELARIX]
+- Не указана операционная система для UI Dev
+- Не указаны требования к CPU для UI Dev
+- Не указаны требования к RAM для UI Dev
+- Диаграмма развертывания для среды Production не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36923: LOYALTY_PROCESSING
+Loading workspace ...2024-01-10T08:16:02Z
+- Property CMDB для системы [Game Platform] не существует
+- relation: Не указан сетевой порт для вызова Запрос информации по клиенту; 
+ Полученные призы; 
+ Балансы игровых валют; 
+ Использованные офферы [Интранет-сайт ДОК (Дирекции по обслуживанию клиентов)->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Запрос информации по клиенту: участие в акции; 
+ покупки в играх; 
+ полученные призы; 
+ балансы игровых валют; 
+ использованные офферы [Интранет-сайт ДОК (Дирекции по обслуживанию клиентов)->Game_API]
+- relation: Не указан сетевой порт для вызова Запрос списка игр; [internal.beeline.ru - бэкенд для мобильных приложений->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Запрашивает персональный список офферов; 
+ Запрашивает историю полученных призов; 
+ Запросы в рамках сквозной системы поощрений; 
+ Отправка информации по ОС оффера; 
+ Передача информации о входе в раздел; 
+ Запрос списка заданий (соты) ; 
+ Запрос баланса сот; 
+ Запрос истории начислений и списаний сот 
+ Запрос справочника конвертации [internal.beeline.ru - бэкенд для мобильных приложений->Game_API]
+- relation: Не указан сетевой порт для вызова События геймификации [Comverse PPS->Game_API]
+- relation: Не указан сетевой порт для вызова События геймификации [Comverse PPS->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Передает данные для сегментации Клиентов; [DMP: Data Management Platform (BigData)->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Передает данные для сегментации Клиентов на витрину ПЦ; 
+ Выгружает аналитические данные процессинга; [DMP: Data Management Platform (BigData)->analytics]
+- relation: Не указан сетевой порт для вызова Предоставление игровых событий и действий клиентов в игре; 
+ Запрос списка персонализированных офферов; 
+ Запрос информации по клиенту(игровая) [Game Platform->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Предоставление игровых событий и действий клиентов в игре; 
+ Запрос списка персонализированных офферов для клиента; 
+ Запрос информации по клиенту(история полученных призов и тд) [Game Platform->Game_API]
+- relation: Не указан сетевой порт для вызова Событие о покупках в играх; 
+ Информация об активации офферов [PartnerPlatform->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Предоставление информации о покупках в играх; 
+ Информация об активации офферов [PartnerPlatform->Game_API]
+- relation: Не указан сетевой порт для вызова Предоставление информацию об изменениях базы клиентов для персонализации и сегментации [Unified Customer Profile 2.x->Game_API]
+- relation: Не указан сетевой порт для вызова Предоставление информацию об изменениях базы клиентов [Unified Customer Profile 2.x->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Запрашивает справочник игр из легаси QP; [Процессинг лояльности->internal.beeline.ru - бэкенд для мобильных приложений]
+- relation: Не указан сетевой порт для вызова Запрос данных по клиенту; 
+ Запрос подключенных продуктов [Процессинг лояльности->Unified Customer Profile 2.x]
+- relation: Не указана технология для вызова Запрос баланса сот клиента; 
+ Запрос на списание и начисление сот клиенту; 
+ Запрос на конвертацию c учетом коммисии [Процессинг лояльности->Balance Manager]
+- relation: Не указана технология для вызова Запрос проверки ctn [Процессинг лояльности->B2C Digital Self Service]
+- relation: Не указана технология для вызова Отправка уведомлений; 
+ Маркетинговая рассылка [Процессинг лояльности->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Читает события поступления СМС [Процессинг лояльности->Communication Platform]
+- relation: Не указан сетевой порт для вызова Выгружает данные процессинга; [Процессинг лояльности->DMP: Data Management Platform (BigData)]
+[22] deploy
+CMDB код системы LOYALTY PROCESSING : errors = 22
+
+1: MAPIC (Marketplace of API of the Capabilities) - Маркетплейс "возможностей" доступных по API.
+Loading workspace ...2023-08-08T14:07:17Z
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+369404: MtopUp
+Loading workspace ...2023-12-21T08:23:04Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36922: Order Management System (OMS) [v.0.7.0]
+Loading workspace ...2024-01-17T15:47:46Z
+- Нет cmdb кода системы Order Management System
+- Property CMDB для системы [Order Management System] не существует
+- Property CMDB для системы [filebeat] не существует
+- Property CMDB для системы [otelcollector] не существует
+- Property CMDB для системы [prometheus] не существует
+- Property CMDB для системы [System X] не существует
+- Property CMDB для системы [System Y] не существует
+- relation: Не указана технология для вызова Корзина в модели SOC [CT Интеграционная среда FTTB (INAC)->router-inacusss]
+- relation: Не указана технология для вызова Корзина в модели SOC [CT Интеграционная среда FTTB (INAC)->Order Management System]
+- relation: Не указана технология для вызова Корзина в модели SOC [Личный кабинет для корпоративных клиентов LKB2B->Order Management System]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-default]
+- relation: Не указана технология для вызова Сбор логов [filebeat->ibm-mq-sender]
+- relation: Не указана технология для вызова Сбор логов [filebeat->order-controller-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->b2cuss-validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->checkout-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->shopping-cart]
+- relation: Не указана технология для вызова Сбор логов [filebeat->b2cusss-quick-validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->system-x-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->rich-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->order-controller-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->b2cuss-validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->b2cusss-quick-validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->b2cusss-order-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->abufix-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->tmf-ensemble-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->system-x-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->inac-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-pbepartner]
+- relation: Не указана технология для вызова Сбор логов [filebeat->product-order-admin-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->browse-product-catalog-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-db]
+- relation: Не указана технология для вызова Сбор логов [filebeat->ibm-mq-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->ibm-mq-sender]
+- relation: Не указана технология для вызова Сбор логов [filebeat->system-y-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-pbeatrusss]
+- relation: Не указана технология для вызова Сбор логов [filebeat->abufix-bo-procesor]
+- relation: Не указана технология для вызова Сбор логов [filebeat->ibm-mq-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->abufix-bo-procesor]
+- relation: Не указана технология для вызова Сбор логов [filebeat->shopping-cart]
+- relation: Не указана технология для вызова Сбор логов [filebeat->fmc-modify-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->product-order-db]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-pbepartner]
+- relation: Не указана технология для вызова Сбор логов [filebeat->system-y-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-inacusss]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-pbeatrusss]
+- relation: Не указана технология для вызова Сбор логов [filebeat->order-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->order-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->quick-validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->checkout-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->abufix-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->quick-validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->service-platform-communications-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-inacusss]
+- relation: Не указана технология для вызова Сбор логов [filebeat->fmc-provide-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->router-default]
+- relation: Не указана технология для вызова Сбор логов [filebeat->fmc-provide-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->Order Management System]
+- relation: Не указана технология для вызова Сбор логов [filebeat->1c-retail-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->service-platform-communications-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->product-order-admin-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->fmc-modify-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->validate-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->rich-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->shopping-cart-db]
+- relation: Не указана технология для вызова Сбор логов [filebeat->product-order]
+- relation: Не указана технология для вызова Сбор логов [filebeat->browse-product-catalog-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->napi-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->b2cusss-order-workflow]
+- relation: Не указана технология для вызова Сбор логов [filebeat->product-order]
+- relation: Не указана технология для вызова Сбор логов [filebeat->1c-retail-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->process-query-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->napi-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->inac-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->cassandra-db]
+- relation: Не указана технология для вызова Сбор логов [filebeat->process-query-activities]
+- relation: Не указана технология для вызова Сбор логов [filebeat->temporal]
+- relation: Не указана технология для вызова Сбор логов [filebeat->tmf-ensemble-activities]
+- relation: Не указана технология для вызова Корзина в модели SOC [Партнерский Конвергент->router-pbepartner]
+- relation: Не указана технология для вызова Корзина в модели SOC [Партнерский Конвергент->Order Management System]
+- relation: Не указана технология для вызова Сервисная карточка [Order Management System->GT IDB]
+- relation: Не указана технология для вызова Отправка трейсов [Order Management System->otelcollector]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->product-order]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->system-x-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->fmc-provide-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-pbepartner]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->inac-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->b2cusss-quick-validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-pbepartner]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->order-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->quick-validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->order-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->shopping-cart]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->product-order-admin-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-pbeatrusss]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->process-query-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->shopping-cart]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-pbeatrusss]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->abufix-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->service-platform-communications-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->product-order]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->browse-product-catalog-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->system-x-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->cassandra-db]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->b2cuss-validate-workflow]
+- relation: Не указан сетевой порт для вызова -> [prometheus->router-default]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->abufix-bo-procesor]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->fmc-provide-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->1c-retail-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->ibm-mq-sender]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->inac-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->napi-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->temporal]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->tmf-ensemble-activities]
+- relation: Не указан сетевой порт для вызова -> [prometheus->router-default]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->tmf-ensemble-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->quick-validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->fmc-modify-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->rich-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->rich-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->ibm-mq-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->order-controller-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->abufix-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->shopping-cart-db]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->product-order-admin-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->service-platform-communications-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-inacusss]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->abufix-bo-procesor]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->fmc-modify-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->napi-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-db]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->system-y-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->checkout-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->router-inacusss]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->b2cusss-quick-validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->b2cusss-order-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->b2cusss-order-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->ibm-mq-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->checkout-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->process-query-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->order-controller-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->system-y-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->ibm-mq-sender]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->browse-product-catalog-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->b2cuss-validate-workflow]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->1c-retail-activities]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->product-order-db]
+- relation: Не указана технология для вызова Опрос значений метрик [prometheus->Order Management System]
+- relation: Не указана технология для вызова Корзина в модели SOC [PBE.Attraction->router-pbeatrusss]
+- relation: Не указана технология для вызова Корзина/Заказ в модели SOC [PBE.Attraction->Order Management System]
+- Диаграмма развертывания для среды Production не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36930: Payment&Clearing Platform
+Loading workspace ...2023-12-18T09:22:33Z
+- Property CMDB для системы [НСК] не существует
+- Property CMDB для системы [Облачная касса] не существует
+- Property CMDB для системы [Банки и НКО] не существует
+- Property CMDB для системы [Внешние источники ЭДС] не существует
+- relation: Не указан сетевой порт для вызова Запрос на проверку ПДн, отправка документов для клиринга [Payment & clearing platform->Банки и НКО]
+- relation: Не указан сетевой порт для вызова Запрос ПДн, запрос параметров клиента [Payment & clearing platform->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Актуализация баланса и состояния САС, запрос аккумуляторов стартового баланса [Payment & clearing platform->Unified balance]
+- relation: Не указан сетевой порт для вызова Запрос данных о транзакциях [Payment & clearing platform->НСК]
+- relation: Не указан сетевой порт для вызова Запрос на отправку клиенту фискальных чеков [Payment & clearing platform->Облачная касса]
+- relation: Не указан сетевой порт для вызова Перевод средств между ОБ и САС [Payment & clearing platform->BeePayXP]
+- relation: Не указан сетевой порт для вызова Операции с кошельком ЭДС, обработка покупок с ЭДС [Payment & clearing platform->Внешние источники ЭДС]
+- relation: Не указан сетевой порт для вызова Получение данных о фроде [Anti-Fraud->Payment & clearing platform]
+- relation: Не указан сетевой порт для вызова Запрос на обработку операций [Payment Hub->Payment & clearing platform]
+- relation: Не указан сетевой порт для вызова Отправка данных о контрагентах [PRPL->Payment & clearing platform]
+- Диаграмма развертывания не существует
+[15] deploy
+CMDB код системы PCP : errors = 15
+
+5369400: PBE.Legal
+Loading workspace ...2024-01-09T10:59:12Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+5369404: PBE.OnlineSim
+Loading workspace ...2024-01-15T12:43:56Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+5369407: PBE.VAS
+Loading workspace ...2024-01-18T06:44:17Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36939: Rich
+Loading workspace ...2024-01-19T07:42:14Z
+- Property CMDB для системы [SMEV] не существует
+- Property CMDB для системы [ESIA] не существует
+- relation: Не указан сетевой порт для вызова обновление конфигурации [Business Product Catalog->Configuration manager]
+- relation: Не указан сетевой порт для вызова обновление конфигурации [Business Product Catalog->RICH]
+- relation: Не указана технология для вызова Использует API [RICH->BackCRM]
+- relation: Не указана технология для вызова Использует API [RICH->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указана технология для вызова Использует API [RICH->Unified Self Service System (USSS)]
+- relation: Не указана технология для вызова публикует предоставляемые возможности [RICH->MAPIC]
+- relation: Не указана технология для вызова Использует API [RICH->PMD.EAPI]
+- relation: Не указана технология для вызова Использует API [RICH->CRM-MNP]
+- relation: Не указана технология для вызова Использует API [RICH->Atlant ARFIX]
+- relation: Не указана технология для вызова Использует API [RICH->Communication Platform]
+- relation: Не указана технология для вызова поулчение гос.сервисов [RICH->ESIA]
+- relation: Не указана технология для вызова Использует API [RICH->Amdocs CRM (ACRM)]
+- relation: Не указана технология для вызова получение информации о пользователях [RICH->SMEV]
+- relation: Не указана технология для вызова Использует API [RICH->Comverse PPS]
+- relation: Не указана технология для вызова Использует API [RICH->Ensemble]
+- relation: Не указана технология для вызова Использует API [RICH->CDP Content Delivery Platform]
+- relation: Не указана технология для вызова Использует API [RICH->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова  [Мобильное приложение Мой Билайн->PBE.Family]
+- relation: Не указана технология для вызова  [Мобильное приложение Мой Билайн->MAPIC]
+- relation: Не указана технология для вызова маршрутизирует запросы в RICH [MAPIC->RICH]
+- relation: Не указана технология для вызова GET /productofferingcatalogbrowse/v1/productOffering/ [MAPIC->PMD.EAPI]
+- relation: Не указана технология для вызова GET /reference-arena/price-plan-constructors [MAPIC->Co-Living Manager]
+- relation: Не указана технология для вызова  [PBE.Family->MAPIC]
+- relation: Не указана технология для вызова  [DOL Dealer On Line->MAPIC]
+- relation: Не указана технология для вызова  [Сайт билайн бизнес b2b.beeline.ru->MAPIC]
+- relation: Не указана технология для вызова  [Chat bot _Stars->MAPIC]
+- relation: Не указана технология для вызова  [Сайт www.beeline.ru->PBE.Family]
+- relation: Не указана технология для вызова  [Сайт www.beeline.ru->MAPIC]
+- relation: Не указана технология для вызова Использует API [PMD.EAPI->Business Product Catalog]
+- Диаграмма развертывания не существует
+[32] deploy
+CMDB код системы RICH : errors = 32
+
+369406: SCP
+Loading workspace ...2024-01-15T08:07:53Z
+- Property CMDB для системы [Конструктор роуминга B2C] не существует
+- relation: Не указана технология для вызова Отправка коммуникации [Платформа сервисных коммуникаций->Communication Platform]
+- relation: Не указан сетевой порт для вызова Отправка push [Платформа сервисных коммуникаций->PushBackend]
+- relation: Не указана технология для вызова Запрос комфортного времени коммуникации [Платформа сервисных коммуникаций->Campaign Management (CM)]
+- relation: Не указана технология для вызова Логирование и метрики [Платформа сервисных коммуникаций->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Получение профиля абонента по CTN [Платформа сервисных коммуникаций->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [Платформа сервисных коммуникаций->Единый клиентский профиль]
+- relation: Не указана технология для вызова Получение сервисных событий [B2C Digital Family->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [CRM-MNP->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Цифровая платформа управления->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Доверительный платеж 2.0->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Конструктор роуминга B2C->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка события отмены списания АП в минус [Единый клиентский профиль->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Партнерский Конвергент->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [B2C Digital Self Service->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Технология VOLTE /VoWiFi->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Anti-Fraud->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [B2BTAS->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение параметров из продуктового каталога [ARENA->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [BeePayXP->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [PBE.VAS->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка событий immediate [SMSNE->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Ordering Tibco->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка welcome события в топик [Campaign Management (CM)->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Amdocs CRM (ACRM)->Платформа сервисных коммуникаций]
+- Диаграмма развертывания не существует
+[26] deploy
+CMDB код системы SCP : errors = 26
+
+5369405: Service Provider Name
+Loading workspace ...2024-01-18T06:39:16Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36926: Trust Payment
+Loading workspace ...2023-10-16T07:21:03Z
+- Нет cmdb кода системы TrustPayment 2.0
+- Property CMDB для системы [MOBILEAPP] не существует
+- Property CMDB для системы [UnifiedBalance] не существует
+- Property CMDB для системы [DMP] не существует
+- Property CMDB для системы [TrustPayment 2.0] не существует
+- Property CMDB для системы [ENSEMBLE] не существует
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП [IVR->SASMA]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП [IVR->TrustPayment]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП [USSDC->SASMA]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП [USSDC->TrustPayment]
+- relation: Не указан сетевой порт для вызова Добавление услуги ДП [ENSEMBLE->SC]
+- relation: Не указан сетевой порт для вызова Запрос на подключение услуги ДП [USSS->ENSEMBLE]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП [USSS->SASMA]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП [USSS->TrustPayment]
+- relation: Не указан сетевой порт для вызова Уведомление клиента [USSS->SMS Dispatcher]
+- relation: Не указан сетевой порт для вызова Уведомление клиента [SMS Dispatcher->SMS Router]
+- relation: Не указан сетевой порт для вызова ??? [SASMA->SMSNE]
+- relation: Не указан сетевой порт для вызова Запрос данных о клиенте [SASMA->UCP]
+- relation: Не указан сетевой порт для вызова Результат расчета [SASMA->USSS]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП; 
+  Запрос на подключение услуги ДП; [MOBILEAPP->USSS]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги [MOBILEAPP->TrustPayment 2.0]
+- relation: Не указан сетевой порт для вызова Читает очередь ответов [MOBILEAPP->omitp_resp]
+- relation: Не указан сетевой порт для вызова Записывает входящий запрос [MOBILEAPP->omitp_iosreq]
+- relation: Не указан сетевой порт для вызова ??? [SMSNE->GLASSFISH]
+- relation: Не указан сетевой порт для вызова Пополнение баланса [SC->BEEPAYXP]
+- relation: Не указан сетевой порт для вызова Добавление услуги ДП [SC->COMVERSE]
+- relation: Не указан сетевой порт для вызова Блокировка суммы ДП от списаний МК [SC->UMCS]
+- relation: Не указан сетевой порт для вызова ??? [SC->CMD_ON]
+- relation: Не указан сетевой порт для вызова ??? [COMVERSE->CCBO]
+- relation: Не указан сетевой порт для вызова Загрузка базы профилей клиентов [TrustPayment 2.0->DMP]
+- relation: Не указан сетевой порт для вызова Запрос баланса [TrustPayment 2.0->UnifiedBalance]
+- relation: Не указан сетевой порт для вызова Читает изменения профилей в Ансамбле [TrustPayment 2.0->ENSEMBLE]
+- relation: Не указан сетевой порт для вызова Читает изменения профилей в Ансамбле [TrustPayment 2.0->qu_ensemble_events]
+- relation: Не указан сетевой порт для вызова Запрос доступности услуги ДП; 
+  Запрос на подключение услуги ДП; [ЕЛК->USSS]
+- Не указана операционная система для k8s_cluster_name
+- Не указаны требования к CPU для k8s_cluster_name
+- Не указаны требования к RAM для k8s_cluster_name
+- Не указана операционная система для Kafka_ensemble
+- Не указаны требования к CPU для Kafka_ensemble
+- Не указаны требования к RAM для Kafka_ensemble
+- Не указана операционная система для Kafka_cluster_name
+- Не указаны требования к CPU для Kafka_cluster_name
+- Не указаны требования к RAM для Kafka_cluster_name
+- Не указана операционная система для Database_cluster_name
+- Не указаны требования к CPU для Database_cluster_name
+- Не указаны требования к RAM для Database_cluster_name
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+369408: UCP1
+Loading workspace ...2024-01-17T12:41:27Z
+- Property CMDB для системы [Сhannel Control for Peer Communication] не существует
+- Property CMDB для системы [LOGICA] не существует
+- Property CMDB для системы [Digital product catalog] не существует
+- Property CMDB для системы [WebM2M] не существует
+- Property CMDB для системы [RFBS] не существует
+- Property CMDB для системы [ELK] не существует
+- relation: Не указана технология для вызова Получение данных профиля [WebM2M->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Корпоративный Fax Сервер->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Сhannel Control for Peer Communication->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Универсальный IVR (UIVR)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [mTopUp->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильный кошелёк (UMCS)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [FSSPSTREAM->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Hermes->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Unified API->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [RFBS->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Balance Manager->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [PartnerPlatform->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Sber commision->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [ClaimManagement->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Фабрика детализации->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [STARS->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Ordering Tibco->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Customer Care Back Office (CCBO)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Через balance manager [Pretium->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [DOL Dealer On Line->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильная PBX (MPBX)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [FZ533_app->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [MOZ Система операционной отчетности (МОЗ)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Unified balance->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Telecom API->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [RICH->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [BackEnd Интернет магазина Билайн->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Mobile ID->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [CDP Content Delivery Platform->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Campaign Management (CM)->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова  [UCP Unified Customer Profile->TD SQA RADCOM]
+- relation: Не указана технология для вызова Логи, метрики [UCP Unified Customer Profile->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Данные по продкутам [UCP Unified Customer Profile->Digital product catalog]
+- relation: Не указана технология для вызова Данные по антифроду [UCP Unified Customer Profile->GT Fraud Management System]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [UCP Unified Customer Profile->Ensemble]
+- relation: Не указана технология для вызова Данные TechOSS [UCP Unified Customer Profile->Ericsson PCRF]
+- relation: Не указана технология для вызова  [UCP Unified Customer Profile->RBT]
+- relation: Не указана технология для вызова Получение данных по абонентам [UCP Unified Customer Profile->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указана технология для вызова Получение данных по абонентам [UCP Unified Customer Profile->Comverse PPS]
+- relation: Не указана технология для вызова Данные по метоположению prepaid абонента [UCP Unified Customer Profile->ИС Регион (Regions DB)]
+- relation: Не указана технология для вызова Получение данных профиля [GT 1C-Инвентори (1С Work Order)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [ScriptManager->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Через balance manager [ELK->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [LOGICA->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Product Offering Management->UCP Unified Customer Profile]
+- Диаграмма развертывания не существует
+[52] deploy
+CMDB код системы UCP : errors = 52
+
+369409: UCP2
+Loading workspace ...2024-01-17T12:30:30Z
+- Property CMDB для системы [SystemY] не существует
+- Property CMDB для системы [ЕСИА] не существует
+- Property CMDB для системы [FEATURE_STORE] не существует
+- Property CMDB для системы [VIRTUAL_HELPER] не существует
+- Property CMDB для системы [ONEBUSINESS] не существует
+- Property CMDB для системы [ЛК Абонента] не существует
+- Property CMDB для системы [ЦПО] не существует
+- Property CMDB для системы [AUTOMATED_OPERATOR_WORKSTATION] не существует
+- Property CMDB для системы [ЦПП] не существует
+- Property CMDB для системы [SystemX] не существует
+- Property CMDB для системы [EPD] не существует
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Digital Contract->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Данные по абоненту [Единый клиентский профиль->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Единый клиентский профиль->GT Softel]
+- relation: Не указана технология для вызова Логи и метрики [Единый клиентский профиль->Платформа наблюдаемости]
+- relation: Не указан сетевой порт для вызова Получение данных [Единый клиентский профиль->Unified Self Service System (USSS)]
+- relation: Не указана технология для вызова Получение данных по абоненту [Единый клиентский профиль->SystemY]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Единый клиентский профиль->АСР Атлант Централизованный биллинг]
+- relation: Не указан сетевой порт для вызова Получение данных абрнента [Единый клиентский профиль->ЕСИА]
+- relation: Не указан сетевой порт для вызова Данные по абоненту [Единый клиентский профиль->Ensemble]
+- relation: Не указана технология для вызова Получение данных по абоненту [Единый клиентский профиль->SystemX]
+- relation: Не указана технология для вызова Отгрузка данных профиля [Единый клиентский профиль->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [ЦПО->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [B2C Digital Retail->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Изменение данных по абоненту [ЕСИА->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение событий изменения данных абонента [Ensemble->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Геоаналитика->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных по договору, изменение договоров [GT 1C-Инвентори (1С Work Order)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [B2C Digital Self Service->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [Campaign Management (CM)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по юр. лицам [B2B Online->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Unified balance->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [AUTOMATED_OPERATOR_WORKSTATION->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение service inventory [Hermes->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [Платформа сервисных коммуникаций->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [EPD->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ONEBUSINESS->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [CRM-MNP->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Загрузка сервисов [Switch Control (SC)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [BeeLego->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [Amdocs CRM (ACRM)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [ЦПП->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных для аутентификации [IDP->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ЛК Абонента->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [FEATURE_STORE->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных для тарификации [Pretium->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [FZ533_app->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Личный кабинет для корпоративных клиентов LKB2B->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [VIRTUAL_HELPER->Единый клиентский профиль]
+- Диаграмма развертывания не существует
+[50] deploy
+CMDB код системы CLIENT-PROFILE : errors = 50
+
+5369406: VoLTE/VoWiFi
+Loading workspace ...2024-01-18T06:42:09Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36917: Workspace 36917
+Loading workspace ...2023-08-21T08:23:40Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36918: Workspace 36918
+Loading workspace ...2023-08-21T08:24:12Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36925: Workspace 36925
+Loading workspace ...2023-09-11T13:35:28Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36928: Workspace 36928
+Loading workspace ...2023-10-16T09:30:17Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36929: Workspace 36929
+Loading workspace ...2023-10-16T09:31:25Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36937: Workspace 36937
+Loading workspace ...2023-11-13T07:13:57Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+369399: Workspace 369399
+Loading workspace ...2023-12-11T08:39:27Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36920: Деловые поездки
+Loading workspace ...2024-01-10T07:20:00Z
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [MyProfile->DESIGN-SYSTEM]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку для взаимодействия с API [Платформа цифровых витрин->fe библиотека eauth]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [Платформа цифровых витрин->DESIGN-SYSTEM]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку для взаимодействия с API [Платформа цифровых витрин->Интерфейс для взаимодействия с API сервиса eAuth]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку для взаимодействия с API [Платформа цифровых витрин->Eauth]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [DESIGN-SYSTEM->Сервис делегирования]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [DESIGN-SYSTEM->MF сервиса делегирования]
+- Не указана операционная система для user device inside (контур)
+- Не указаны требования к CPU для user device inside (контур)
+- Не указаны требования к RAM для user device inside (контур)
+- Не указана операционная система для user device in Internet
+- Не указаны требования к CPU для user device in Internet
+- Не указаны требования к RAM для user device in Internet
+[13] deploy
+CMDB код системы IS-BT : errors = 13
+
+369398: ДОК
+Loading workspace ...2023-12-19T15:50:46Z
+- Property CMDB для системы [Незарегистрированная внешняя система] не существует
+- Property CMDB для системы [ЕРО] не существует
+- Property CMDB для системы [Зарегистрированная внешняя система] не существует
+- relation: Не указана технология для вызова Рассылка СМС сообщений [ЛК сотрудника ДОК->ИС Отправка SMS абонентам (SMS-Центр)]
+- relation: Не указана технология для вызова Получение KPI [ЛК сотрудника ДОК->БД Oracle (KPI)]
+- relation: Не указана технология для вызова Получение KPI [ЛК сотрудника ДОК->БД MS SQL Server (KPI)]
+- relation: Не указана технология для вызова Рассылка почтовых сообщений [ЛК сотрудника ДОК->SMTP Server]
+- relation: Не указана технология для вызова Аутентификация [ЛК сотрудника ДОК->Space]
+- relation: Не указана технология для вызова Вызов такси [ЛК сотрудника ДОК->BeeTaxi]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36931: Открытый диалог
+Loading workspace ...2023-10-31T13:00:05Z
+- Нет cmdb кода системы Открытый диалог
+- Property CMDB для системы [MyProfile] не существует
+- Property CMDB для системы [RocketChat] не существует
+- Property CMDB для системы [Eauth] не существует
+- Property CMDB для системы [Открытый диалог] не существует
+- Property CMDB для системы [beelineTV] не существует
+- relation: Не указан сетевой порт для вызова Размещается MF для просмотра и управления делегированием сотрудника beeline [Сервис деолегирования->База данных]
+- relation: Не указан сетевой порт для вызова Размещается MF для просмотра и управления делегированием сотрудника beeline [Сервис деолегирования->Платформа цифровых витрин]
+- relation: Не указан сетевой порт для вызова Размещается MF для просмотра и управления делегированием сотрудника beeline [Сервис деолегирования->UI витрины]
+- relation: Не указан сетевой порт для вызова Встраивание RocketChat [RocketChat->Открытый диалог]
+- relation: Не указан сетевой порт для вызова Встраивание RocketChat [RocketChat->Web приложение ОД]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->UI витрины]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->Платформа цифровых витрин]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->MyProfile]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->UI Админка платформы]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->База данных]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->Сервис деолегирования]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->UI витрины]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека компонентов дизайн системы [Yellowbe->MF сервиса делегирования]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека для взаимодействия с API [Eauth->UI Админка платформы]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека для взаимодействия с API [Eauth->Открытый диалог]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека для взаимодействия с API [Eauth->Платформа цифровых витрин]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека для взаимодействия с API [Eauth->Web приложение ОД]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека для взаимодействия с API [Eauth->UI витрины]
+- relation: Не указана технология для вызова Используется FrontEnd библиотека для взаимодействия с API [Eauth->База данных]
+- relation: Не указан сетевой порт для вызова Размещается MF просмотра и управления профилем сотрудника beeline [MyProfile->База данных]
+- relation: Не указан сетевой порт для вызова Размещается MF просмотра и управления профилем сотрудника beeline [MyProfile->Платформа цифровых витрин]
+- relation: Не указан сетевой порт для вызова Размещается MF просмотра и управления профилем сотрудника beeline [MyProfile->UI витрины]
+- relation: Не указан сетевой порт для вызова Встраивание beelineTV [beelineTV->Web приложение ОД]
+- relation: Не указан сетевой порт для вызова Встраивание beelineTV [beelineTV->Открытый диалог]
+- Не указана операционная система для Кластер yd-m6-kt22
+- Не указаны требования к CPU для Кластер yd-m6-kt22
+- Не указаны требования к RAM для Кластер yd-m6-kt22
+- Не указана операционная система для nesus
+- Не указаны требования к CPU для nesus
+- Не указаны требования к RAM для nesus
+- Не указана операционная система для Кластер yd-m6-kt22
+- Не указаны требования к CPU для Кластер yd-m6-kt22
+- Не указаны требования к RAM для Кластер yd-m6-kt22
+- Не указана операционная система для Кластер yd-m6-kt22
+- Не указаны требования к CPU для Кластер yd-m6-kt22
+- Не указаны требования к RAM для Кластер yd-m6-kt22
+- Диаграмма развертывания для среды Production не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+4: Платформа коммуникаций
+Loading workspace ...2023-07-12T11:25:29Z
+- relation: Не указана технология для вызова  [DMP->Платформа коммуникаций]
+- relation: Не указана технология для вызова  [DMP->FileStorage]
+- relation: Не указана технология для вызова  [DMP->Reciever]
+- relation: Не указана технология для вызова  [Mapic->History]
+- relation: Не указана технология для вызова  [Mapic->Платформа коммуникаций]
+- relation: Не указана технология для вызова  [Mapic->Reciever]
+- relation: Не указана технология для вызова  [Mapic->FileStorage]
+- Диаграмма развертывания для среды Production не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+7: Платформа коммуникаций
+Loading workspace ...2023-08-09T06:36:27Z
+- relation: Не указана технология для вызова  [Mapic->Платформа коммуникаций]
+- relation: Не указана технология для вызова  [Mapic->History]
+- relation: Не указана технология для вызова  [Mapic->Reciever]
+- relation: Не указана технология для вызова  [Mapic->FileStorage]
+- relation: Не указана технология для вызова  [DMP->Reciever]
+- relation: Не указана технология для вызова  [DMP->Платформа коммуникаций]
+- relation: Не указана технология для вызова  [DMP->FileStorage]
+- Диаграмма развертывания для среды Production не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+6: Платформа цифровых витрин (Showcase Platform)
+Loading workspace ...2024-01-10T15:09:21Z
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку для взаимодействия с API [Платформа цифровых витрин->Интерфейс для взаимодействия с API сервиса eAuth]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [Платформа цифровых витрин->DESIGN-SYSTEM]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку для взаимодействия с API [Платформа цифровых витрин->Eauth]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку для взаимодействия с API [Платформа цифровых витрин->fe библиотека eauth]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [MyProfile->DESIGN-SYSTEM]
+- relation: Не указан сетевой порт для вызова Использует FrontEnd библиотеку компонентов дизайн системы [Сервис делегирования->DESIGN-SYSTEM]
+- Не указана операционная система для rabbitmq showcase
+- Не указаны требования к CPU для rabbitmq showcase
+- Не указаны требования к RAM для rabbitmq showcase
+- Не указана операционная система для DB signature
+- Не указаны требования к CPU для DB signature
+- Не указаны требования к RAM для DB signature
+- Не указана операционная система для DB showcase
+- Не указаны требования к CPU для DB showcase
+- Не указаны требования к RAM для DB showcase
+- Не указана операционная система для DB myprofile
+- Не указаны требования к CPU для DB myprofile
+- Не указаны требования к RAM для DB myprofile
+- Не указана операционная система для DB notification
+- Не указаны требования к CPU для DB notification
+- Не указаны требования к RAM для DB notification
+- Не указана операционная система для rabbitmq showcase
+- Не указаны требования к CPU для rabbitmq showcase
+- Не указаны требования к RAM для rabbitmq showcase
+- Не указана операционная система для DB myprofile
+- Не указаны требования к CPU для DB myprofile
+- Не указаны требования к RAM для DB myprofile
+- Не указана операционная система для Кластер yd-m6-kt22
+- Не указаны требования к CPU для Кластер yd-m6-kt22
+- Не указаны требования к RAM для Кластер yd-m6-kt22
+- Не указана операционная система для Кластер rediscl
+- Не указаны требования к CPU для Кластер rediscl
+- Не указаны требования к RAM для Кластер rediscl
+- Не указана операционная система для DB showcase
+- Не указаны требования к CPU для DB showcase
+- Не указаны требования к RAM для DB showcase
+- Не указана операционная система для DB notification
+- Не указаны требования к CPU для DB notification
+- Не указаны требования к RAM для DB notification
+- Не указана операционная система для DB myprofile
+- Не указаны требования к CPU для DB myprofile
+- Не указаны требования к RAM для DB myprofile
+- Не указана операционная система для DB showcase
+- Не указаны требования к CPU для DB showcase
+- Не указаны требования к RAM для DB showcase
+- Не указана операционная система для DB signature
+- Не указаны требования к CPU для DB signature
+- Не указаны требования к RAM для DB signature
+- Не указана операционная система для DB delegation
+- Не указаны требования к CPU для DB delegation
+- Не указаны требования к RAM для DB delegation
+- Не указана операционная система для Кластер rediscl
+- Не указаны требования к CPU для Кластер rediscl
+- Не указаны требования к RAM для Кластер rediscl
+- Не указана операционная система для DB notification
+- Не указаны требования к CPU для DB notification
+- Не указаны требования к RAM для DB notification
+- Не указана операционная система для rabbitmq showcase
+- Не указаны требования к CPU для rabbitmq showcase
+- Не указаны требования к RAM для rabbitmq showcase
+- Не указана операционная система для DB signature
+- Не указаны требования к CPU для DB signature
+- Не указаны требования к RAM для DB signature
+- Не указана операционная система для DB delegation
+- Не указаны требования к CPU для DB delegation
+- Не указаны требования к RAM для DB delegation
+- Не указана операционная система для DB delegation
+- Не указаны требования к CPU для DB delegation
+- Не указаны требования к RAM для DB delegation
+- Не указана операционная система для Кластер yd-m6-kt22
+- Не указаны требования к CPU для Кластер yd-m6-kt22
+- Не указаны требования к RAM для Кластер yd-m6-kt22
+- Не указана операционная система для Кластер rediscl
+- Не указаны требования к CPU для Кластер rediscl
+- Не указаны требования к RAM для Кластер rediscl
+- Диаграмма развертывания для среды Production не существует
+[76] deploy
+CMDB код системы SHOWCASE : errors = 76
+
+5: Пример
+Loading workspace ...2023-11-30T09:03:47Z
+- Нет cmdb кода системы Моя система
+- Property CMDB для системы [Чужая система] не существует
+- Property CMDB для системы [Моя система] не существует
+- relation: Не указан сетевой порт для вызова Запрашивает полезные данные [Моя система->Чужая система]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36924: Пример
+Loading workspace ...2023-09-08T06:36:25Z
+- Property CMDB для системы [MAPIC] не существует
+- Property CMDB для системы [Мобильное приложение] не существует
+- Property CMDB для системы [Хранилище S3] не существует
+- Property CMDB для системы [ETAS] не существует
+- Property CMDB для системы [Script Manager] не существует
+- Property CMDB для системы [Интеграционная шина RICH] не существует
+- Property CMDB для системы [ПСК] не существует
+- Property CMDB для системы [Запись разговоров] не существует
+- relation: Не указан сетевой порт для вызова Маршрутизирует запрос [MAPIC->Интеграционная шина RICH]
+- relation: Не указан сетевой порт для вызова Маршрутизирует запрос [MAPIC->Запись разговоров]
+- relation: Не указан сетевой порт для вызова Передает сообщение [ETAS->Запись разговоров]
+- relation: Не указан сетевой порт для вызова Использует [Запись разговоров->Хранилище S3]
+- relation: Не указан сетевой порт для вызова Обращается [Запись разговоров->MAPIC]
+- relation: Не указан сетевой порт для вызова Отправляет сообщение [Запись разговоров->ПСК]
+- relation: Не указан сетевой порт для вызова Запрашивает возможность [Мобильное приложение->MAPIC]
+- relation: Не указан сетевой порт для вызова Запрашивает возможность [Script Manager->MAPIC]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36936: Проект MyAccess
+Loading workspace ...2023-12-26T12:12:50Z
+- Property CMDB для системы [DMP] не существует
+- Property CMDB для системы [MyProfile] не существует
+- Property CMDB для системы [Active Directory] не существует
+- Property CMDB для системы [Business Product Catalog] не существует
+- relation: Не указан сетевой порт для вызова Формирование бизнес-ролей [IDM->BPC]
+- relation: Не указана технология для вызова Синхронизация [IDM->Active Directory]
+- relation: Не указан сетевой порт для вызова Формирование бизнес-ролей [IDM->Business Product Catalog]
+- relation: Не указана технология для вызова Синхронизация [IDM->Active Directory]
+- relation: Не указана технология для вызова Информация о сотруднике [BeeWorks->MyProfile]
+- relation: Не указана технология для вызова Информация о сотруднике [BeeWorks->MyProfile]
+- relation: Не указана технология для вызова Информация о сотруднике [MyProfile->IDM]
+- relation: Не указана технология для вызова Выгрузка данных для отчетов [DMP->IDM App]
+- relation: Не указана технология для вызова Выгрузка данных для отчетов [DMP->IDM]
+- Диаграмма развертывания не существует
+[14] deploy
+CMDB код системы IDM : errors = 14
+
+369395: РўСЂР°Р№Р± B2C Mobile
+Loading workspace ...2024-01-09T08:39:54Z
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36933: Сервисные операции
+Loading workspace ...2024-01-10T08:31:37Z
+- Property CMDB для системы [ГосУслуги] не существует
+- relation: Не указан сетевой порт для вызова Makes API calls [Домен самообслуживания->Mobile ID]
+- relation: Не указан сетевой порт для вызова Makes API calls
+Запрос ПД [Домен самообслуживания->MAPIC]
+- relation: Не указан сетевой порт для вызова Domain event [Домен самообслуживания->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Makes API calls [Домен самообслуживания->Unified Self Service System (USSS)]
+- relation: Не указан сетевой порт для вызова Makes API calls
+Запрос актуальности ПД [Домен самообслуживания->Unified API]
+- relation: Не указан сетевой порт для вызова Makes RPC calls [Unified Customer Profile 2.x->Ensemble]
+- relation: Не указан сетевой порт для вызова Makes API calls [MAPIC->RICH]
+- relation: Не указан сетевой порт для вызова Makes API calls [MAPIC->Unified Customer Profile 2.x]
+- relation: Не указан сетевой порт для вызова Makes API calls [Unified API->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Makes API calls [Unified API->Mobile ID]
+- relation: Не указан сетевой порт для вызова Makes API calls via BFF [Мобильное приложение Мой Билайн->Восстановление номера]
+- relation: Не указан сетевой порт для вызова Makes API calls [Мобильное приложение Мой Билайн->ГосУслуги]
+- relation: Не указан сетевой порт для вызова Makes API calls via BFF [Мобильное приложение Мой Билайн->Переоформление номера]
+- relation: Не указан сетевой порт для вызова Makes API calls via BFF [Мобильное приложение Мой Билайн->Домен самообслуживания]
+- relation: Не указан сетевой порт для вызова Получение приглашений в семью [Unified Self Service System (USSS)->Ensemble]
+- relation: Не указан сетевой порт для вызова Makes API calls via BFF [ГосУслуги->Домен самообслуживания]
+- relation: Не указан сетевой порт для вызова Makes API calls via BFF [ГосУслуги->Переоформление номера]
+- relation: Не указан сетевой порт для вызова Makes RPC calls [RICH->Amdocs CRM (ACRM)]
+- relation: Не указан сетевой порт для вызова Makes API calls [RICH->Comverse PPS]
+- relation: Не указан сетевой порт для вызова Makes API calls [RICH->PBE.OnlineSIM]
+- relation: Не указан сетевой порт для вызова Makes RPC calls [RICH->CRM-MNP]
+- relation: Не указан сетевой порт для вызова Makes queries [RICH->Unified Self Service System (USSS)]
+- relation: Не указан сетевой порт для вызова Makes RPC calls [RICH->Ensemble]
+- relation: Не указан сетевой порт для вызова Makes API calls [RICH->Unified Customer Profile 2.x]
+- relation: Не указан сетевой порт для вызова Makes API calls [RICH->ГосУслуги]
+- relation: Не указан сетевой порт для вызова Makes API calls [RICH->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Makes API calls [Mobile ID->Домен самообслуживания]
+- relation: Не указан сетевой порт для вызова Makes API calls [Mobile ID->Переоформление номера]
+- relation: Не указан сетевой порт для вызова Makes API calls [WAF->Мобильное приложение Мой Билайн]
+- relation: Не указан сетевой порт для вызова Makes API calls [WAF->Mobile backend]
+- Не указана операционная система для WAN
+- Не указаны требования к CPU для WAN
+- Не указаны требования к RAM для WAN
+- Не указана операционная система для DMZ | STD
+- Не указаны требования к CPU для DMZ | STD
+- Не указаны требования к RAM для DMZ | STD
+- Не указана операционная система для DMZ | STD
+- Не указаны требования к CPU для DMZ | STD
+- Не указаны требования к RAM для DMZ | STD
+- Не указана операционная система для LAN | STD
+- Не указаны требования к CPU для LAN | STD
+- Не указаны требования к RAM для LAN | STD
+- Не указана операционная система для WAN
+- Не указаны требования к CPU для WAN
+- Не указаны требования к RAM для WAN
+- Не указана операционная система для LAN | STD
+- Не указаны требования к CPU для LAN | STD
+- Не указаны требования к RAM для LAN | STD
+- Не указана операционная система для WAN
+- Не указаны требования к CPU для WAN
+- Не указаны требования к RAM для WAN
+- Не указана операционная система для DMZ | STD
+- Не указаны требования к CPU для DMZ | STD
+- Не указаны требования к RAM для DMZ | STD
+- Не указана операционная система для LAN | STD
+- Не указаны требования к CPU для LAN | STD
+- Не указаны требования к RAM для LAN | STD
+[58] deploy
+CMDB код системы B2C-DIGITAL-SELF-SERVICE : errors = 58
+
+369403: Сервисные операции
+Loading workspace ...2024-01-09T08:50:11Z
+- relation: Не указан сетевой порт для вызова Получение настроек тарифов [Домен самообслуживания->QPDPC]
+- relation: Не указан сетевой порт для вызова Проверка кода монтажника [Домен самообслуживания->Unified Self Service System (USSS)]
+- relation: Не указан сетевой порт для вызова Заявка на обратный звонок [Домен самообслуживания->QP]
+- relation: Не указан сетевой порт для вызова Получение продуктового предложения [Домен самообслуживания->MAPIC]
+- relation: Не указан сетевой порт для вызова Makes API calls [WAF->Mobile backend]
+- relation: Не указан сетевой порт для вызова Makes API calls [WAF->Web backend]
+- relation: Не указан сетевой порт для вызова Makes API calls [WAF->Мобильное приложение Мой Билайн]
+- relation: Не указан сетевой порт для вызова Makes API calls [WAF->Сайт www.beeline.ru]
+- relation: Не указан сетевой порт для вызова Проверка заявок на переезд,
+инициирование переезда,
+ввод нового адреса,
+подтверждение создания заявки,
+подтверждение переезда [Мобильное приложение Мой Билайн->Переезд]
+- relation: Не указан сетевой порт для вызова Смена пресета [Мобильное приложение Мой Билайн->Домен самообслуживания]
+- relation: Не указан сетевой порт для вызова Смена пресета [Мобильное приложение Мой Билайн->Смена пресета ШПД]
+- relation: Не указан сетевой порт для вызова Получение слотов монтажника [Мобильное приложение Мой Билайн->Слоты монтажника]
+- relation: Не указан сетевой порт для вызова Получение предложения о смене пресета [Мобильное приложение Мой Билайн->Каталог FTTB-пресетов]
+- relation: Не указан сетевой порт для вызова Просмотр карточки тарифа [Мобильное приложение Мой Билайн->FTTB-пресет]
+- relation: Не указан сетевой порт для вызова Получение обещанного платежа [MAPIC->Unified API]
+- relation: Не указан сетевой порт для вызова Makes API calls [MAPIC->CT биллинг FTTB (INAC)]
+- relation: Не указан сетевой порт для вызова Makes API calls [MAPIC->RICH]
+- relation: Не указан сетевой порт для вызова Makes API calls [Unified Self Service System (USSS)->CT биллинг FTTB (INAC)]
+- relation: Не указан сетевой порт для вызова Заявка на обратный звонок [RICH->Amdocs CRM (ACRM)]
+- relation: Не указан сетевой порт для вызова Проверка блокировок [Сайт www.beeline.ru->Договор FTTB]
+- relation: Не указан сетевой порт для вызова Получение слотов монтажника [Сайт www.beeline.ru->Слоты монтажника]
+- relation: Не указан сетевой порт для вызова Смена пресета [Сайт www.beeline.ru->Смена пресета ШПД]
+- relation: Не указан сетевой порт для вызова Получение предложения о смене пресета [Сайт www.beeline.ru->Каталог FTTB-пресетов]
+- relation: Не указан сетевой порт для вызова Проверка заявок на переезд,
+инициирование переезда,
+ввод нового адреса,
+подтверждение создания заявки,
+подтверждение переезда [Сайт www.beeline.ru->Переезд]
+- relation: Не указан сетевой порт для вызова Просмотр карточки тарифа [Сайт www.beeline.ru->FTTB-пресет]
+- relation: Не указан сетевой порт для вызова Смена пресета [Сайт www.beeline.ru->Домен самообслуживания]
+- relation: Не указан сетевой порт для вызова Извлечение заявок на обратный звонок [АС МИО->QP]
+- Не указана операционная система для DMZ | STD
+- Не указаны требования к CPU для DMZ | STD
+- Не указаны требования к RAM для DMZ | STD
+- Не указана операционная система для LAN | STD
+- Не указаны требования к CPU для LAN | STD
+- Не указаны требования к RAM для LAN | STD
+- Не указана операционная система для WAN
+- Не указаны требования к CPU для WAN
+- Не указаны требования к RAM для WAN
+- Диаграмма развертывания для среды Production не существует
+[37] deploy
+CMDB код системы B2C-DIGITAL-SERVOPS-FTTB : errors = 37
+
+5369402: Симплификация
+Loading workspace ...2024-01-11T07:50:26Z
+- В модели нет систем
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+369394: Системы Digital
+Loading workspace ...2023-11-30T18:02:38Z
+- Property CMDB для системы [OPS] не существует
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+5369403: СОЗ ГО
+Loading workspace ...2024-01-19T10:54:55Z
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->CMD-offline]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->Мобильный кошелёк (UMCS)]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->GT Mediation Sovintel Voice]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->Новая Платформа FMRA]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->АСР Атлант Централизованный биллинг]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->CT биллинг FTTB (INAC)]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->CMD-Online]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->TD TechnicalDataStore]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->GT Softel]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->BeePayXP]
+- relation: Не указана технология для вызова Запрос данных [СОЗ ГО->Ensemble]
+- Диаграмма развертывания не существует
+[12] deploy
+CMDB код системы SOZGO : errors = 12
+
+369400: Трайб CVM
+Loading workspace ...2024-01-18T13:46:07Z
+- Нет cmdb кода системы домен данных и аналитики
+- Нет properties системы Трайб CVM
+- Нет properties системы Трайб CVM
+- Нет cmdb кода системы домен данных и аналитики
+- Нет cmdb кода системы Клиентский домен
+- Нет properties системы Трайб CVM
+- Нет cmdb кода системы домен данных и аналитики
+- Нет properties системы Трайб CVM
+- Нет cmdb кода системы Клиентский домен
+- Нет cmdb кода системы Клиентский домен
+- Нет cmdb кода системы Клиентский домен
+- Нет cmdb кода системы Клиентский домен
+- Нет properties системы Трайб CVM
+- Нет cmdb кода системы домен данных и аналитики
+- Нет cmdb кода системы домен данных и аналитики
+- Property CMDB для системы [RFBS] не существует
+- Property CMDB для системы [Клиентский домен] не существует
+- Property CMDB для системы [ЛК Абонента] не существует
+- Property CMDB для системы [PRODUCT_CATALOG] не существует
+- Property CMDB для системы [FEATURE_STORE] не существует
+- Property CMDB для системы [WebM2M] не существует
+- Property CMDB для системы [SystemY] не существует
+- Property CMDB для системы [ELK] не существует
+- Property CMDB для системы [ONEBUSINESS] не существует
+- Property CMDB для системы [ЕСИА] не существует
+- Property CMDB для системы [ЦПО] не существует
+- Property CMDB для системы [домен данных и аналитики] не существует
+- Property CMDB для системы [AUTOMATED_OPERATOR_WORKSTATION] не существует
+- Property CMDB для системы [Сhannel Control for Peer Communication] не существует
+- Property CMDB для системы [LOGICA] не существует
+- Property CMDB для системы [Конструктор роуминга B2C] не существует
+- Property CMDB для системы [EPD] не существует
+- Property CMDB для системы [SystemX] не существует
+- Property CMDB для системы [mailhost] не существует
+- Property CMDB для системы [VIRTUAL_HELPER] не существует
+- Property CMDB для системы [Digital product catalog] не существует
+- Property CMDB для системы [Gamification_platform] не существует
+- Property CMDB для системы [ЦПП] не существует
+- relation: Не указана технология для вызова Логи и метрики [FEATURE_STORE->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Извлечение данных для формирования признаков [FEATURE_STORE->DMP: Data Management Platform (BigData)]
+- relation: Не указана технология для вызова Информирование потребителей [FEATURE_STORE->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Публикация и просмотр витрин с признаками [FEATURE_STORE->OMD (Openmetadata)]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [FEATURE_STORE->Единый клиентский профиль]
+- relation: Не указана технология для вызова Получение данных профиля [RFBS->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [RFBS->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [RFBS->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Mobile ID->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Mobile ID->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Mobile ID->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Amdocs CRM (ACRM)->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Amdocs CRM (ACRM)->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Amdocs CRM (ACRM)->Клиентский домен]
+- relation: Не указана технология для вызова Запрос контактов для обзвона, карточки контакта, диалога, подбор inbound кампаний [Amdocs CRM (ACRM)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [Amdocs CRM (ACRM)->Единый клиентский профиль]
+- relation: Не указана технология для вызова Данные по абоненту [CT Интеграционная среда FTTB (INAC)->Трайб CVM]
+- relation: Не указана технология для вызова Данные по абоненту [CT Интеграционная среда FTTB (INAC)->Клиентский домен]
+- relation: Не указана технология для вызова Данные по абоненту [CT Интеграционная среда FTTB (INAC)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос данных для тарификации [Pretium->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных для тарификации [Pretium->Трайб CVM]
+- relation: Не указана технология для вызова Через balance manager [Pretium->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Запрос данных для тарификации [Pretium->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [CRM-MNP->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [CRM-MNP->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [CRM-MNP->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [CRM-MNP->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [BeeLego->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [BeeLego->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [BeeLego->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Нотификации, статус абонента [SMSNE->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Отправка событий immediate [SMSNE->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Нотификации, статус абонента [SMSNE->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Нотификации, статус абонента [SMSNE->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильный кошелёк (UMCS)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильный кошелёк (UMCS)->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильный кошелёк (UMCS)->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [VIRTUAL_HELPER->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [VIRTUAL_HELPER->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [VIRTUAL_HELPER->Единый клиентский профиль]
+- relation: Не указана технология для вызова Передача хвостов [DEL_ STP (Camel)->Трайб CVM]
+- relation: Не указана технология для вызова Передача хвостов [DEL_ STP (Camel)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Передача хвостов [DEL_ STP (Camel)->Клиентский домен]
+- relation: Не указана технология для вызова Через balance manager [ELK->Трайб CVM]
+- relation: Не указана технология для вызова Через balance manager [ELK->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Через balance manager [ELK->Клиентский домен]
+- relation: Не указана технология для вызова Данные по подключенным, отключенным услугам [Ensemble->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова События изменений данных по абоненту [Ensemble->Клиентский домен]
+- relation: Не указан сетевой порт для вызова События изменений данных по абоненту [Ensemble->Трайб CVM]
+- relation: Не указан сетевой порт для вызова События изменений данных по абоненту [Ensemble->Единый клиентский профиль]
+- relation: Не указана технология для вызова Получение сервисных событий [Цифровая платформа управления->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Цифровая платформа управления->Клиентский домен]
+- relation: Не указана технология для вызова Получение сервисных событий [Цифровая платформа управления->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Изменение данных по абоненту [ЕСИА->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Изменение данных по абоненту [ЕСИА->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Изменение данных по абоненту [ЕСИА->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка события отмены списания АП в минус [Единый клиентский профиль->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Единый клиентский профиль->Ensemble]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Единый клиентский профиль->GT Softel]
+- relation: Не указан сетевой порт для вызова Синхронизация изменений [Единый клиентский профиль->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указан сетевой порт для вызова Получение данных [Единый клиентский профиль->Unified Self Service System (USSS)]
+- relation: Не указана технология для вызова Отгрузка данных профиля [Единый клиентский профиль->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Единый клиентский профиль->АСР Атлант Централизованный биллинг]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [Единый клиентский профиль->ЕСИА]
+- relation: Не указана технология для вызова Логирование и метрики [Единый клиентский профиль->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Получение данных по абоненту [Единый клиентский профиль->SystemY]
+- relation: Не указана технология для вызова Получение данных по абоненту [Единый клиентский профиль->SystemX]
+- relation: Не указана технология для вызова Данные по метоположению prepaid абонента [UCP Unified Customer Profile->ИС Регион (Regions DB)]
+- relation: Не указана технология для вызова Получение данных по абонентам [UCP Unified Customer Profile->Comverse PPS]
+- relation: Не указана технология для вызова Данные профиля абонента [UCP Unified Customer Profile->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова  [UCP Unified Customer Profile->TD SQA RADCOM]
+- relation: Не указана технология для вызова  [UCP Unified Customer Profile->RBT]
+- relation: Не указана технология для вызова Данные TechOSS [UCP Unified Customer Profile->Ericsson PCRF]
+- relation: Не указана технология для вызова Изменения по абоненту [UCP Unified Customer Profile->Ensemble]
+- relation: Не указана технология для вызова Данные по продкутам [UCP Unified Customer Profile->Digital product catalog]
+- relation: Не указана технология для вызова Данные по антифроду [UCP Unified Customer Profile->GT Fraud Management System]
+- relation: Не указана технология для вызова Получение данных по абонентам [UCP Unified Customer Profile->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указана технология для вызова Логи, метрики [UCP Unified Customer Profile->Платформа наблюдаемости]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [PBE.VAS->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [PBE.VAS->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [PBE.VAS->Трайб CVM]
+- relation: Не указана технология для вызова Данные профиля абонента [DMP: Data Management Platform (BigData)->Клиентский домен]
+- relation: Не указана технология для вызова Данные профиля абонента [DMP: Data Management Platform (BigData)->Трайб CVM]
+- relation: Не указана технология для вызова Данные профиля абонента [DMP: Data Management Platform (BigData)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [домен данных и аналитики->Клиентский домен]
+- relation: Не указана технология для вызова Логи и метрики [домен данных и аналитики->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Публикация и просмотр витрин с признаками [домен данных и аналитики->OMD (Openmetadata)]
+- relation: Не указана технология для вызова Извлечение данных для формирования признаков [домен данных и аналитики->DMP: Data Management Platform (BigData)]
+- relation: Не указана технология для вызова Получение данных профиля [LOGICA->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [LOGICA->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [LOGICA->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Корпоративный Fax Сервер->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Корпоративный Fax Сервер->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Корпоративный Fax Сервер->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [Партнерский Конвергент->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Партнерский Конвергент->Клиентский домен]
+- relation: Не указана технология для вызова Получение сервисных событий [Партнерский Конвергент->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [B2C Digital Family->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [B2C Digital Family->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [B2C Digital Family->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Telecom API->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Telecom API->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Telecom API->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильная PBX (MPBX)->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильная PBX (MPBX)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Мобильная PBX (MPBX)->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [CDP Content Delivery Platform->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [CDP Content Delivery Platform->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [CDP Content Delivery Platform->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Сhannel Control for Peer Communication->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Сhannel Control for Peer Communication->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Сhannel Control for Peer Communication->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [STARS->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [STARS->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [STARS->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Геоданные [TD SQA RADCOM->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Геоданные [TD SQA RADCOM->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Геоданные [TD SQA RADCOM->Клиентский домен]
+- relation: Не указана технология для вызова Отправка результатов дозвона [IPCP->Campaign Management (CM)]
+- relation: Не указана технология для вызова Отправка результатов дозвона [IPCP->Клиентский домен]
+- relation: Не указана технология для вызова Отправка результатов дозвона [IPCP->Трайб CVM]
+- relation: Не указана технология для вызова Рекомендованный платеж [АРМ Клиент-Сбербанк->Campaign Management (CM)]
+- relation: Не указана технология для вызова Рекомендованный платеж [АРМ Клиент-Сбербанк->Клиентский домен]
+- relation: Не указана технология для вызова Рекомендованный платеж [АРМ Клиент-Сбербанк->Трайб CVM]
+- relation: Не указана технология для вызова Получение предложений, инициирование подключения [Gamification_platform->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение предложений, инициирование подключения [Gamification_platform->Клиентский домен]
+- relation: Не указана технология для вызова Получение предложений, инициирование подключения [Gamification_platform->Трайб CVM]
+- relation: Не указана технология для вызова Запрос комфортного времени коммуникации [Платформа сервисных коммуникаций->Campaign Management (CM)]
+- relation: Не указана технология для вызова Отправка коммуникации [Платформа сервисных коммуникаций->Communication Platform]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [Платформа сервисных коммуникаций->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Отправка push [Платформа сервисных коммуникаций->PushBackend]
+- relation: Не указана технология для вызова Логирование и метрики [Платформа сервисных коммуникаций->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Получение профиля абонента по CTN [Платформа сервисных коммуникаций->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение сервисных событий [Конструктор роуминга B2C->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [Конструктор роуминга B2C->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [Конструктор роуминга B2C->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных [Доверительный платеж 2.0->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос данных [Доверительный платеж 2.0->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Доверительный платеж 2.0->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Доверительный платеж 2.0->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [NRobot (Система роботизированного обзвона Нейро)->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [NRobot (Система роботизированного обзвона Нейро)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [NRobot (Система роботизированного обзвона Нейро)->Клиентский домен]
+- relation: Не указана технология для вызова Получение сервисных событий [B2BTAS->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [B2BTAS->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение сервисных событий [B2BTAS->Клиентский домен]
+- relation: Не указана технология для вызова Получение предложений, списка кампаний [Универсальный IVR (UIVR)->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Универсальный IVR (UIVR)->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Универсальный IVR (UIVR)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение предложений, списка кампаний [Универсальный IVR (UIVR)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение контактов [Outbound Campaign Management->Трайб CVM]
+- relation: Не указана технология для вызова Получение контактов [Outbound Campaign Management->Клиентский домен]
+- relation: Не указана технология для вызова Получение контактов [Outbound Campaign Management->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение данных профиля [ScriptManager->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [ScriptManager->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [ScriptManager->Трайб CVM]
+- relation: Не указана технология для вызова Какие то данные [ScriptManager->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение сервисных событий [Anti-Fraud->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [Anti-Fraud->Клиентский домен]
+- relation: Не указана технология для вызова Получение сервисных событий [Anti-Fraud->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [IRobot (Система роботизированного обзвона Инлексис)->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [IRobot (Система роботизированного обзвона Инлексис)->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос котакта для обзвона [IRobot (Система роботизированного обзвона Инлексис)->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ЛК Абонента->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [ЛК Абонента->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ЛК Абонента->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [ЛК Абонента->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение сервисных событий [Технология VOLTE /VoWiFi->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [Технология VOLTE /VoWiFi->Клиентский домен]
+- relation: Не указана технология для вызова Получение сервисных событий [Технология VOLTE /VoWiFi->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [B2C Digital Self Service->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка события переоформления номера [B2C Digital Self Service->Трайб CVM]
+- relation: Не указана технология для вызова Получение сервисных событий [B2C Digital Self Service->Платформа сервисных коммуникаций]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [B2C Digital Self Service->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [EPD->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [EPD->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [EPD->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [WebM2M->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [WebM2M->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [WebM2M->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Запрос контактов, данных по абоненту [AUTOMATED_OPERATOR_WORKSTATION->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [AUTOMATED_OPERATOR_WORKSTATION->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [AUTOMATED_OPERATOR_WORKSTATION->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [AUTOMATED_OPERATOR_WORKSTATION->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по юр. лицам [B2B Online->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных по юр. лицам [B2B Online->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение данных по юр. лицам [B2B Online->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Геоаналитика->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Геоаналитика->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Геоаналитика->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Unified API->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Unified API->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Unified API->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ONEBUSINESS->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ONEBUSINESS->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [ONEBUSINESS->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [B2C Digital Retail->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [B2C Digital Retail->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [B2C Digital Retail->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Customer Care Back Office (CCBO)->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Customer Care Back Office (CCBO)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Customer Care Back Office (CCBO)->Трайб CVM]
+- relation: Не указана технология для вызова Данные для отчетности [BIIS Business Intelligence & Information System->Трайб CVM]
+- relation: Не указана технология для вызова Данные для отчетности [BIIS Business Intelligence & Information System->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные для отчетности [BIIS Business Intelligence & Information System->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Оценка корзины [Трайб CVM->Ordering Tibco]
+- relation: Не указана технология для вызова Данные для доверительного платежа [Трайб CVM->Доверительный платеж 2.0]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [Трайб CVM->ЕСИА]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Трайб CVM->GT Softel]
+- relation: Не указана технология для вызова Отгрузка данных профиля [Трайб CVM->DMP: Data Management Platform (BigData)]
+- relation: Не указана технология для вызова  [Трайб CVM->RBT]
+- relation: Не указана технология для вызова Логи, метрики [Трайб CVM->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Получение данных по абоненту [Трайб CVM->SystemX]
+- relation: Не указан сетевой порт для вызова Отправка события для канала колокольчик [Трайб CVM->Communication Platform]
+- relation: Не указана технология для вызова Публикация и просмотр витрин с признаками [Трайб CVM->OMD (Openmetadata)]
+- relation: Не указана технология для вызова Отправка  Email и получение ошибок [Трайб CVM->mailhost]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Трайб CVM->Ensemble]
+- relation: Не указана технология для вызова Получение данных по абонентам [Трайб CVM->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указана технология для вызова Получение данных по абонентам [Трайб CVM->Comverse PPS]
+- relation: Не указан сетевой порт для вызова Геоданные [Трайб CVM->TD Polystar]
+- relation: Не указан сетевой порт для вызова Отправка push [Трайб CVM->PushBackend]
+- relation: Не указана технология для вызова Загрузка кампаний [Трайб CVM->Amdocs CRM (ACRM)]
+- relation: Не указана технология для вызова Компании по начислениям [Трайб CVM->Сервисная площадка ESB.NET]
+- relation: Не указана технология для вызова Данные TechOSS [Трайб CVM->Ericsson PCRF]
+- relation: Не указана технология для вызова Отправка SMS, получение статуса о доставке [Трайб CVM->SMS Router]
+- relation: Не указана технология для вызова Получение данных по абоненту [Трайб CVM->SystemY]
+- relation: Не указана технология для вызова Данные по метоположению prepaid абонента [Трайб CVM->ИС Регион (Regions DB)]
+- relation: Не указана технология для вызова Запрос доступных продуктов, корзины [Трайб CVM->Unified Self Service System (USSS)]
+- relation: Не указана технология для вызова Данные по продкутам [Трайб CVM->Digital product catalog]
+- relation: Не указана технология для вызова Отгрузка картнок для сторис [Трайб CVM->Мобильное приложение Мой Билайн]
+- relation: Не указан сетевой порт для вызова  [Трайб CVM->TD SQA RADCOM]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Трайб CVM->АСР Атлант Централизованный биллинг]
+- relation: Не указан сетевой порт для вызова Запрос продуктовых предложений [Трайб CVM->PRODUCT_CATALOG]
+- relation: Не указана технология для вызова Данные по антифроду [Трайб CVM->GT Fraud Management System]
+- relation: Не указана технология для вызова Данные по роумингу [Трайб CVM->Target SMS]
+- relation: Не указан сетевой порт для вызова  [Трайб CVM->Unified API]
+- relation: Не указана технология для вызова Получение данных профиля [Фабрика детализации->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Фабрика детализации->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Фабрика детализации->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [Мобильное приложение Мой Билайн->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [Мобильное приложение Мой Билайн->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение предложений, сториз [Мобильное приложение Мой Билайн->Клиентский домен]
+- relation: Не указана технология для вызова Отправка  Email и получение ошибок [Campaign Management (CM)->mailhost]
+- relation: Не указана технология для вызова Компании по начислениям [Campaign Management (CM)->Сервисная площадка ESB.NET]
+- relation: Не указана технология для вызова Получение данных профиля [Campaign Management (CM)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Данные по роумингу [Campaign Management (CM)->Target SMS]
+- relation: Не указан сетевой порт для вызова Оценка корзины [Campaign Management (CM)->Ordering Tibco]
+- relation: Не указан сетевой порт для вызова Отправка welcome события в топик [Campaign Management (CM)->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Данные абонента [Campaign Management (CM)->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Геоданные [Campaign Management (CM)->TD Polystar]
+- relation: Не указана технология для вызова Загрузка кампаний [Campaign Management (CM)->Amdocs CRM (ACRM)]
+- relation: Не указана технология для вызова Отгрузка картнок для сторис [Campaign Management (CM)->Мобильное приложение Мой Билайн]
+- relation: Не указан сетевой порт для вызова Получение данных по абонентам [Campaign Management (CM)->Единый клиентский профиль]
+- relation: Не указана технология для вызова Данные для доверительного платежа [Campaign Management (CM)->Доверительный платеж 2.0]
+- relation: Не указана технология для вызова Запрос доступных продуктов, корзины [Campaign Management (CM)->Unified Self Service System (USSS)]
+- relation: Не указан сетевой порт для вызова Запрос продуктовых предложений [Campaign Management (CM)->PRODUCT_CATALOG]
+- relation: Не указан сетевой порт для вызова  [Campaign Management (CM)->Unified API]
+- relation: Не указана технология для вызова Отправка коммуникаций [Campaign Management (CM)->Communication Platform]
+- relation: Не указана технология для вызова Логи и метрики [Campaign Management (CM)->Платформа наблюдаемости]
+- relation: Не указана технология для вызова Отправка SMS, получение статуса о доставке [Campaign Management (CM)->SMS Router]
+- relation: Не указана технология для вызова Получение данных профиля [PartnerPlatform->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [PartnerPlatform->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [PartnerPlatform->Трайб CVM]
+- relation: Не указана технология для вызова Запрос доступных продуктов, корзины [Клиентский домен->Unified Self Service System (USSS)]
+- relation: Не указана технология для вызова Отправка коммуникации [Клиентский домен->Communication Platform]
+- relation: Не указана технология для вызова Получение данных по абонентам [Клиентский домен->CT Интеграционная среда FTTB (INAC)]
+- relation: Не указана технология для вызова Данные для доверительного платежа [Клиентский домен->Доверительный платеж 2.0]
+- relation: Не указана технология для вызова Отправка  Email и получение ошибок [Клиентский домен->mailhost]
+- relation: Не указан сетевой порт для вызова Данные по абоненту [Клиентский домен->Ensemble]
+- relation: Не указана технология для вызова Получение данных по абоненту [Клиентский домен->SystemY]
+- relation: Не указана технология для вызова Логирование и метрики [Клиентский домен->Платформа наблюдаемости]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Клиентский домен->GT Softel]
+- relation: Не указана технология для вызова Данные по роумингу [Клиентский домен->Target SMS]
+- relation: Не указан сетевой порт для вызова Получение данных абрнента [Клиентский домен->ЕСИА]
+- relation: Не указана технология для вызова Отправка SMS, получение статуса о доставке [Клиентский домен->SMS Router]
+- relation: Не указан сетевой порт для вызова  [Клиентский домен->Unified API]
+- relation: Не указана технология для вызова Загрузка кампаний [Клиентский домен->Amdocs CRM (ACRM)]
+- relation: Не указана технология для вызова Данные по метоположению prepaid абонента [Клиентский домен->ИС Регион (Regions DB)]
+- relation: Не указана технология для вызова Данные по продкутам [Клиентский домен->Digital product catalog]
+- relation: Не указана технология для вызова  [Клиентский домен->RBT]
+- relation: Не указана технология для вызова Данные по антифроду [Клиентский домен->GT Fraud Management System]
+- relation: Не указан сетевой порт для вызова  [Клиентский домен->TD SQA RADCOM]
+- relation: Не указана технология для вызова Компании по начислениям [Клиентский домен->Сервисная площадка ESB.NET]
+- relation: Не указан сетевой порт для вызова Отправка push [Клиентский домен->PushBackend]
+- relation: Не указан сетевой порт для вызова Оценка корзины [Клиентский домен->Ordering Tibco]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Клиентский домен->АСР Атлант Централизованный биллинг]
+- relation: Не указан сетевой порт для вызова Запрос продуктовых предложений [Клиентский домен->PRODUCT_CATALOG]
+- relation: Не указана технология для вызова Данные абонента [Клиентский домен->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Геоданные [Клиентский домен->TD Polystar]
+- relation: Не указана технология для вызова Отгрузка картнок для сторис [Клиентский домен->Мобильное приложение Мой Билайн]
+- relation: Не указана технология для вызова Получение данных по абонентам [Клиентский домен->Comverse PPS]
+- relation: Не указана технология для вызова Данные TechOSS [Клиентский домен->Ericsson PCRF]
+- relation: Не указана технология для вызова Получение данных по абоненту [Клиентский домен->SystemX]
+- relation: Не указана технология для вызова Данные для отчетности [MOZ Система операционной отчетности (МОЗ)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные для отчетности [MOZ Система операционной отчетности (МОЗ)->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [MOZ Система операционной отчетности (МОЗ)->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [MOZ Система операционной отчетности (МОЗ)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Product Offering Management->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Product Offering Management->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Product Offering Management->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Личный кабинет для корпоративных клиентов LKB2B->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Личный кабинет для корпоративных клиентов LKB2B->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Личный кабинет для корпоративных клиентов LKB2B->Клиентский домен]
+- relation: Не указана технология для вызова Запрос данных по компаниям [GT 1C-Инвентори (1С Work Order)->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение и изменение данных по договору [GT 1C-Инвентори (1С Work Order)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение и изменение данных по договору [GT 1C-Инвентори (1С Work Order)->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [GT 1C-Инвентори (1С Work Order)->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Запрос данных по компаниям [GT 1C-Инвентори (1С Work Order)->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение данных профиля [mTopUp->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [mTopUp->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [mTopUp->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [ЦПО->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [ЦПО->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [ЦПО->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Digital Contract->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Digital Contract->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [Digital Contract->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [ClaimManagement->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [ClaimManagement->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [ClaimManagement->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [Мобильное приложение Монобренда->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [Мобильное приложение Монобренда->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [Мобильное приложение Монобренда->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Загрузка сервисов [Switch Control (SC)->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Загрузка сервисов [Switch Control (SC)->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Загрузка сервисов [Switch Control (SC)->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Unified balance->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Unified balance->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Unified balance->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [Unified balance->Единый клиентский профиль]
+- relation: Не указана технология для вызова Статус доставки SMS [SMS Router->Campaign Management (CM)]
+- relation: Не указана технология для вызова Статус доставки SMS [SMS Router->Трайб CVM]
+- relation: Не указана технология для вызова Статус доставки SMS [SMS Router->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение service inventory [Hermes->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Получение service inventory [Hermes->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Hermes->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Получение service inventory [Hermes->Единый клиентский профиль]
+- relation: Не указан сетевой порт для вызова Запрос данных профиля для аутентификации [IDP->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос данных профиля для аутентификации [IDP->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных профиля для аутентификации [IDP->Единый клиентский профиль]
+- relation: Не указана технология для вызова Данные для отчетности [BeeMetrics->Campaign Management (CM)]
+- relation: Не указана технология для вызова Данные для отчетности [BeeMetrics->Трайб CVM]
+- relation: Не указана технология для вызова Данные для отчетности [BeeMetrics->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [RICH->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [RICH->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [RICH->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Balance Manager->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Balance Manager->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Balance Manager->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [билайн PRO->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [билайн PRO->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос таргетированных предожений [билайн PRO->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Ordering Tibco->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [Ordering Tibco->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Ordering Tibco->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [Ordering Tibco->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Получение данных профиля [BackEnd Интернет магазина Билайн->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [BackEnd Интернет магазина Билайн->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [BackEnd Интернет магазина Билайн->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [FSSPSTREAM->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [FSSPSTREAM->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [FSSPSTREAM->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Sber commision->Клиентский домен]
+- relation: Не указана технология для вызова Получение данных профиля [Sber commision->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Получение данных профиля [Sber commision->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [FZ533_app->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [FZ533_app->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Получение данных абонента [FZ533_app->Единый клиентский профиль]
+- relation: Не указана технология для вызова Получение данных профиля [FZ533_app->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [BeePayXP->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [BeePayXP->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Отправка сервиcного события для отправки SMS [BeePayXP->Платформа сервисных коммуникаций]
+- relation: Не указана технология для вызова Отгрузка абонентов для рассылки по периодическим кампаниям [ETL->Трайб CVM]
+- relation: Не указана технология для вызова Отгрузка абонентов для рассылки по периодическим кампаниям [ETL->Клиентский домен]
+- relation: Не указана технология для вызова Отгрузка абонентов для рассылки по периодическим кампаниям [ETL->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Получение данных по абоненту [ЦПП->Трайб CVM]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [ЦПП->Клиентский домен]
+- relation: Не указан сетевой порт для вызова Запрос данных по абоненту [ЦПП->Единый клиентский профиль]
+- relation: Не указана технология для вызова Запрос кампаний [DOL Dealer On Line->Campaign Management (CM)]
+- relation: Не указана технология для вызова Запрос кампаний [DOL Dealer On Line->Клиентский домен]
+- relation: Не указана технология для вызова Запрос кампаний [DOL Dealer On Line->Трайб CVM]
+- relation: Не указана технология для вызова Получение данных профиля [DOL Dealer On Line->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Данные по SOC [ARENA->Campaign Management (CM)]
+- relation: Не указана технология для вызова Получение параметров из продуктового каталога [ARENA->Клиентский домен]
+- relation: Не указана технология для вызова Данные по SOC [ARENA->Трайб CVM]
+- relation: Не указана технология для вызова Получение параметров из продуктового каталога [ARENA->Платформа сервисных коммуникаций]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36934: Трайб NonTelco
+Loading workspace ...2024-01-19T08:26:20Z
+- Нет cmdb кода системы Домен лояльности
+- Нет cmdb кода системы Домен лояльности
+- Нет cmdb кода системы Домен платежей
+- Нет cmdb кода системы Домен цифровых продуктов
+- Нет cmdb кода системы Домен ТВ
+- Нет properties системы Трайб NonTelco
+- Нет cmdb кода системы Домен платежей
+- Нет cmdb кода системы Домен цифровых продуктов
+- Нет cmdb кода системы Домен ТВ
+- Нет properties системы Трайб NonTelco
+- Нет cmdb кода системы Домен балансов
+- Нет cmdb кода системы Домен балансов
+- Property CMDB для системы [Книги] не существует
+- Property CMDB для системы [JUSTAI] не существует
+- Property CMDB для системы [Домен лояльности] не существует
+- Property CMDB для системы [Домен ТВ] не существует
+- Property CMDB для системы [Домен платежей] не существует
+- Property CMDB для системы [Wildberries] не существует
+- Property CMDB для системы [RURU] не существует
+- Property CMDB для системы [Облако] не существует
+- Property CMDB для системы [Game Platform] не существует
+- Property CMDB для системы [Домен цифровых продуктов] не существует
+- Property CMDB для системы [Домен балансов] не существует
+- relation: Не указана технология для вызова Данные по биллингу абонентов [ИС Регион (Regions DB)->BeePayXP]
+- relation: Не указана технология для вызова Данные по биллингу абонентов [ИС Регион (Regions DB)->Трайб NonTelco]
+- relation: Не указана технология для вызова Данные по биллингу абонентов [ИС Регион (Regions DB)->Домен платежей]
+- relation: Не указан сетевой порт для вызова Запрос на проверку приза [PartnerPlatform->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Запрос на проверку выданного приза по ctn [PartnerPlatform->Game_API]
+- relation: Не указан сетевой порт для вызова Запрос на проверку приза [PartnerPlatform->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Запрос на проверку приза [PartnerPlatform->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Передает данные для сегментации Клиентов; [DMP: Data Management Platform (BigData)->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Передает данные для сегментации Клиентов; [DMP: Data Management Platform (BigData)->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Передает данные для сегментации Клиентов на витрину ПЦ; 
+ Выгружает аналитические данные процессинга; [DMP: Data Management Platform (BigData)->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Передает данные для сегментации Клиентов на витрину ПЦ; 
+ Выгружает аналитические данные процессинга; [DMP: Data Management Platform (BigData)->analytics]
+- relation: Не указан сетевой порт для вызова Передача событий геймификации [Comverse PPS->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Передача событий геймификации [Comverse PPS->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Передача событий геймификации [Comverse PPS->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова События геймификации [Comverse PPS->Game_API]
+- relation: Не указана технология для вызова Отправка уведомлений; 
+ Маркетинговая рассылка [Домен лояльности->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Запрашивает справочник игр из легаси QP; [Домен лояльности->internal.beeline.ru - бэкенд для мобильных приложений]
+- relation: Не указана технология для вызова Запрос на проверку ctn [Домен лояльности->B2C Digital Self Service]
+- relation: Не указана технология для вызова Запрос баланса сот; 
+ Запрос на списание и начисление сот; 
+ Запрос на конвертацию [Домен лояльности->Balance Manager]
+- relation: Не указан сетевой порт для вызова Читает события поступления СМС [Домен лояльности->Communication Platform]
+- relation: Не указан сетевой порт для вызова Выгружает данные процессинга; [Домен лояльности->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Запрос данных по клиенту; 
+ Запрос подключенных продуктов [Домен лояльности->Unified Customer Profile 2.x]
+- relation: Не указан сетевой порт для вызова Отправка AoC [Payment Hub->SMS Router]
+- relation: Не указан сетевой порт для вызова ??? [Payment Hub->RURU]
+- relation: Не указан сетевой порт для вызова Выгрузка архива операций [Payment Hub->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Определение принадлежности клиента билайну [Payment Hub->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Списание ДС [Payment Hub->Мобильный кошелёк (UMCS)]
+- relation: Не указан сетевой порт для вызова Подтверждение оплаты [Payment Hub->Wildberries]
+- relation: Не указана технология для вызова Запрос проверки ctn [Процессинг лояльности->B2C Digital Self Service]
+- relation: Не указана технология для вызова Запрос баланса сот клиента; 
+ Запрос на списание и начисление сот клиенту; 
+ Запрос на конвертацию c учетом коммисии [Процессинг лояльности->Balance Manager]
+- relation: Не указан сетевой порт для вызова Запрос данных по клиенту; 
+ Запрос подключенных продуктов [Процессинг лояльности->Unified Customer Profile 2.x]
+- relation: Не указана технология для вызова Отправка уведомлений; 
+ Маркетинговая рассылка [Процессинг лояльности->Campaign Management (CM)]
+- relation: Не указан сетевой порт для вызова Выгружает данные процессинга; [Процессинг лояльности->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Читает события поступления СМС [Процессинг лояльности->Communication Platform]
+- relation: Не указан сетевой порт для вызова Запрашивает справочник игр из легаси QP; [Процессинг лояльности->internal.beeline.ru - бэкенд для мобильных приложений]
+- relation: Не указана технология для вызова Платежи в кассах [1C8-SALES Розница, редакция 2.0->Трайб NonTelco]
+- relation: Не указана технология для вызова Платежи в кассах [1C8-SALES Розница, редакция 2.0->Домен платежей]
+- relation: Не указана технология для вызова Платежи в кассах [1C8-SALES Розница, редакция 2.0->BeePayXP]
+- relation: Не указан сетевой порт для вызова Запрашивает персональный список офферов; 
+ Запрашивает историю полученных призов; 
+ Запросы в рамках сквозной системы поощрений; 
+ Отправка информации по ОС оффера; 
+ Передача информации о входе в раздел; 
+ Запрос списка заданий (соты) ; 
+ Запрос баланса сот; 
+ Запрос истории начислений и списаний сот 
+ Запрос справочника конвертации [internal.beeline.ru - бэкенд для мобильных приложений->Game_API]
+- relation: Не указан сетевой порт для вызова Запрашивает список офферов; 
+ Запрашивает историю полученных призов; 
+ Запросы в рамках сквозной системы поощрений; 
+ ОС по офферу; 
+ Передача информации о входе в раздел; 
+ Запрос списка заданий (соты) ; 
+ Запрос баланса сот; 
+ Запрос истории начислений и списаний сот 
+ Запрос справочника конвертации [internal.beeline.ru - бэкенд для мобильных приложений->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Запрашивает список офферов; 
+ Запрашивает историю полученных призов; 
+ Запросы в рамках сквозной системы поощрений; 
+ ОС по офферу; 
+ Передача информации о входе в раздел; 
+ Запрос списка заданий (соты) ; 
+ Запрос баланса сот; 
+ Запрос истории начислений и списаний сот 
+ Запрос справочника конвертации [internal.beeline.ru - бэкенд для мобильных приложений->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Запрашивает персональный список игр для клиента; [internal.beeline.ru - бэкенд для мобильных приложений->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Запрос формы услуги; 
+ Регистрация запроса услуги [internal.beeline.ru - бэкенд для мобильных приложений->Сервис Платежи и переводы]
+- relation: Не указан сетевой порт для вызова Запрос формы услуги; 
+ Регистрация запроса услуги [internal.beeline.ru - бэкенд для мобильных приложений->Домен платежей]
+- relation: Не указан сетевой порт для вызова Подключение услуг Антиспам / Стоп-мошенник [Оркестратор->RICH]
+- relation: Не указан сетевой порт для вызова Получение данных от сервиса Виртуального секретаря [Оркестратор->MAPIC]
+- relation: Не указана технология для вызова Активация ЕРК [DEL_ STP (Camel)->Домен платежей]
+- relation: Не указана технология для вызова Активация ЕРК [DEL_ STP (Camel)->Трайб NonTelco]
+- relation: Не указана технология для вызова Активация ЕРК [DEL_ STP (Camel)->BeePayXP]
+- relation: Не указана технология для вызова Активация ЕРК [Универсальный IVR (UIVR)->BeePayXP]
+- relation: Не указана технология для вызова Активация ЕРК [Универсальный IVR (UIVR)->Домен платежей]
+- relation: Не указана технология для вызова Активация ЕРК [Универсальный IVR (UIVR)->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Получение / настройка профиля переадресаций [MAPIC->RICH]
+- relation: Не указан сетевой порт для вызова Получение информации из сервиса Виртуальный помощник [MAPIC->Оркестратор]
+- relation: Не указан сетевой порт для вызова Получение информации из сервиса Виртуальный секретарь [MAPIC->Виртуальный секретарь]
+- relation: Не указан сетевой порт для вызова Получение информации из сервиса Виртуальный секретарь [MAPIC->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Получение информации из сервиса Виртуальный секретарь [MAPIC->Домен цифровых продуктов]
+- relation: Не указана технология для вызова Пополнения [RURU->BeePayXP]
+- relation: Не указан сетевой порт для вызова Подключение услуг Антиспам / Стоп-мошенник [Unified API->Ensemble]
+- relation: Не указан сетевой порт для вызова Получение / настройка профиля переадресаций [RICH->Ensemble]
+- relation: Не указан сетевой порт для вызова Запрос журнала операций [Фабрика детализации->Payment Hub]
+- relation: Не указан сетевой порт для вызова Выгрузка архива операций [Трайб NonTelco->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Запрос данных по клиенту; 
+ Запрос подключенных продуктов [Трайб NonTelco->Unified Customer Profile 2.x]
+- relation: Не указан сетевой порт для вызова Читает события поступления СМС [Трайб NonTelco->Communication Platform]
+- relation: Не указан сетевой порт для вызова Определение принадлежности клиента билайну [Трайб NonTelco->UCP Unified Customer Profile]
+- relation: Не указана технология для вызова Отправка уведомлений; 
+ Маркетинговая рассылка [Трайб NonTelco->Campaign Management (CM)]
+- relation: Не указана технология для вызова Нотификация по пополнению [Трайб NonTelco->GlassFish (GF)]
+- relation: Не указан сетевой порт для вызова Подтверждение оплаты [Трайб NonTelco->Wildberries]
+- relation: Не указан сетевой порт для вызова Запрашивает справочник игр из легаси QP; [Трайб NonTelco->internal.beeline.ru - бэкенд для мобильных приложений]
+- relation: Не указана технология для вызова Отправка СМС абоненту [Трайб NonTelco->SMSDispatcher]
+- relation: Не указана технология для вызова Запрос проверки ctn [Трайб NonTelco->B2C Digital Self Service]
+- relation: Не указана технология для вызова Запрос баланса сот клиента; 
+ Запрос на списание и начисление сот клиенту; 
+ Запрос на конвертацию c учетом коммисии [Трайб NonTelco->Balance Manager]
+- relation: Не указана технология для вызова ??? [Трайб NonTelco->АСР Атлант Централизованный биллинг]
+- relation: Не указана технология для вызова ?? [Трайб NonTelco->Comverse PPS]
+- relation: Не указан сетевой порт для вызова Изменение настроек секретаря [Трайб NonTelco->SOLIDWAF]
+- relation: Не указан сетевой порт для вызова Отправка AoC [Трайб NonTelco->SMS Router]
+- relation: Не указан сетевой порт для вызова Отправка событий о подключении / отключении / продлении подписки [Трайб NonTelco->JUSTAI]
+- relation: Не указана технология для вызова ???? [Трайб NonTelco->CT биллинг FTTB (INAC)]
+- relation: Не указан сетевой порт для вызова Отправка событий о подключении / отключении / продлении подписки [CDP Content Delivery Platform->JUSTAI]
+- relation: Не указан сетевой порт для вызова Запрос каталога услуг; 
+ Регистрация запроса услуги [Сервис Платежи и переводы->RURU]
+- relation: Не указан сетевой порт для вызова Запрос на оплату [Wildberries->Домен платежей]
+- relation: Не указан сетевой порт для вызова Запрос на оплату [Wildberries->Payment Hub]
+- relation: Не указан сетевой порт для вызова Запрос на оплату [Wildberries->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Предоставление информацию об изменениях базы клиентов [Unified Customer Profile 2.x->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Предоставление информацию об изменениях базы клиентов [Unified Customer Profile 2.x->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Предоставление информацию об изменениях базы клиентов для персонализации и сегментации [Unified Customer Profile 2.x->Game_API]
+- relation: Не указан сетевой порт для вызова Предоставление информацию об изменениях базы клиентов [Unified Customer Profile 2.x->Процессинг лояльности]
+- relation: Не указана технология для вызова ЕСОП Платеж по ctn [GlassFish (GF)->Трайб NonTelco]
+- relation: Не указана технология для вызова ЕСОП Платеж по ctn [GlassFish (GF)->Домен платежей]
+- relation: Не указана технология для вызова ЕСОП Платеж по ctn [GlassFish (GF)->BeePayXP]
+- relation: Не указана технология для вызова Платеж по БК [mTopUp->BeePayXP]
+- relation: Не указан сетевой порт для вызова Передает информацию о новых звонках [JUSTAI->SOLIDWAF]
+- relation: Не указан сетевой порт для вызова Дублирование информации о звонках [JUSTAI->Telegram]
+- relation: Не указана технология для вызова  [Ensemble->BeePayXP]
+- relation: Не указана технология для вызова  [Ensemble->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Подключение услуг Антиспам / Стоп-мошенник [Ensemble->Personal Security]
+- relation: Не указана технология для вызова  [Ensemble->Домен платежей]
+- relation: Не указан сетевой порт для вызова Получение / настройка профиля переадресаций [Ensemble->Switch Control (SC)]
+- relation: Не указана технология для вызова Нотификация по пополнению [BeePayXP->GlassFish (GF)]
+- relation: Не указана технология для вызова ?? [BeePayXP->Comverse PPS]
+- relation: Не указана технология для вызова Отправка СМС абоненту [BeePayXP->SMSDispatcher]
+- relation: Не указана технология для вызова ??? [BeePayXP->АСР Атлант Централизованный биллинг]
+- relation: Не указана технология для вызова ???? [BeePayXP->CT биллинг FTTB (INAC)]
+- relation: Не указана технология для вызова ? [BeePayXP->Мобильный кошелёк (UMCS)]
+- relation: Не указан сетевой порт для вызова Подтверждение оплаты [Домен платежей->Wildberries]
+- relation: Не указана технология для вызова ?? [Домен платежей->Comverse PPS]
+- relation: Не указана технология для вызова Отправка СМС абоненту [Домен платежей->SMSDispatcher]
+- relation: Не указан сетевой порт для вызова Отправка событий о подключении / отключении / продлении подписки [Домен платежей->JUSTAI]
+- relation: Не указан сетевой порт для вызова Запрос ПДн [Домен платежей->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Выгрузка архива операций [Домен платежей->DMP: Data Management Platform (BigData)]
+- relation: Не указан сетевой порт для вызова Отправка AoC [Домен платежей->SMS Router]
+- relation: Не указана технология для вызова Нотификация по пополнению [Домен платежей->GlassFish (GF)]
+- relation: Не указана технология для вызова ??? [Домен платежей->АСР Атлант Централизованный биллинг]
+- relation: Не указана технология для вызова ???? [Домен платежей->CT биллинг FTTB (INAC)]
+- relation: Не указан сетевой порт для вызова Передает информацию о новых звонках [SOLIDWAF->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Изменение настроек секретаря [SOLIDWAF->JUSTAI]
+- relation: Не указан сетевой порт для вызова Передает информацию о новых звонках [SOLIDWAF->Виртуальный секретарь]
+- relation: Не указан сетевой порт для вызова Передает информацию о новых звонках [SOLIDWAF->Домен цифровых продуктов]
+- relation: Не указан сетевой порт для вызова Изменение настроек секретаря [Виртуальный секретарь->SOLIDWAF]
+- relation: Не указан сетевой порт для вызова Получение Информации о подписках, подключение / отключение [Виртуальный секретарь->CDP Content Delivery Platform]
+- relation: Не указан сетевой порт для вызова Получение / настройка профиля переадресаций [Мобильное приложение Мой Билайн->MAPIC]
+- relation: Не указан сетевой порт для вызова Подключение услуг Антиспам / Стоп-мошенник [Мобильное приложение Мой Билайн->Unified API]
+- relation: Не указана технология для вызова Платежи из собственных терминалов оплаты [Pay-Logic (PAYLGC)->BeePayXP]
+- relation: Не указан сетевой порт для вызова Запрос журнала операций [Домен балансов->Домен платежей]
+- relation: Не указан сетевой порт для вызова Получение / настройка профиля переадресаций [Switch Control (SC)->HLR Home Location Registry]
+- relation: Не указан сетевой порт для вызова Запрос информации по клиенту: участие в акции; 
+ покупки в играх; 
+ полученные призы; 
+ балансы игровых валют; 
+ использованные офферы [Интранет-сайт ДОК (Дирекции по обслуживанию клиентов)->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Запрос информации по клиенту; 
+ Полученные призы; 
+ Балансы игровых валют; 
+ Использованные офферы [Интранет-сайт ДОК (Дирекции по обслуживанию клиентов)->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Запрос информации по клиенту: участие в акции; 
+ покупки в играх; 
+ полученные призы; 
+ балансы игровых валют; 
+ использованные офферы [Интранет-сайт ДОК (Дирекции по обслуживанию клиентов)->Game_API]
+- relation: Не указан сетевой порт для вызова Запрос информации по клиенту: участие в акции; 
+ покупки в играх; 
+ полученные призы; 
+ балансы игровых валют; 
+ использованные офферы [Интранет-сайт ДОК (Дирекции по обслуживанию клиентов)->Процессинг лояльности]
+- relation: Не указана технология для вызова Запрос на привязку номера; 
+ Запрос на оплату [Apple/Huawei appstore->Домен платежей]
+- relation: Не указана технология для вызова Запрос на привязку номера; 
+ Запрос на оплату [Apple/Huawei appstore->Payment Hub]
+- relation: Не указана технология для вызова Запрос на привязку номера; 
+ Запрос на оплату [Apple/Huawei appstore->Трайб NonTelco]
+- relation: Не указана технология для вызова  [Payment & clearing platform->RURU]
+- relation: Не указан сетевой порт для вызова Запрос ПДн [Payment & clearing platform->UCP Unified Customer Profile]
+- relation: Не указан сетевой порт для вызова Предоставление игровых событий и действий клиентов в игре; 
+ Запрос списка персонализированных офферов; 
+ Запрос информации по клиенту(игровая) [Game Platform->Процессинг лояльности]
+- relation: Не указан сетевой порт для вызова Предоставление игровых событий и действий клиентов в игре; 
+ Запрос списка персонализированных офферов для клиента; 
+ Запрос информации по клиенту(история полученных призов и тд) [Game Platform->Game_API]
+- relation: Не указан сетевой порт для вызова Предоставление игровых событий и действий клиентов в игре; 
+ Запрос списка персонализированных офферов; 
+ Запрос информации по клиенту(игровая) [Game Platform->Домен лояльности]
+- relation: Не указан сетевой порт для вызова Предоставление игровых событий и действий клиентов в игре; 
+ Запрос списка персонализированных офферов; 
+ Запрос информации по клиенту(игровая) [Game Platform->Трайб NonTelco]
+- relation: Не указан сетевой порт для вызова Изменение настроек секретаря [Домен цифровых продуктов->SOLIDWAF]
+- relation: Не указан сетевой порт для вызова Получение Информации о подписках, подключение / отключение [Домен цифровых продуктов->Домен платежей]
+- relation: Не указан сетевой порт для вызова Отправка ответов на AoC [SMS Router->Домен платежей]
+- relation: Не указан сетевой порт для вызова Отправка ответов на AoC [SMS Router->Payment Hub]
+- relation: Не указан сетевой порт для вызова Отправка ответов на AoC [SMS Router->Трайб NonTelco]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой
+
+36932: ФДМ
+Loading workspace ...2023-12-07T08:47:30Z
+- Нет cmdb кода системы Модуль документации
+- Нет cmdb кода системы Модуль нотификаций
+- Нет cmdb кода системы Модуль клиентских путей
+- Нет cmdb кода системы api gateWay
+- Нет cmdb кода системы Модуль конфигураций
+- Нет cmdb кода системы Модуль возможностей
+- Нет cmdb кода системы Модуль интеграций
+- Нет cmdb кода системы Модуль управления пользователями
+- Нет cmdb кода системы Модуль технорадара
+- Нет cmdb кода системы Модуль заявок
+- Property CMDB для системы [EAuth] не существует
+- Property CMDB для системы [Клиентское приложение] не существует
+- Property CMDB для системы [База данных пакетной загрузки] не существует
+- Property CMDB для системы [Модуль клиентских путей] не существует
+- Property CMDB для системы [Модуль документации] не существует
+- Property CMDB для системы [Модуль интеграций] не существует
+- Property CMDB для системы [Кэш конфигураций] не существует
+- Property CMDB для системы [Spearx EA] не существует
+- Property CMDB для системы [Модуль возможностей] не существует
+- Property CMDB для системы [Менеджер пакетной обработки] не существует
+- Property CMDB для системы [Модуль технорадара] не существует
+- Property CMDB для системы [api gateWay] не существует
+- Property CMDB для системы [Модуль управления пользователями] не существует
+- Property CMDB для системы [BeeWorks] не существует
+- Property CMDB для системы [База данных] не существует
+- Property CMDB для системы [Модуль заявок] не существует
+- Property CMDB для системы [Модуль конфигураций] не существует
+- Property CMDB для системы [Модуль нотификаций] не существует
+- relation: Не указан сетевой порт для вызова Передача запросов [Клиентское приложение->api gateWay]
+- relation: Не указан сетевой порт для вызова Передача запросов [Клиентское приложение->api gateWay]
+- relation: Не указан сетевой порт для вызова Данные для интеграционного вызова [Модуль возможностей->Модуль интеграций]
+- relation: Не указан сетевой порт для вызова Передачи частей пакета [Модуль возможностей->Менеджер пакетной обработки]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль возможностей->Модуль нотификаций]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль возможностей->Агрегатор событий об изменениях]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль возможностей->База данных]
+- relation: Не указан сетевой порт для вызова Данные для интеграционного вызова [Модуль возможностей->Менеджер интеграций]
+- relation: Не указан сетевой порт для вызова Передачи частей пакета [Модуль возможностей->Менеджер пакетной загрузки]
+- relation: Не указан сетевой порт для вызова Запись информауции о частях пакета [Модуль возможностей->База данных пакетной загрузки]
+- relation: Не указана технология для вызова Получение конфигураций [Модуль возможностей->Кэш конфигураций]
+- relation: Не указан сетевой порт для вызова Данные о заявках [api gateWay->Модуль заявок]
+- relation: Не указан сетевой порт для вызова Данные о возможнстях [api gateWay->Модуль возможностей]
+- relation: Не указан сетевой порт для вызова Пакетная загрузка данных [api gateWay->API пакетной загрузки данных клиентских путей]
+- relation: Не указан сетевой порт для вызова Передача данных для авторизации [api gateWay->EAuth]
+- relation: Не указан сетевой порт для вызова Данные о клиентских путях [api gateWay->API клиентских путей]
+- relation: Не указан сетевой порт для вызова Данные о возможнстях [api gateWay->API возможностей]
+- relation: Не указана технология для вызова Передача данных о нотификациях [api gateWay->Модуль нотификаций]
+- relation: Не указан сетевой порт для вызова Передача данных для авторизации [api gateWay->Модуль управления пользователями]
+- relation: Не указан сетевой порт для вызова Данные о конфигурации системы [api gateWay->Модуль конфигураций]
+- relation: Не указана технология для вызова Передача данных о нотификациях [api gateWay->API нотификаций]
+- relation: Не указан сетевой порт для вызова Данные о конфигурации системы [api gateWay->API конфигураций]
+- relation: Не указан сетевой порт для вызова Данные о технологиях [api gateWay->API технорадара]
+- relation: Не указан сетевой порт для вызова Данные о клиентских путях [api gateWay->Модуль клиентских путей]
+- relation: Не указан сетевой порт для вызова Пакетная загрузка данных [api gateWay->API пакетной загрузки данных технорадара]
+- relation: Не указан сетевой порт для вызова Данные о заявках [api gateWay->API для работы с заявками]
+- relation: Не указан сетевой порт для вызова Данные о проводимых итеграциях [api gateWay->API интеграций]
+- relation: Не указан сетевой порт для вызова Данные о проводимых итеграциях [api gateWay->Модуль интеграций]
+- relation: Не указан сетевой порт для вызова Пакетная загрузка данных [api gateWay->API пакетной загрузки возможностей]
+- relation: Не указан сетевой порт для вызова Данные о технологиях [api gateWay->Модуль технорадара]
+- relation: Не указан сетевой порт для вызова Передача данных для авторизации [api gateWay->API для работы с пользователями]
+- relation: Не указан сетевой порт для вызова Передача частей пакета [Менеджер пакетной обработки->API возможностей]
+- relation: Не указан сетевой порт для вызова Передача частей пакета [Менеджер пакетной обработки->API клиентских путей]
+- relation: Не указан сетевой порт для вызова Передача частей пакета [Менеджер пакетной обработки->Модуль возможностей]
+- relation: Не указан сетевой порт для вызова Передача частей пакета [Менеджер пакетной обработки->Модуль клиентских путей]
+- relation: Не указан сетевой порт для вызова Передача частей пакета [Менеджер пакетной обработки->Модуль технорадара]
+- relation: Не указан сетевой порт для вызова Запись информации о результате обработки части пакета [Менеджер пакетной обработки->База данных пакетной загрузки]
+- relation: Не указан сетевой порт для вызова Передача частей пакета [Менеджер пакетной обработки->API технорадара]
+- relation: Не указан сетевой порт для вызова Получение ролей и команд пользователей [Модуль управления пользователями->BeeWorks]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль управления пользователями->База данных]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль технорадара->База данных]
+- relation: Не указан сетевой порт для вызова Данные для интеграционного вызова [Модуль технорадара->Менеджер интеграций]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль технорадара->Агрегатор событий об изменениях]
+- relation: Не указан сетевой порт для вызова Передачи частей пакета [Модуль технорадара->Менеджер пакетной обработки]
+- relation: Не указан сетевой порт для вызова Передачи частей пакета [Модуль технорадара->Менеджер пакетной загрузки]
+- relation: Не указана технология для вызова Получение конфигураций [Модуль технорадара->Кэш конфигураций]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль технорадара->Модуль нотификаций]
+- relation: Не указан сетевой порт для вызова Запись информации о частях пакета [Модуль технорадара->База данных пакетной загрузки]
+- relation: Не указан сетевой порт для вызова Данные для интеграционного вызова [Модуль технорадара->Модуль интеграций]
+- relation: Не указан сетевой порт для вызова Обмен данными о возможностях [BeeWorks->API возможностей]
+- relation: Не указан сетевой порт для вызова Обмен данными о возможностях [BeeWorks->Модуль возможностей]
+- relation: Не указана технология для вызова Получение кэша конфигураций [Модуль документации->Кэш конфигураций]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль документации->Агрегатор событий об изменениях]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль документации->База данных]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль документации->Модуль нотификаций]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль интеграций->База данных]
+- relation: Не указана технология для вызова Обмен данными со Sparx [Модуль интеграций->Spearx EA]
+- relation: Не указан сетевой порт для вызова Данные для интеграционного вызова [Модуль клиентских путей->Модуль интеграций]
+- relation: Не указана технология для вызова Получение кэша конфигураций [Модуль клиентских путей->Кэш конфигураций]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль клиентских путей->База данных]
+- relation: Не указан сетевой порт для вызова Данные для интеграционного вызова [Модуль клиентских путей->Менеджер интеграций]
+- relation: Не указан сетевой порт для вызова Передачи частей пакета [Модуль клиентских путей->Менеджер пакетной загрузки]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль клиентских путей->Агрегатор событий об изменениях]
+- relation: Не указан сетевой порт для вызова Запись информации о частях пакета [Модуль клиентских путей->База данных пакетной загрузки]
+- relation: Не указан сетевой порт для вызова Передачи частей пакета [Модуль клиентских путей->Менеджер пакетной обработки]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль клиентских путей->Модуль нотификаций]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль заявок->Модуль нотификаций]
+- relation: Не указан сетевой порт для вызова Обмен данными [Модуль заявок->База данных]
+- relation: Не указан сетевой порт для вызова События нотификации [Модуль заявок->Агрегатор событий об изменениях]
+- relation: Не указана технология для вызова Получение кэша конфигураций [Модуль заявок->Кэш конфигураций]
+- relation: Не указан сетевой порт для вызова Получения данных о натификациях [Модуль нотификаций->База данных]
+- relation: Не указана технология для вызова Кэширование конфигов [Модуль конфигураций->Кэш конфигураций]
+- Диаграмма развертывания не существует
+[Critical] Не задан CMDB code для системы с контекстной диаграммой

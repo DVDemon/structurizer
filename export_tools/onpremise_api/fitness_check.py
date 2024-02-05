@@ -10,9 +10,18 @@ import fitness_functions
 # https://www.javainuse.com/onlineBcrypt
 # bcrypt $2a$10$nx.q74ZbUamFr20p0vsegOBkVt8jGk2kaXEEsAuUvwrnavJ6aLIqu
 
+#structurizr.apiKey=arch-code.arch-code.cloud.vimpelcom.ru
+
+# password            = "1234567890"
+# url_onpremises      = "http://localhost:8081/api/workspace"
+# url_onpremises_base = "http://localhost:8081/api"
+# url_onpremises_web  = "http://localhost:8081"
+
 password            = "1234567890"
-url_onpremises      = "http://localhost:8081/api/workspace"
-url_onpremises_base = "http://localhost:8081/api"
+url_onpremises      = "https://structurizr.vimpelcom.ru/api/workspace"
+url_onpremises_base = "https://structurizr.vimpelcom.ru/api"
+url_onpremises_web  = "https://structurizr.vimpelcom.ru"
+
 
 # ----------------------------
 # Structurizr Helper Functions
@@ -122,13 +131,13 @@ def get_workspace_cmdb(data):
                 if softwareSystemId in systems:
                     system = systems[softwareSystemId]
                     if 'properties' in system:
-                        properties = s['properties']
+                        properties = system['properties']
                         if 'cmdb' in properties:
                             return properties['cmdb']
                         else:
                             print(f'- Нет cmdb кода системы {system["name"]}')
                     else:
-                        print(f'- Нет cmdb кода системы {system["name"]}')
+                        print(f'- Нет properties системы {system["name"]}')
     return cmdb
 
 def main():
@@ -136,12 +145,12 @@ def main():
     engine = create_engine("postgresql+psycopg2://pguser:pguser@localhost/pgdb")
     engine.connect()
 
-    engine.execute('CREATE TABLE IF NOT EXISTS ptr_status'+
-                   '(system_id varchar(256) not null,'+
-                   'deployment int not null,'+
-                   'deployment_errors int not null,'+
-                   'deployment_date date not null,'+
-                   'primary key (system_id));')
+    # engine.execute('CREATE TABLE IF NOT EXISTS ptr_status'+
+    #                '(system_id varchar(256) not null,'+
+    #                'deployment int not null,'+
+    #                'deployment_errors int not null,'+
+    #                'deployment_date date not null,'+
+    #                'primary key (system_id));')
 
     print(engine)
 
@@ -150,6 +159,8 @@ def main():
             }
 
     resp = requests.get(url=url_onpremises, headers=headers)
+
+    print(f'request{url_onpremises} with {password}')
 
     if(resp.status_code==200):
         data  = resp.json()
@@ -168,22 +179,38 @@ def main():
             print("Loading workspace ...",end='')
             wrk_data = load_workspace(wrk)
             if "name" in wrk_data:
-                print("Done")
+                modified_date = wrk_data['lastModifiedDate']
+                print(modified_date)
 
                 cmdb = get_workspace_cmdb(wrk_data)
 
-                if len(cmdb)>0:
-                    print(f'CMDB код системы {cmdb}')
-                    for f in fitness_functions.get_functions():
-                        foo = getattr(fitness_functions, f)
-                        result = foo(wrk_data)
+                
+                for f in fitness_functions.get_functions():
+                    foo = getattr(fitness_functions, f)
+                    result = foo(wrk_data)
+
+                    if len(cmdb)>0:
                         print(f'[{len(result)}] {f}')
-                else:
-                    print(f'Не задан CMDB code для системы с контекстной диаграммой')
+                        format = 'YYYY-MM-DD"T"HH24:MI:SS"Z"'
+                        deployment_status = 1
+                        if(len(result)>0):
+                            deployment_status = 0
+                        print(f'CMDB код системы {cmdb} : errors = {len(result)}')
 
-
+                        # if(deployment_status):
+                        #     engine.execute("update fdm_ptr_artifacts set "+
+                        #                     " "+f+"_link='"+url_onpremises_web+"/share/"+str(wrk.id)+"'"+
+                        #                     ", "+f+"_ts=TO_TIMESTAMP('"+modified_date+"','"+format+"') "+
+                        #                     ","+f+"_source='Structurizr' where cmdb_mnem='"+cmdb+"'")
+                        #     engine.execute("insert into fdm_ptr_artifacts(cmdb_mnem,"+f+"_link,"+f+"_ts, "+f+"_source) "+
+                        #                     "select '"+cmdb+"','"+url_onpremises_web+"/share/"+str(wrk.id)+"', TO_TIMESTAMP('"+modified_date+"','"+format+"') , 'Structurizr' "+
+                        #                     "where not exists (select 1 from fdm_ptr_artifacts where cmdb_mnem='"+cmdb+"')")
+                    else:
+                        print(f'[Critical] Не задан CMDB code для системы с контекстной диаграммой')
             else:
                 print("Error")
+    else:
+        print(f'{resp.status_code} {resp.reason} {resp.content}')
             
 
 if __name__ == "__main__":

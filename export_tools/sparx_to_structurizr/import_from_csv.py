@@ -62,7 +62,8 @@ def main(argv):
                 else:
                     print('# System cmdb code has russian name: '+ws.cell(row=row, column=1).value+' code:'+cmdb_name)
             else:
-                print('# No cmdb code for system name: '+ws.cell(row=row, column=1).value)
+                if not(ws.cell(row=row, column=9).value is None):
+                    print('# No cmdb code for system name: '+ws.cell(row=row, column=1).value)
 
 
     symbols = [u"абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ abvgdeejzijklmnoprstufhzcssvw_y_euaABVGDEEJZIJKLMNOPRSTUFHZCSS_Y_EUA_VW",

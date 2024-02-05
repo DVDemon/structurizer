@@ -1,0 +1,23 @@
+version: '3.3'
+
+services:
+  str2conf:
+    image: ddzuba/str2conf:latest
+    environment:
+      # Structurizr OnPremise
+      - STRUCTURIZR_URL=http://arch-code.arch-code.cloud.vimpelcom.ru:8080
+      # Путь к confluence
+      - CONFLUENCE_URL=https://bwiki.beeline.ru
+      # Логин пользователя/туз для confluence в формате name@beeline.ru
+      - CONFLUENCE_USER=dmvldzyuba@beeline.ru
+      # Пароль пользователя для confluence
+      - CONFLUENCE_PASSWORD=
+      # Идентификатор для страницы на которую будет залита архитектура 
+      - PAGE_ID=469045124
+      # Идентификатор рпостранства в structurizr
+      - WORKSPACE_ID=36921
+      # Api key пространства в structurizr
+      - API_KEY=30f83bd7-3463-4a8d-a218-4ffcf6a6da99
+      # api secret пространства в structurizr
+      - API_SECRET=c106fd6f-b28e-48de-8a05-b35500f5b5d8
+

@@ -40,9 +40,9 @@ def _message_digest(
     return f"{http_verb}\n{uri_path}\n{definition_md5}\n{content_type}\n{nonce}\n"
 
 # Настройки доступа к репозиторию (лучше хранить не в коде, а в переменных окружения)
-id='1'
-apiKey='f4efddc4-ef85-4efd-aa8b-3020ce351413'
-apiSecret='470bb115-9aa6-43ec-b827-bf0058150d8c'
+id='4'
+apiKey='23e04769-2f88-4fde-b277-165617ed4cce'
+apiSecret='1b13aba3-58bc-4632-852c-d7f95a6bebde'
 apiUrl='http://localhost:8081/api/workspace/'+id # предположим что нам нужен именно workspace 1
 
 # Формируем контент запроса
@@ -77,9 +77,9 @@ if(resp.status_code==200):
     peoples             = model['people'] # Акторы
     software_systems    = model['softwareSystems'] # Системы
     deployment_nodes    = model['deploymentNodes'] # Стенды
-    documentation       = data['documentation']['sections'] # Документация 
-    adrs                = data['documentation']['decisions'] # Перечень архитектурных решений
-    imsgaes             = data['documentation']['images'] # Картинки (если есть)
+    # documentation       = data['documentation']['sections'] # Документация 
+    # adrs                = data['documentation']['decisions'] # Перечень архитектурных решений
+    # images              = data['documentation']['images'] # Картинки (если есть)
     views               = data['views'] # диаграммы
 
 
@@ -113,43 +113,46 @@ if(resp.status_code==200):
     worksheet_components.write(0,13,'Комментарий')
 
     def process_node(worksheet_components,i,d_node):
-        applications = ''
-        if 'containerInstances' in d_node:
-            if ('properties' in d_node):
-                for prop in d_node['properties'].keys():
-                    prop_name = prop
-                    prop_value = d_node['properties'][prop]                
-                    if prop_name == 'os':
-                         worksheet_components.write(i,6,prop_value)
-                    if prop_name == 'cpu':
-                         worksheet_components.write(i,8,prop_value)
-                    if prop_name == 'ram':
-                         worksheet_components.write(i,9,prop_value)
-                    if prop_name == 'hdd':
-                         worksheet_components.write(i,10,prop_value)
-               
-            worksheet_components.write(i,0,i)
-            worksheet_components.write(i,1,product_name)
-            if('description' in d_node):
-                worksheet_components.write(i,2,d_node['description'])
-            worksheet_components.write(i,3,d_node['name'])
 
-            tags = d_node['tags'].split(',')
-            system_applications = ''
-            for tag in tags:
-                if not tag in {'Element','Deployment Node'}:
-                    system_applications += tag + '; '
-            worksheet_components.write(i,6,system_applications)
+        if d_node['environment'] == 'Terraform': #  может быть несколько 
+            applications = ''
+            if 'containerInstances' in d_node:
+                if ('properties' in d_node):
+                    for prop in d_node['properties'].keys():
+                        prop_name = prop
+                        prop_value = d_node['properties'][prop]                
+                        if prop_name == 'os':
+                            worksheet_components.write(i,6,prop_value)
+                        if prop_name == 'cpu':
+                            worksheet_components.write(i,8,prop_value)
+                        if prop_name == 'ram':
+                            worksheet_components.write(i,9,prop_value)
+                        if prop_name == 'hdd':
+                            worksheet_components.write(i,10,prop_value)
+                
+                worksheet_components.write(i,0,i)
+                worksheet_components.write(i,1,product_name)
+                if('description' in d_node):
+                    worksheet_components.write(i,2,d_node['description'])
+                worksheet_components.write(i,3,d_node['name'])
 
-            for container_instance in d_node['containerInstances']:
-                c_id = container_instance['containerId']
-                applications += f"{containers[c_id]['name']}; "
-            worksheet_components.write(i,12,applications)
-            return i+1
-        else:
-            if 'children' in d_node:
-                for c in d_node['children']:
-                    i = process_node(worksheet_components,i,c)
+                tags = d_node['tags'].split(',')
+                system_applications = ''
+                for tag in tags:
+                    if not tag in {'Element','Deployment Node'}:
+                        system_applications += tag + '; '
+                worksheet_components.write(i,6,system_applications)
+
+                for container_instance in d_node['containerInstances']:
+                    c_id = container_instance['containerId']
+                    applications += f"{containers[c_id]['name']}; "
+                worksheet_components.write(i,12,applications)
+                return i+1
+            else:
+                if 'children' in d_node:
+                    for c in d_node['children']:
+                        i = process_node(worksheet_components,i,c)
+            return i
         return i
 
     i = 1

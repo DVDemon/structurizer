@@ -9,7 +9,7 @@ workspace {
         !include export_tools/sparx_to_structurizr/bss_landscape.dsl
         !include export_tools/sparx_to_structurizr/ess_landscape.dsl
         !include landscape_model.dsl
-        !include model.dsl  
+        !include model.dsl 
         !include deployment_model.dsl  
     }
 
@@ -75,7 +75,7 @@ workspace {
             description "Типовое размещение оборудования"
             exclude ext_rel_1 ext_rel_2 bpm_rel_1 bpm_rel_2 
 
-            #autoLayout
+            autoLayout
         }
 
         dynamic guard_system "UC01" {

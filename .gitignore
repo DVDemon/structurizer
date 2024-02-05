@@ -1,7 +1,9 @@
 onpremises/*
 .structurizr/*
 out/*
-export_tools/node_modules/*
+export_tools/confluence/node_modules/*
+export_tools/confluence/images/*
+export_tools/sparx_to_structurizr/IT_Landscape_Catalog/*
 *.log
 *.xlsx
 *.DS_Store
